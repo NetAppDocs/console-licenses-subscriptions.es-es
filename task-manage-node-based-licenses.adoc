@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: task-manage-node-based-licenses.html 
+keywords: license, licensing, install, updating license, system license, add system license, adding a system license, byol license, add byol license, update byol license, nlf, license generator, digital wallet, bluexp digital wallet 
+summary: Administre sus licencias basadas en nodos en la consola para garantizar que cada sistema Cloud Volumes ONTAP tenga una licencia válida con la capacidad requerida. 
+---
+= Administrar licencias basadas en nodos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: https://docs.netapp.com/us-en/console-cloud-volumes-ontap/media/
+
+
+[role="lead"]
+Directiva sin resolver en <stdin> - incluye: https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-node-licenses.adoc [líneas=15..-1]

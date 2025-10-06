@@ -1,0 +1,11 @@
+= BlueXP disaster recovery
+:allow-uri-read: 
+
+
+
+
+=== BlueXP disaster recovery
+
+La BlueXP digital wallet ahora le permite administrar licencias para la BlueXP disaster recovery.  Puede agregar licencias, actualizar licencias y ver detalles sobre la capacidad autorizada.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["Aprenda a administrar licencias para los servicios de datos de BlueXP"]

@@ -1,0 +1,58 @@
+---
+settings:
+  name: Licenses and subscriptions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: es-es,us-en,de-de,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentación de licencias y suscripciones
+    url: "/index.html"
+  - title: Notas de la versión
+    entries:
+    - title: Qué hay de nuevo
+      url: "/whats-new.html"
+  - title: Empezar
+    entries:
+    - title: Conozca más sobre
+      url: "/concept-digital-wallet.html"
+  - title: Licencias de uso y suscripciones
+    entries:
+    - title: Utilice el panel de descripción general
+      url: "/task-homepage.html"
+    - title: Administrar licencias
+      entries:
+      - title: Administrar licencias directas
+        url: "/task-manage-data-services-licenses.html"
+      - title: Administrar licencias para Cloud Volumes ONTAP
+        entries:
+        - title: Licencias basadas en capacidad para Cloud Volumes ONTAP
+          url: "/task-manage-capacity-licenses.html"
+        - title: Licencias basadas en nodos para Cloud Volumes ONTAP
+          url: "/task-manage-node-based-licenses.html"
+    - title: Gestionar ofertas privadas
+      entries:
+      - title: Administrar una oferta privada de AWS
+        url: "/task-manage-private-aws.html"
+      - title: Administrar una oferta privada de Azure
+        url: "/task-manage-private-azure.html"
+      - title: Administrar una oferta privada de Google Cloud
+        url: "/task-manage-private-google-cloud.html"
+    - title: Administrar suscripciones de Marketplace
+      url: "/task-manage-subscriptions.html"
+    - title: Administrar suscripciones de Keystone
+      url: "/task-manage-keystone.html"
+    - title: Conocimiento y apoyo
+      entries:
+      - title: Regístrese para recibir asistencia
+        url: "/task-support-registration.html"
+      - title: Obtener ayuda
+        url: "/task-get-help.html"
+    - title: Avisos legales
+      url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

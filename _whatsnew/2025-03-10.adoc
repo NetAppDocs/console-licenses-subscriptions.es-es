@@ -1,0 +1,15 @@
+= Capacidad de eliminar suscripciones
+:allow-uri-read: 
+
+
+
+
+=== Capacidad de eliminar suscripciones
+
+Ahora puedes eliminar suscripciones de la billetera digital si te has dado de baja de ellas.
+
+
+
+=== Ver la capacidad consumida para las suscripciones de Marketplace
+
+Al ver las suscripciones PAYGO, ahora puedes ver la capacidad consumida de la suscripción.

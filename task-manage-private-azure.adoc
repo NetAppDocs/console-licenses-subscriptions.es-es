@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
+summary: Administre sus guías de aceptación y activación de procesos de oferta privada de extremo a extremo, generales y específicos de Hyperscaler, y de servicios inteligentes de NetApp para AWS, Azure y Google Cloud. 
+---
+= Acepte y active una oferta privada de Azure para la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Acepte y suscríbase a una oferta privada de Marketplace para la consola de NetApp en el portal de Azure.  Configurar las credenciales de Azure en la consola.
+
+.Antes de empezar
+* Trabaje con el equipo de ventas de NetApp para crear una oferta privada para su ID de facturación de Azure.
+* Tiene los permisos necesarios para aceptar una oferta privada en Azure Marketplace:
++
+** Acuerdo empresarial (AE): *Administrador empresarial*
+** Contrato de cliente de Microsoft (MCA): *Propietario de la cuenta de facturación* o *Colaborador de la cuenta de facturación*
+
+
+* Debe tener los permisos necesarios para comprar una oferta privada en Azure Marketplace y crear una suscripción:
++
+** *Propietario de la suscripción* o *Colaborador de la suscripción* de la suscripción de Azure que se está utilizando
+
+
+* Una sola persona puede aceptar y comprar la oferta privada si tiene los permisos necesarios.
+
+
+
+
+== Acepte y suscríbase a la oferta privada en el portal de Azure
+
+Una suscripción de Azure solo se puede asociar con una suscripción de Marketplace. Si desea utilizar dos suscripciones de Marketplace diferentes para cargas de trabajo en la misma suscripción de Azure, debe crear dos cuentas de consola independientes, una para cada suscripción.  Si tiene varias instancias de Cloud Volumes ONTAP y desea dividir la facturación entre diferentes suscripciones, cree cuentas de consola independientes para cada suscripción.
+
+[IMPORTANT]
+====
+Debes completar todos los pasos para aceptar y activar tu oferta privada. Saltarse algunos pasos puede ocasionar problemas de activación o carga doble.
+
+Si nota discrepancias en los términos, precios o detalles de la oferta, o si no está seguro de qué oferta aceptar, no la acepte. Comuníquese con su equipo de ventas de NetApp .
+
+Aceptar y activar la oferta varias veces da como resultado un cobro doble.
+
+====
+.Pasos
+. Haga clic en el vínculo de oferta privada proporcionado por su equipo de ventas de NetApp e inicie sesión. Si no hay ningún vínculo disponible, inicie sesión directamente en el portal de Azure.
+. Busque o seleccione *Marketplace* de los servicios de Azure.
+. En la página de Marketplace, haga clic en *Gestión de ofertas privadas* en la sección *Gestión*.
+. Haga clic en *Ver + aceptar* para revisar los detalles de la oferta privada.
++
+.. Valide que los *detalles del plan*, el *plazo* y los *precios* sean correctos.
+.. Si los datos son incorrectos, no se suscriba. Comuníquese con su equipo de ventas de NetApp para corregir la oferta.
+
+
+. Confirme y haga clic en *Aceptar oferta privada*.
+. Haga clic en *Comprar* para completar el proceso de compra.
++
+[NOTE]
+====
+Si el botón *Comprar* no está disponible, confirma que tienes los permisos de compra necesarios. Si no lo hace, copie y comparta el enlace de la ventana de compra con alguien de su organización que esté autorizado.
+
+====
+. En el flujo de trabajo de compras:
++
+.. Seleccione la *suscripción de Azure* que desea utilizar.
+.. Seleccione el *Grupo de recursos* donde se creará la suscripción.
+.. Introduzca un *Nombre* para la nueva suscripción.
+
+
+. Opcionalmente, configure *Etiquetas* (para producto, ubicación del sitio, definición de carga de trabajo o convención de nomenclatura).
+. Haga clic en *Revisar y suscribirse*, valide los detalles y luego haga clic en *Suscribirse*.
+. Cuando la suscripción se haya creado correctamente, haga clic en *Configurar cuenta ahora*. Esto lo redireccionará a la consola de NetApp para completar la configuración.
++
+[NOTE]
+====
+La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos en completarse. Si la página se cerró antes de hacer clic en *Configurar cuenta ahora*, regrese al servicio en el portal de Azure. La suscripción se muestra como *Configuración pendiente*. Selecciónelo para continuar con la configuración.
+
+====
+. Serás redirigido a https://console.netapp.com[] y se le solicitará que inicie sesión.
+. Después de iniciar sesión, será redirigido a https://console.netapp.com/licenses/overview[] . Se le solicitará que:
++
+.. Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.
+.. Seleccione las *Cuentas* de la consola que deberían tener acceso a esta suscripción.
+.. Opcionalmente, puede habilitar *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción de Marketplace existente en una cuenta de Consola.
++
+[NOTE]
+====
+*** Esta opción de reemplazo está limitada a una sola cuenta de consola.
+*** Para asociar varias cuentas de consola con la misma suscripción de Marketplace, configure las cuentas adicionales manualmente.
+
+
+====
+
+
+. Haga clic en *Asociar* y luego en *Listo*.
+
+
+[IMPORTANT]
+====
+Completar la asignación de suscripción en la Consola es necesario para activar la compra y aplicar el precio con descuento.
+
+====
+
+
+== Configurar la suscripción con credenciales de Azure
+
+. En la consola, vaya a *Gobernanza > Licencias y suscripciones* y seleccione la pestaña *Suscripciones del Marketplace*.
+. Validar los detalles de la suscripción:
++
+.. Localiza la suscripción de Marketplace que creaste.
+.. Expande la fila para revisar los detalles y confirmar que la suscripción esté asociada con tu cuenta de Consola.
+
+
+. Haga clic en el *menú de tres puntos* junto a la suscripción y seleccione *Configurar*.
+. Seleccione la *suscripción de Azure* adecuada y haga clic en *Configurar*.
+
+
+Los cargos de Marketplace por esta credencial de Azure ahora se facturan a través de la suscripción de Marketplace. Para los contratos anuales, el uso de esta credencial se descuenta del contrato anual.
+
+[IMPORTANT]
+====
+Repita los pasos 1 a 4 para cada credencial de Azure en su cuenta de consola que desee asociar con la suscripción.
+
+* Para asociar credenciales de otra organización de la consola, utilice el menú desplegable *Organización* para cambiar de organización y repetir los pasos.
+* Para asociar credenciales de otro agente, utilice el menú desplegable *Agente* para cambiar y repetir los pasos.
+
+
+====

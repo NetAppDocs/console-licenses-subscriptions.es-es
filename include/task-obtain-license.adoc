@@ -1,0 +1,35 @@
+= 
+:allow-uri-read: 
+
+
+Debe obtener un archivo de licencia de NetApp para cargar si la consola no tiene acceso a Internet (instalaciones en modo privado).
+
+Cuando compra una licencia de un representante de ventas de NetApp , recibe un correo electrónico con el número de serie y los detalles de la licencia.  Utilice el número de serie para obtener el archivo de licencia si las licencias no aparecen automáticamente en la Consola.
+
+.Pasos
+. Encuentra el ID de tu cuenta de consola:
++
+.. En la parte superior derecha de la consola, seleccioneimage:icon-settings-option.png["El icono de configuración que se muestra en la parte superior derecha de la consola web."] > *Gestión de identidad y acceso*.
+.. En la página Organización, busque el ID de su cuenta y cópielo.
++
+Si no aparece ningún ID de cuenta y solo tiene un ID de organización, copie los primeros ocho caracteres del ID de organización y añádalos a *cuenta-*
+
++
+Por ejemplo, si este es el ID de su organización:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+Su ID de cuenta sería:
+
++
+cuenta-ea10e1c6
+
+
+
+. Sign in en el https://mysupport.netapp.com["Sitio de soporte de NetApp"^] y seleccione *Sistemas > Licencias de software*.
+. Introduzca el número de serie de su licencia.
+. En la columna *Clave de licencia*, seleccione *Obtener archivo de licencia de NetApp *.
+. Ingrese el ID de su cuenta de consola (esto se llama ID de inquilino en el sitio de soporte) y seleccione *Enviar* para descargar el archivo de licencia.
+

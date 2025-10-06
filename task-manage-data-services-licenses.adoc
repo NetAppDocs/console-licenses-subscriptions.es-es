@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task-manage-data-services-licenses.html 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery 
+summary: 'Administre las licencias que compró directamente de NetApp (BYOL) para usar con los servicios de datos de NetApp .  Puede ver la capacidad de licencia utilizada, cuánta capacidad libre le queda y verá notificaciones si alcanzó el límite de capacidad o la fecha de vencimiento.' 
+---
+= Administrar licencias para servicios de datos de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede administrar las licencias que compró directamente de NetApp (BYOL) para usarlas con los servicios de datos de NetApp , incluido Cloud Volumes ONTAP.  Puede ver la capacidad de licencia utilizada, cuánta capacidad libre le queda y verá notificaciones cuando alcance el límite de capacidad o la fecha de vencimiento.
+
+
+NOTE: La página *Licencias directas* enumera todas las licencias.  Si desea obtener detalles de la licencia para un servicio de datos específico, utilice los mosaicos de servicios de datos en el panel de control *Descripción general*. link:task-homepage.html#overview-page["Obtenga más información sobre el panel de descripción general"] .
+
+Las instrucciones de esta página proporcionan información que se aplica a cada servicio.  Para obtener información más específica sobre el licenciamiento de estos servicios, consulte las siguientes páginas:
+
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["Configurar la licencia para la BlueXP backup and recovery"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurar la licencia para la BlueXP disaster recovery"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["Configurar la licencia para la BlueXP ransomware protection"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Configurar licencias para BlueXP tiering"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Configurar licencias para Cloud Volumes ONTAP"^]
+
+
+
+
+== Obtener un archivo de licencia
+
+Directiva sin resolver en <stdin> - include::_include/task-obtain-license.adoc[]
+
+
+
+== Agregar una licencia
+
+Directiva sin resolver en <stdin> - include::_include/task-add-license.adoc[]
+
+
+
+== Actualizar una licencia
+
+Directiva sin resolver en <stdin> - include::_include/task-update-license.adoc[]
+
+
+
+== Ver el estado de la licencia
+
+Directiva sin resolver en <stdin> - include::_include/task-view-license-status.adoc[]

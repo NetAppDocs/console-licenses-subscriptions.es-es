@@ -1,0 +1,33 @@
+---
+indexpage:
+  title: Documentación de licencias y suscripciones
+  summary: Administre y supervise sus licencias y suscripciones en la consola de NetApp
+    .
+  keywords: netapp console, bluexp, documentation, licenses, subscriptions
+  lead: Administre y supervise sus licencias y suscripciones en la consola de NetApp
+    .
+  tiles:
+  - title: Empezar
+    links:
+    - title: Obtenga más información sobre licencias y suscripciones
+      url: concept-digital-wallet.html
+  - title: Gestionar sus licencias
+    links:
+    - title: Administrar licencias basadas en capacidad para Cloud Volumes ONTAP
+      url: task-manage-capacity-licenses.html
+    - title: Administrar licencias para servicios de datos de NetApp
+      url: task-manage-data-services-licenses.html
+  - title: Gestiona tus suscripciones
+    links:
+    - title: Administrar suscripciones y contratos de Marketplace
+      url: task-manage-subscriptions.html
+    - title: Administrar suscripciones de Keystone
+      url: task-manage-keystone.html
+  - title: Blogs y comunidad
+    links:
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog de BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Seminarios web sobre la nube
+      url: https://bluexp.netapp.com/events

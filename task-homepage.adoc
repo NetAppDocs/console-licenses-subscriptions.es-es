@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap 
+summary: Obtenga una descripción general de todas las suscripciones y licencias de su organización en el panel de descripción general en la Consola. 
+---
+= Utilice la descripción general del panel de control
+:allow-uri-read: 
+
+
+
+
+== Utilice la descripción general del panel de control
+
+[role="lead"]
+Utilice el panel de control *Descripción general* en la consola para supervisar el estado de sus licencias y suscripciones y asegurarse de poder administrar los costos y mantener el servicio a medida que las suscripciones alcanzan fechas de vencimiento o límites de capacidad.
+
+Puede ver información específica de licencia y suscripción sobre cada uno de sus servicios de datos (incluido Cloud Volumes ONTAP) y profundizar en los detalles de cada uno.
+
+También se le avisará sobre los próximos límites de capacidad o vencimientos y se le solicitará que tome medidas.
+
+
+
+=== Ver detalles sobre un servicio de datos específico
+
+El panel de control *Descripción general* brinda la posibilidad de ver detalles sobre los siguientes servicios de datos:
+
+* Cloud Volumes ONTAP
+* Recuperación ante desastres
+* Resiliencia frente al ransomware
+* Copia de seguridad y recuperación
+* Nivelación de la nube
+
+
+Por ejemplo, los administradores encargados de gestionar los recursos de Cloud Volumes ONTAP pueden ver la capacidad actual de cada licencia o suscripción, lo que les brinda una visión enfocada de los recursos dentro de su ámbito de competencia.
+
+
+NOTE: Si bien puedes actualizar y eliminar licencias desde el panel de control, no puedes agregar una nueva licencia o suscripción.
+
+link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"^] . link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"^] .
+
+.Pasos
+. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Seleccione *Descripción general*.
+. Seleccione *Ver* para el servicio de datos correspondiente (incluido Cloud Volumes ONTAP) para ver detalles y administrar licencias y suscripciones.
++
+Cada mosaico proporciona una descripción gráfica de la capacidad.  Puede ver la página de detalles para ver y administrar los métodos de pago para esa capacidad.
+
+. Seleccione la pestaña *Licencias* o *Suscripciones*.
+. Filtre la tabla seleccionando un filtro de columna y un valor para filtrar.  Por ejemplo, en la pestaña *Suscripciones*, puede filtrar la columna Tipo por Contrato anual o Suscripción.
+. Personaliza las columnas que se muestran en la tabla.  Puede agregar y eliminar columnas de la tabla seleccionando el ícono *Columna* para indicar qué columnas desea mostrar u ocultar.
+. Expanda cualquier fila para ver detalles de lo que incluye la suscripción o licencia, la capacidad adquirida y los términos.
+. Utilice el menú de acciones para administrar una licencia o suscripción específica, como actualizar una licencia o asociar una suscripción con una organización diferente.
++
+No puede agregar nuevas licencias o suscripciones desde la página *Descripción general* para un servicio específico.  Solo puedes agregar licencias o suscripciones desde la pestaña *Licencias directas* o la pestaña *Suscripciones del Marketplace*, respectivamente.
+
++
+link:task-data-services-licenses.html["Obtenga más información sobre la gestión de licencias."] link:task-manage-subscriptions.html["Obtenga más información sobre cómo administrar suscripciones."]
+
+
+
+
+
+=== Resolver problemas de licencia o suscripción
+
+Puede ver los problemas de licencia y suscripción que deben resolverse.  Los problemas incluyen licencias y suscripciones que están por vencer o alcanzar su capacidad máxima.
+
+. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Seleccione *Descripción general*.
+. Seleccione *Resolver* en el mosaico *Requiere acción* para ver los problemas que necesitan ajustarse.  Si no aparece *Resolver*, no hay problemas que requieran acción en este momento.
+. Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.
+. Utilice el menú de acciones para resolver el problema.
++
+link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"^] . link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"^] .
+
+
