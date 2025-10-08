@@ -10,7 +10,7 @@ indexpage:
   - title: Empezar
     links:
     - title: Obtenga más información sobre licencias y suscripciones
-      url: concept-digital-wallet.html
+      url: concept-licenses-subscriptions.html
   - title: Gestionar sus licencias
     links:
     - title: Administrar licencias basadas en capacidad para Cloud Volumes ONTAP
@@ -25,9 +25,9 @@ indexpage:
       url: task-manage-keystone.html
   - title: Blogs y comunidad
     links:
+    - title: Consola de NetApp
+      url: https://wwww.netapp.com/console
+    - title: Servicios de datos de NetApp
+      url: https://wwww.netapp.com/data-services/
     - title: Comunidad de NetApp
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog de BlueXP
-      url: https://bluexp.netapp.com/blog
-    - title: Seminarios web sobre la nube
-      url: https://bluexp.netapp.com/events
+      url: https://community.netapp.com/

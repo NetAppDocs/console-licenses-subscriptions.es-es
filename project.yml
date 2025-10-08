@@ -9,7 +9,7 @@ settings:
   langs: es-es,us-en,de-de,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Documentación de licencias y suscripciones
+  - title: Documentos de licencias y suscripciones
     url: "/index.html"
   - title: Notas de la versión
     entries:
@@ -18,7 +18,7 @@ sidebar:
   - title: Empezar
     entries:
     - title: Conozca más sobre
-      url: "/concept-digital-wallet.html"
+      url: "/concept-licenses-subscriptions.html"
   - title: Licencias de uso y suscripciones
     entries:
     - title: Utilice el panel de descripción general
