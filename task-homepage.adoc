@@ -40,7 +40,7 @@ NOTE: Si bien puedes actualizar y eliminar licencias desde el panel de control, 
 link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"^] . link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"^] .
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Descripción general*.
 . Seleccione *Ver* para el servicio de datos correspondiente (incluido Cloud Volumes ONTAP) para ver detalles y administrar licencias y suscripciones.
 +
@@ -63,9 +63,9 @@ link:task-data-services-licenses.html["Obtenga más información sobre la gesti�
 
 === Resolver problemas de licencia o suscripción
 
-Puede ver los problemas de licencia y suscripción que deben resolverse.  Los problemas incluyen licencias y suscripciones que están por vencer o alcanzar su capacidad máxima.
+Puede ver los problemas de licencia y suscripción que deben resolverse.  Los problemas incluyen licencias y suscripciones que están a punto de vencer o alcanzar su capacidad máxima.
 
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Descripción general*.
 . Seleccione *Resolver* en el mosaico *Requiere acción* para ver los problemas que necesitan ajustarse.  Si no aparece *Resolver*, no hay problemas que requieran acción en este momento.
 . Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.

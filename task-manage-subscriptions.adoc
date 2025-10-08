@@ -35,26 +35,26 @@ Puedes suscribirte a una suscripción del marketplace directamente desde la cons
 --
 El siguiente vídeo muestra los pasos para suscribirse a NetApp Console desde AWS Marketplace:
 
-.Suscríbete a la consola de NetApp desde AWS Marketplace
+.Suscríbete a la NetApp Console desde AWS Marketplace
 video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 --
 .Azur
 --
 El siguiente vídeo muestra los pasos para suscribirse a NetApp Console desde Azure Marketplace:
 
-.Suscríbete a la consola de NetApp desde Azure Marketplace
+.Suscríbete a la NetApp Console desde Azure Marketplace
 video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
 --
 .Google Cloud
 --
 El siguiente vídeo muestra los pasos para suscribirse a NetApp Console desde Google Cloud Marketplace:
 
-.Suscríbete a la consola de NetApp desde Google Cloud Marketplace
+.Suscríbete a la NetApp Console desde Google Cloud Marketplace
 video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 --
 ====
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . Sobre la tabla *Suscripciones*, seleccione *Agregar suscripción*.
 . En el cuadro de diálogo Agregar suscripción, seleccione un proveedor de nube.
@@ -75,7 +75,7 @@ Puede ver detalles sobre cada suscripción PAYGO y contrato anual asociado con s
 En el caso de Google Cloud, también puedes identificar las suscripciones del mercado asociadas a una oferta privada, lo que te permite verificar que aceptaste la oferta correctamente.
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 +
 Solo verás las suscripciones asociadas a la organización que estás viendo actualmente.
@@ -86,7 +86,7 @@ Solo verás las suscripciones asociadas a la organización que estás viendo act
 ** Expande una fila para ver más detalles.
 ** Seleccionarimage:icon-column-selector.png["el icono más al final del encabezado de la tabla"] para elegir qué columnas aparecen en la tabla.
 +
-Las columnas Plazo y Renovación automática no aparecen de forma predeterminada.  La columna Renovación automática muestra información de renovación solo para contratos de Azure.
+Las columnas Plazo y Renovación automática no aparecen de forma predeterminada. La columna Renovación automática muestra información de renovación solo para contratos de Azure.
 
 
 
@@ -118,7 +118,7 @@ Contratos::
 Puede cambiar el nombre de una suscripción para identificar mejor cómo la utiliza su organización.
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . Seleccione el menú de acciones en la fila que corresponde a la suscripción que desea administrar y elija *Cambiar nombre*.
 
@@ -134,7 +134,7 @@ El formato de las credenciales depende del mercado que estés utilizando.  Por e
 La opción Configurar aparece inactiva si has cancelado una suscripción.
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . Seleccione el menú de acciones en la fila que corresponde a la suscripción que desea configurar y elija *Configurar*.
 . En el cuadro de diálogo Configurar, elija una credencial para configurar con la suscripción.  Solo puede elegir entre las credenciales asociadas con el agente seleccionado actualmente.  Si no ve la credencial que desea usar, intente cambiar a una vista de agente diferente.
@@ -154,7 +154,7 @@ Debe tener el rol de administrador de la organización para asociar una suscripc
 NOTE: La consola admite la gestión de identidad y acceso (IAM) en modo estándar, que utiliza organizaciones para administrar usuarios y recursos.  Si usa la consola en modo privado o restringido, utilice una _cuenta_ de consola para administrar usuarios y recursos, incluidas las suscripciones.
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila de la suscripción que desea asociar, abra el menú de acciones y seleccione *Asociar*.
 . En el cuadro de diálogo *Asociar la suscripción*, seleccione una o más organizaciones para asociarlas con la suscripción.
@@ -171,7 +171,7 @@ Puede ver las credenciales para una suscripción específica desde la página *S
 NOTE: Utilice el menú desplegable Agente en la barra de navegación superior para cambiar de agente si es necesario.
 
 .Pasos
-. Desde el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila que contiene la suscripción cuyas credenciales desea ver, seleccione Ver.  Si hay varias credenciales asociadas a una suscripción, es posible que no se muestre ninguna y se le solicitará que seleccione un agente diferente.
 
@@ -183,7 +183,7 @@ NOTE: Utilice el menú desplegable Agente en la barra de navegación superior pa
 Antes de poder eliminar una suscripción, debes desconfigurarla.  Esto borra todos los datos y configuraciones asociados.
 
 .Pasos
-. En el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. En el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila de la suscripción que desea desconfigurar, haga clic en el menú de acciones y seleccione *Desconfigurar*.
 . Siga las instrucciones para eliminar o restablecer cualquier configuración o dato asociado.
@@ -206,7 +206,7 @@ Si la suscripción aún está configurada, la opción *Eliminar* no se muestra. 
 
 ====
 .Pasos
-. En el menú de la consola de NetApp , seleccione *Gobernanza > Licencias y suscripciones*.
+. En el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila de la suscripción que desea eliminar, abra el menú de acciones y seleccione *Eliminar*.
 +

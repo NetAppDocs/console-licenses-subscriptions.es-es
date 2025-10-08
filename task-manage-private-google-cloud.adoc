@@ -4,7 +4,7 @@ permalink: task-manage-private-google-cloud.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
 summary: Administre sus guías de aceptación y activación de procesos de oferta privada de extremo a extremo, generales y específicos de Hyperscaler, y de servicios inteligentes de NetApp para AWS, Azure y Google Cloud. 
 ---
-= Acepte y configure una oferta privada de Google Cloud para la consola de NetApp
+= Acepte y configure una oferta privada de Google Cloud para la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -50,7 +50,7 @@ Si ya tienes una suscripción PAYGO activa o una oferta privada modificada, solo
 . Serás redirigido a Google Cloud Marketplace donde podrás revisar los detalles de la oferta:
 +
 .. **Cuenta de facturación**
-.. **Producto**: Consola de NetApp
+.. **Producto**: NetApp Console
 .. **Detalles de la oferta**
 .. **Precios**
 +
@@ -64,7 +64,7 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 . Confirme que la información sea precisa, acepte los términos y haga clic en **Aceptar**.
 . Aparece un icono de carga mientras se crea la suscripción.
 . Cuando la suscripción se crea correctamente, aparece una ventana emergente: *Su solicitud de pedido se ha enviado a NetApp, Inc.*
-. Haga clic en **REGISTRARSE CON NETAPP, Inc.**. Serás redirigido a la consola de NetApp para terminar de configurar tu suscripción. Si la oferta privada fue aceptada por otra persona de su organización:
+. Haga clic en **REGISTRARSE CON NETAPP, Inc.**. Serás redirigido a la NetApp Console para terminar de configurar tu suscripción. Si la oferta privada fue aceptada por otra persona de su organización:
 +
 .. En Google Cloud Marketplace, vaya a **Pedidos**.
 .. Localiza la oferta con estado **Pendiente**.
@@ -94,7 +94,7 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 
 == Asociar la suscripción con las credenciales de Google Cloud
 
-. En la consola, vaya a **Gobernanza > Licencias y suscripciones** y seleccione la pestaña **Suscripciones del Marketplace**.
+. En la consola, vaya a **Gobernanza > Licenses and subscriptions** y seleccione la pestaña **Suscripciones del Marketplace**.
 . Validar los detalles de la suscripción:
 +
 .. Localiza la suscripción creada en el proceso de aceptación.

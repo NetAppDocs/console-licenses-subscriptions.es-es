@@ -4,7 +4,7 @@ permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
 summary: Administre sus guías de aceptación y activación de procesos de oferta privada de extremo a extremo, generales y específicos de Hyperscaler, y de servicios inteligentes de NetApp para AWS, Azure y Google Cloud. 
 ---
-= Acepte y active una oferta privada de Azure para la consola de NetApp
+= Acepte y active una oferta privada de Azure para la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Administre sus guías de aceptación y activación de procesos de ofert
 
 
 [role="lead"]
-Acepte y suscríbase a una oferta privada de Marketplace para la consola de NetApp en el portal de Azure.  Configurar las credenciales de Azure en la consola.
+Acepte y suscríbase a una oferta privada de Marketplace para la NetApp Console en el portal de Azure.  Configurar las credenciales de Azure en la consola.
 
 .Antes de empezar
 * Trabaje con el equipo de ventas de NetApp para crear una oferta privada para su ID de facturación de Azure.
@@ -74,7 +74,7 @@ Si el botón *Comprar* no está disponible, confirma que tienes los permisos de 
 
 . Opcionalmente, configure *Etiquetas* (para producto, ubicación del sitio, definición de carga de trabajo o convención de nomenclatura).
 . Haga clic en *Revisar y suscribirse*, valide los detalles y luego haga clic en *Suscribirse*.
-. Cuando la suscripción se haya creado correctamente, haga clic en *Configurar cuenta ahora*. Esto lo redireccionará a la consola de NetApp para completar la configuración.
+. Cuando la suscripción se haya creado correctamente, haga clic en *Configurar cuenta ahora*. Esto lo redireccionará a la NetApp Console para completar la configuración.
 +
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Completar la asignación de suscripción en la Consola es necesario para activar
 
 == Configurar la suscripción con credenciales de Azure
 
-. En la consola, vaya a *Gobernanza > Licencias y suscripciones* y seleccione la pestaña *Suscripciones del Marketplace*.
+. En la consola, vaya a *Gobernanza > Licenses and subscriptions* y seleccione la pestaña *Suscripciones del Marketplace*.
 . Validar los detalles de la suscripción:
 +
 .. Localiza la suscripción de Marketplace que creaste.

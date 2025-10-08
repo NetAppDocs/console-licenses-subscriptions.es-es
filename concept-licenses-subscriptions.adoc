@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-licenses-subscriptions.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: Las licencias y suscripciones le permiten administrar y monitorear las licencias de NetApp Console, las suscripciones de NetApp Marketplace y NetApp Keystone. 
+summary: Las licencias y suscripciones le permiten administrar y monitorear las licencias de NetApp Console , las suscripciones de NetApp Marketplace y NetApp Keystone. 
 ---
 = Obtenga más información sobre licencias y suscripciones
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Las licencias y suscripciones le permiten administrar y monitorear las 
 
 
 [role="lead"]
-Puede administrar y monitorear las licencias adquiridas de NetApp (BYOL), las suscripciones de Marketplace para los servicios de datos de NetApp (incluido Cloud Volumes ONTAP) y las suscripciones de NetApp Keystone en la consola de NetApp .
+Puede administrar y monitorear las licencias adquiridas de NetApp (BYOL), las suscripciones de Marketplace para los servicios de datos de NetApp (incluido Cloud Volumes ONTAP) y las suscripciones de NetApp Keystone en la NetApp Console.
 
 
 

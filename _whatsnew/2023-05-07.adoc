@@ -12,7 +12,7 @@ La BlueXP digital wallet ahora identifica las suscripciones de Google Cloud Mark
 
 === Desglose del uso de la carga
 
-Ahora puedes saber cuánto te cobran cuando estás suscrito a licencias basadas en capacidad.  Los siguientes tipos de informes de uso están disponibles para descargar desde la BlueXP digital wallet.  Los informes de uso brindan detalles de la capacidad de sus suscripciones y le indican cómo se le cobra por los recursos en sus suscripciones de Cloud Volumes ONTAP .  Los informes descargables se pueden compartir fácilmente con otros.
+Ahora puedes saber cuánto te cobran cuando estás suscrito a licencias basadas en capacidad. Los siguientes tipos de informes de uso están disponibles para descargar desde la BlueXP digital wallet. Los informes de uso brindan detalles de la capacidad de sus suscripciones y le indican cómo se le cobra por los recursos en sus suscripciones de Cloud Volumes ONTAP . Los informes descargables se pueden compartir fácilmente con otros.
 
 * Uso de paquetes de Cloud Volumes ONTAP
 * Uso de alto nivel

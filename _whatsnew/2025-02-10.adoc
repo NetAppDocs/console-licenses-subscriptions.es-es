@@ -14,7 +14,7 @@ La página de inicio de la billetera digital tiene un panel actualizado de sus l
 
 === Configuración de suscripciones a credenciales
 
-La BlueXP digital wallet ahora te permite configurar tus suscripciones con credenciales de proveedor.  Normalmente esto se hace cuando se suscribe por primera vez a una suscripción de Marketplace o a un contrato anual.  Anteriormente, cambiar las credenciales de la suscripción solo se podía hacer en la página Credenciales.
+La BlueXP digital wallet ahora le permite configurar sus suscripciones con credenciales de proveedor.  Normalmente esto se hace cuando se suscribe por primera vez a una suscripción de Marketplace o a un contrato anual.  Anteriormente, cambiar las credenciales de la suscripción solo se podía hacer en la página Credenciales.
 
 
 

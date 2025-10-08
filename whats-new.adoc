@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
-summary: Descubra las novedades sobre las licencias y suscripciones de NetApp Console. 
+summary: Descubra las novedades sobre las licencias y suscripciones de NetApp Console . 
 ---
 = Qué hay de nuevo
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Descubra las novedades sobre las licencias y suscripciones de NetApp Co
 
 
 [role="lead"]
-Descubra las novedades sobre las licencias y suscripciones de NetApp Console.
+Descubra las novedades sobre las licencias y suscripciones de NetApp Console .
 
 
 
@@ -24,9 +24,9 @@ Descubra las novedades sobre las licencias y suscripciones de NetApp Console.
 
 === BlueXP ahora es NetApp Console
 
-La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+La NetApp Console, construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los NetApp Data Services en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
 
-Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la NetApp Console"] .
 
 
 
@@ -60,7 +60,7 @@ La página de inicio de la billetera digital tiene un panel actualizado de sus l
 
 === Configuración de suscripciones a credenciales
 
-La BlueXP digital wallet ahora te permite configurar tus suscripciones con credenciales de proveedor.  Normalmente esto se hace cuando se suscribe por primera vez a una suscripción de Marketplace o a un contrato anual.  Anteriormente, cambiar las credenciales de la suscripción solo se podía hacer en la página Credenciales.
+La BlueXP digital wallet ahora le permite configurar sus suscripciones con credenciales de proveedor.  Normalmente esto se hace cuando se suscribe por primera vez a una suscripción de Marketplace o a un contrato anual.  Anteriormente, cambiar las credenciales de la suscripción solo se podía hacer en la página Credenciales.
 
 
 
@@ -120,7 +120,7 @@ La BlueXP digital wallet ahora identifica las suscripciones de Google Cloud Mark
 
 === Desglose del uso de la carga
 
-Ahora puedes saber cuánto te cobran cuando estás suscrito a licencias basadas en capacidad.  Los siguientes tipos de informes de uso están disponibles para descargar desde la BlueXP digital wallet.  Los informes de uso brindan detalles de la capacidad de sus suscripciones y le indican cómo se le cobra por los recursos en sus suscripciones de Cloud Volumes ONTAP .  Los informes descargables se pueden compartir fácilmente con otros.
+Ahora puedes saber cuánto te cobran cuando estás suscrito a licencias basadas en capacidad. Los siguientes tipos de informes de uso están disponibles para descargar desde la BlueXP digital wallet. Los informes de uso brindan detalles de la capacidad de sus suscripciones y le indican cómo se le cobra por los recursos en sus suscripciones de Cloud Volumes ONTAP . Los informes descargables se pueden compartir fácilmente con otros.
 
 * Uso de paquetes de Cloud Volumes ONTAP
 * Uso de alto nivel
@@ -186,7 +186,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Cambiar el método de carga
 
-Ahora puede cambiar el método de cobro de un sistema Cloud Volumes ONTAP que utiliza licencias basadas en capacidad.  Por ejemplo, si implementó un sistema Cloud Volumes ONTAP con el paquete Essentials, puede cambiarlo al paquete Professional si las necesidades de su negocio cambian.
+Ahora puede cambiar el método de cobro de un sistema Cloud Volumes ONTAP que utiliza licencias basadas en capacidad. Por ejemplo, si implementó un sistema Cloud Volumes ONTAP con el paquete Essentials, puede cambiarlo al paquete Professional si las necesidades de su negocio cambian.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Aprenda a cambiar los métodos de carga"] .
 
@@ -198,9 +198,9 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === Capacidad consumida
 
-Ahora le muestra la capacidad total consumida en su cuenta y la capacidad consumida por paquete de licencia.  Esto puede ayudarle a comprender cómo se le está cobrando y si necesita comprar capacidad adicional.
+Ahora le muestra la capacidad total consumida en su cuenta y la capacidad consumida por paquete de licencia. Esto puede ayudarle a comprender cómo se le está cobrando y si necesita comprar capacidad adicional.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Una captura de pantalla que muestra la página de licencias basadas en capacidad.  La página proporciona una descripción general de la capacidad consumida en su cuenta y luego desglosa la capacidad consumida por paquete de licencias."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["Una captura de pantalla que muestra la página de licencias basadas en capacidad. La página proporciona una descripción general de la capacidad consumida en su cuenta y luego desglosa la capacidad consumida por paquete de licencias."]
 
 
 
@@ -210,7 +210,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/ma
 
 === Licencias para clústeres ONTAP locales
 
-Ahora puede ver un inventario de sus clústeres ONTAP locales junto con sus fechas de vencimiento de contratos de hardware y servicio.  También están disponibles detalles adicionales sobre los clústeres.
+Ahora puede ver un inventario de sus clústeres ONTAP locales junto con sus fechas de vencimiento de contratos de hardware y servicio. También están disponibles detalles adicionales sobre los clústeres.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Aprenda a administrar licencias para clústeres ONTAP locales"] .
 
