@@ -18,7 +18,6 @@ Las preferencias de facturación determinan cómo se gestionan los pagos, las fa
 
 * Las *suscripciones a Marketplace* corresponden a contratos de marketplaces en la nube (AWS, Azure o Google Cloud) donde los cargos por uso se realizan a través de una cuenta de hiperescalador.
 * Las *licencias directas* representan licencias compradas directamente a NetApp, administradas en la NetApp Console a través de claves de licencia, destinatarios de facturas y opciones de renovación.
-* Las suscripciones a * Keystone * se gestionan bajo su acuerdo de Keystone , donde los destinatarios de las facturas y las etiquetas de los centros de coste se manejan a través de la misma interfaz.
 
 
 Puedes configurar cómo tu organización asigna y paga los servicios según tu modelo de adquisición.
@@ -92,7 +91,6 @@ Puedes elegir entre diferentes modalidades de facturación según la estrategia 
 * *Contrato anual* — Establece un plazo de suscripción definido.
 * *Renovación automática* — Permite la continuación automática de las licencias o contratos del mercado cuando caducan.  Deshabilitar esta opción requiere una renovación manual para evitar la interrupción del servicio.
 * *Configuración CVO personalizada* — Permite asignar varias suscripciones de mercado a un único hiperescalador.  Esto podría resultar útil cuando diferentes unidades de negocio o proyectos requieran cuentas de facturación distintas dentro del mismo entorno de nube.
-* *Diálogo de confirmación de cambios* — Aparece antes de aplicar las actualizaciones de facturación, lo que permite a los administradores revisar y confirmar las modificaciones.  Esta medida de seguridad ayuda a prevenir cambios de configuración accidentales que podrían redirigir los cargos a la cuenta equivocada.
 
 
 
