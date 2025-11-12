@@ -87,57 +87,11 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 ====
 
 
-. Haga clic en **Asociar** y luego en **Listo**.
-
-
-
-
-== Asociar la suscripción con las credenciales de Google Cloud
-
-. En la consola, vaya a **Gobernanza > Licenses and subscriptions** y seleccione la pestaña **Suscripciones del Marketplace**.
-. Validar los detalles de la suscripción:
-+
-.. Localiza la suscripción creada en el proceso de aceptación.
-.. Verifique que se muestre el plan correcto.
-.. Expande la fila para confirmar la asociación de oferta privada.
-
-
-
-
-[NOTE]
-====
-Debido a las limitaciones de Google Cloud Marketplace, es posible que algunos campos se muestren `N/A` . Esta información solo está disponible en la consola de Google Cloud.
-
-====
-. [Opcional] Para cambiar el nombre de la suscripción:
-+
-.. Haga clic en el **menú de tres puntos** junto a la suscripción.
-.. Seleccione **Cambiar nombre de suscripción**.
-
-
-. Haga clic nuevamente en el **menú de tres puntos** y seleccione **Configurar**.
-. Seleccione la **Credencial** de la cuenta de Google Cloud adecuada y haga clic en **Configurar**.
-
-
-Los cargos de Marketplace por esta credencial de Google Cloud ahora se facturan a través de la suscripción de Marketplace. Para los contratos anuales, el uso de esta credencial se descuenta del contrato anual.
-
-[IMPORTANT]
-====
-Repita los pasos 1 a 5 para cada credencial de Google Cloud en su cuenta de consola que desee asociar con la suscripción de Marketplace.
-
-* Para asociar credenciales de otra cuenta de consola, use el menú desplegable **Cuenta** para cambiar de cuenta y repetir los pasos.
-* Para asociar credenciales para otro agente, utilice el menú desplegable **Agente** y repita los pasos.
-
-
-====
-
-
-== Ver el uso de Google Cloud
-
-Para ver el estado y el uso del crédito de Google Cloud:
-
-. En la consola de Google Cloud, vaya a **Cloud Marketplace**.
-. Haga clic en **Sus pedidos**.
-. En el menú desplegable **Seleccionar cuenta de facturación**, elija la cuenta de facturación asociada a su oferta privada.
-. Encuentra tu oferta privada en la tabla, haz clic en el **menú de tres puntos** y selecciona **Ver crédito**.
+. Haz clic en **Asociar**.
+. Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.
+. Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
+. Revisa las opciones de suscripción del mercado.
+. Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
+. Seleccione **Guardar cambios**.
+. Repita estos pasos según sea necesario, si existen múltiples suscripciones en múltiples hiperescaladores.
 

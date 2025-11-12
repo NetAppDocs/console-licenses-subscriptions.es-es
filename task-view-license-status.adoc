@@ -5,6 +5,6 @@
 Para administrar licencias, puede agruparlas según el nombre del servicio.  Esto le permite ver todas las licencias relacionadas con un servicio específico.  Puede expandir una fila para ver información detallada sobre cada licencia relacionada con el servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.  Las licencias se agrupan automáticamente por nombre de servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.
 
 .Pasos
-. Desde el menú de BlueXP , seleccione *Gobernanza* > *Billetera digital* y luego seleccione la pestaña *Licencias directas*.
+. Desde el menú Consola, seleccione *Gobernanza* > *Cartera digital* y, a continuación, seleccione la pestaña *Licencias directas*.
 . Haga clic en una fila de nombre de servicio para expandirla.  Aquí se muestran todas las licencias relacionadas con ese servicio.  Cada fila expandida muestra información detallada sobre las licencias, incluido el ID de la licencia, el número de serie, la capacidad y la fecha de vencimiento.
 

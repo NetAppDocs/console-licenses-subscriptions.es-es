@@ -97,37 +97,11 @@ La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos 
 ====
 
 
-. Haga clic en *Asociar* y luego en *Listo*.
+. Haz clic en **Asociar**.
+. Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.
+. Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
+. Revisa las opciones de suscripción del mercado.
+. Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
+. Seleccione **Guardar cambios**.
+. Repita estos pasos según sea necesario, si existen múltiples suscripciones en múltiples hiperescaladores.
 
-
-[IMPORTANT]
-====
-Completar la asignación de suscripción en la Consola es necesario para activar la compra y aplicar el precio con descuento.
-
-====
-
-
-== Configurar la suscripción con credenciales de Azure
-
-. En la consola, vaya a *Gobernanza > Licenses and subscriptions* y seleccione la pestaña *Suscripciones del Marketplace*.
-. Validar los detalles de la suscripción:
-+
-.. Localiza la suscripción de Marketplace que creaste.
-.. Expande la fila para revisar los detalles y confirmar que la suscripción esté asociada con tu cuenta de Consola.
-
-
-. Haga clic en el *menú de tres puntos* junto a la suscripción y seleccione *Configurar*.
-. Seleccione la *suscripción de Azure* adecuada y haga clic en *Configurar*.
-
-
-Los cargos de Marketplace por esta credencial de Azure ahora se facturan a través de la suscripción de Marketplace. Para los contratos anuales, el uso de esta credencial se descuenta del contrato anual.
-
-[IMPORTANT]
-====
-Repita los pasos 1 a 4 para cada credencial de Azure en su cuenta de consola que desee asociar con la suscripción.
-
-* Para asociar credenciales de otra organización de la consola, utilice el menú desplegable *Organización* para cambiar de organización y repetir los pasos.
-* Para asociar credenciales de otro agente, utilice el menú desplegable *Agente* para cambiar y repetir los pasos.
-
-
-====

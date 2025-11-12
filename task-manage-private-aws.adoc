@@ -110,41 +110,11 @@ Si aceptó la oferta pero no completó el registro, regrese a la página del pro
 ====
 
 
-. Haga clic en *Asociar* y luego en *Listo*.
+. Haz clic en **Asociar**.
+. Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.
+. Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
+. Revisa las opciones de suscripción del mercado.
+. Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
+. Seleccione **Guardar cambios**.
+. Repita estos pasos según sea necesario, si existen múltiples suscripciones en múltiples hiperescaladores.
 
-
-[IMPORTANT]
-====
-Es necesario completar la asignación de suscripción en la Consola para aplicar el precio con descuento.
-
-====
-
-
-== Configurar la suscripción con credenciales de AWS
-
-. En la consola, vaya a *Gobernanza > Licenses and subscriptions* y seleccione la pestaña *Suscripciones del Marketplace*.
-. Localiza la suscripción creada anteriormente. Expande la fila para confirmar que esté asociada con tu cuenta de consola.
-+
-[NOTE]
-====
-Debido a las limitaciones de AWS Marketplace, algunos detalles de las ofertas privadas no se exponen fuera de la consola de AWS. Si se muestra un campo `N/A` , verifique la información directamente en la consola de AWS.
-
-====
-. Haga clic en el menú de tres puntos junto a la suscripción y seleccione *Configurar*.
-. Seleccione la *credencial de cuenta AWS* adecuada y haga clic en *Configurar*.
-
-
-[NOTE]
-====
-Los cargos del Marketplace por estas credenciales se facturan mediante la suscripción del Marketplace. En el caso de los contratos anuales, los costes se computan en el uso del contrato.
-
-====
-[IMPORTANT]
-====
-Repita los pasos 1 a 4 para cada credencial de AWS en su cuenta de consola que desee asociar con la suscripción.
-
-* Para las credenciales de otras organizaciones de la consola, utilice el menú desplegable *Organización* y repita los pasos.
-* Para las credenciales de otros agentes, utilice el menú desplegable *Agente* y repita los pasos.
-
-
-====

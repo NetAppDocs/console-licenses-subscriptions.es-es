@@ -1,0 +1,121 @@
+---
+sidebar: sidebar 
+permalink: concept-billing-preferences.html 
+keywords: billing, configure, license, licensing, licenses, subscriptions, marketplace, keystone 
+summary: Aprenda cómo las licencias y las suscripciones definen la forma en que NetApp Console administra el uso, la facturación y las renovaciones en las licencias directas, los contratos del mercado en la nube y NetApp Keystone. 
+---
+= Obtenga información sobre las preferencias de facturación para licencias y suscripciones.
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Las preferencias de facturación determinan cómo se gestionan los pagos, las facturas y el comportamiento de renovación de las licencias y suscripciones activas de su organización.  Puede aplicar estas preferencias de forma global, de modo que afecten a todas las relaciones de facturación dentro de su organización, o a nivel de suscripción individual cuando un contrato específico requiera su propia configuración.
+
+* Las *suscripciones a Marketplace* corresponden a contratos de marketplaces en la nube (AWS, Azure o Google Cloud) donde los cargos por uso se realizan a través de una cuenta de hiperescalador.
+* Las *licencias directas* representan licencias compradas directamente a NetApp, administradas en la NetApp Console a través de claves de licencia, destinatarios de facturas y opciones de renovación.
+* Las suscripciones a * Keystone * se gestionan bajo su acuerdo de Keystone , donde los destinatarios de las facturas y las etiquetas de los centros de coste se manejan a través de la misma interfaz.
+
+
+Puedes configurar cómo tu organización asigna y paga los servicios según tu modelo de adquisición.
+
+
+
+== Permisos
+
+Solo los usuarios con el rol de *Administrador de cuenta* o *Administrador de facturación* pueden modificar las preferencias de facturación.  Estos roles garantizan que solo los usuarios autorizados puedan cambiar los contactos de facturación, los centros de costos o la configuración de renovación que afectan los datos de facturación de la organización.  Los usuarios con el rol de *Operador* pueden ver las preferencias existentes, pero no tienen permiso para editarlas.
+
+
+
+== Preferencias de facturación
+
+Las preferencias de facturación garantizan que los cargos por uso y las renovaciones se apliquen correctamente.  Una configuración adecuada reduce las disputas de facturación y facilita la gestión de modelos de licencias híbridos que combinan la capacidad propiedad de NetApp con la capacidad adquirida en el marketplace.
+
+Por ejemplo, las preferencias de facturación globales pueden unificar su lista de contactos de facturación para que todos los servicios compartan un único administrador de facturación.  También puede utilizar etiquetas de centro de costos para alinear el uso entre departamentos o regiones y habilitar la renovación automática para evitar interrupciones del servicio.  Las nuevas implementaciones de Cloud Volumes ONTAP (CVO) heredan automáticamente el modo de facturación que defina aquí, lo que mantiene la coherencia del modelo de facturación de su organización a medida que se agregan nuevos sistemas.
+
+Las preferencias de facturación se configuran en la sección * Licenses and subscriptions* de la NetApp Console.
+
+Desde ahí, puedes: - Establecer las preferencias de facturación para tu organización - Habilitar la configuración personalizada de CVO para una asignación avanzada - Editar o actualizar los detalles de la suscripción al marketplace
+
+
+
+== Campos
+
+Los campos de facturación almacenan metadatos sobre cómo se factura cada licencia o suscripción.  Describen a quién se le factura, cómo se realizan las renovaciones y a qué cuenta o centro de costos pertenece cada servicio.
+
+
+
+=== Campos del mercado
+
+Los campos del Marketplace describen contratos que se originan en un proveedor de servicios en la nube como AWS, Azure o Google Cloud.  Estos campos definen cómo NetApp Console conecta sus suscripciones con la información de facturación almacenada en el mercado del proveedor.  También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.
+
+* *Proveedor de marketplace* — Identifica la plataforma en la nube donde se gestiona la facturación.  El proveedor determina las características admitidas, los tipos de contrato y las reglas de renovación.  Por ejemplo, las suscripciones a AWS Marketplace utilizan la facturación basada en cuentas, mientras que Azure puede admitir modelos basados tanto en cuentas como en inquilinos.
+* *ID de cuenta de facturación o suscripción* — Especifica el identificador único de la cuenta utilizada para procesar los cargos.  Esto garantiza que los datos de uso se facturen al perfil de facturación en la nube correcto.
+* *Plazo del contrato* — Define la duración de la suscripción y las opciones de renovación.
+
+
+
+
+=== Campos de licencia directa
+
+Los campos de licencia directa se aplican a los contratos gestionados por NetApp adquiridos directamente, en lugar de a través de un mercado en la nube.  Definen cómo NetApp le factura, a dónde se envían los cargos y qué entidad legal aparece en la factura.  Estos campos son fundamentales para las organizaciones que utilizan órdenes de compra o facturación corporativa centralizada.
+
+
+
+=== Campos Keystone
+
+Los campos de Keystone se aplican al uso que se encuentra dentro de un acuerdo de suscripción de NetApp Keystone .  Te permiten conectar el uso del servicio medido a tu perfil de facturación de Keystone , alineando los datos de suscripción con otros modelos de licencia basados ​​en capacidad.
+
+* *ID del acuerdo* — Un identificador único para el contrato de Keystone .  Vincula el registro de facturación en la NetApp Console con su acuerdo de Keystone y permite la sincronización de los informes de uso.
+* *Alcance del servicio* — Enumera los servicios o grupos de capacidad que se incluyen en el acuerdo Keystone .  Este campo aclara qué cargas de trabajo o despliegues están incluidos en el contrato y garantiza que solo se facturen a través de Keystone los recursos que cumplan los requisitos.
+
+
+
+
+== Opciones y definiciones de facturación
+
+Las opciones de facturación definen cómo NetApp Console prioriza y aplica los cargos por uso cuando se conectan varias fuentes de facturación.  Controlan qué cuenta se carga primero y cómo cambia la facturación entre las licencias de NetApp y las suscripciones del marketplace cuando se alcanzan los límites de capacidad.
+
+
+
+=== Términos y opciones
+
+Puedes elegir entre diferentes modalidades de facturación según la estrategia de compras de tu organización:
+
+* *Primero las licencias de NetApp * — Prioriza la facturación a través de las licencias activas de NetApp .  Cuando se agota la capacidad de estas licencias, el uso se transfiere automáticamente a la suscripción del mercado vinculado.
+* *Solo suscripciones a Marketplace* — Toda la facturación se realiza a través de contratos de Marketplace, sin utilizar las licencias de NetApp .  Esto es común en organizaciones que estandarizan las adquisiciones mediante la facturación de proveedores de servicios en la nube.
+* *PAYGO (Pago por uso)* — Se facturan únicamente los consumos reales.
+* *Contrato anual* — Establece un plazo de suscripción definido.
+* *Renovación automática* — Permite la continuación automática de las licencias o contratos del mercado cuando caducan.  Deshabilitar esta opción requiere una renovación manual para evitar la interrupción del servicio.
+* *Configuración CVO personalizada* — Permite asignar varias suscripciones de mercado a un único hiperescalador.  Esto podría resultar útil cuando diferentes unidades de negocio o proyectos requieran cuentas de facturación distintas dentro del mismo entorno de nube.
+* *Diálogo de confirmación de cambios* — Aparece antes de aplicar las actualizaciones de facturación, lo que permite a los administradores revisar y confirmar las modificaciones.  Esta medida de seguridad ayuda a prevenir cambios de configuración accidentales que podrían redirigir los cargos a la cuenta equivocada.
+
+
+
+
+=== Rutas de configuración típicas
+
+Los siguientes ejemplos ilustran cómo las diferentes configuraciones de facturación se adaptan a los casos comunes:
+
+|===
+| Guión | Opción de facturación recomendada 
+
+
+| Su organización adquirió capacidad de NetApp directamente. | *Primero, licencias de NetApp * 
+
+
+| Todo el uso se factura mediante contratos de mercado. | *Solo suscripciones al Marketplace* 
+
+
+| Facturas varios proyectos a un solo proveedor de nube. | *Habilitar configuración personalizada de CVO* 
+
+
+| Desea volver a una configuración de facturación simple de una sola fuente. | *Deshabilitar la configuración personalizada de CVO* 
+|===
+Por ejemplo, considere una organización que combina licencias directas de NetApp con suscripciones al marketplace.  Una configuración típica establecería *Licencias de NetApp primero* como modo de facturación predeterminado para utilizar la capacidad prepaga antes de la facturación del marketplace.  Luego, en *Configuración personalizada de CVO*, a cada hiperescalador (AWS, Azure, Google Cloud) se le asignaría su ID de suscripción correspondiente.
+
+Después de guardar esta configuración, los administradores pueden revisar las asignaciones en * Licenses and subscriptions* para verificar que cada servicio apunte a la cuenta correcta.  Para una validación adicional, pueden comparar los datos de uso en la NetApp Console con los paneles de facturación en la nube y ajustar las etiquetas de los centros de costos o los contactos según sea necesario para mantener la coherencia de los informes.
