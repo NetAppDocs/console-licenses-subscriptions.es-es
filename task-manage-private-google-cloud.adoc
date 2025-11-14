@@ -93,5 +93,7 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
 . Seleccione **Guardar cambios**.
-. Repita estos pasos según sea necesario, si existen múltiples suscripciones en múltiples hiperescaladores.
+. Repita estos pasos según sea necesario, si existen varias suscripciones en varios hiperescaladores.
 
+
+Para obtener más información sobre las suscripciones al mercado y la facturación directa de licencias, consulte lalink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentación de preferencias de facturación"] .

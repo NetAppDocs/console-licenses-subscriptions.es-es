@@ -78,7 +78,7 @@ Después de comprar una licencia a su representante de ventas de NetApp , NetApp
 NOTE: Para ingresar el número de serie, primero https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Agregue su cuenta del sitio de soporte de NetApp a la consola"^] .  Esta es la cuenta del sitio de soporte de NetApp que está autorizada para acceder al número de serie.
 
 .Pasos
-. Desde el menú de la NetApp Console , seleccione *Gobernanza > Licenses and subscriptions* y luego seleccione la pestaña *Licencias directas*.
+. Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions* y, a continuación, seleccione la pestaña *Licencias directas*.
 . Seleccione *Agregar licencia*.
 . En el cuadro de diálogo *Agregar licencia*, ingrese la información de la licencia y seleccione *Agregar licencia*:
 +
@@ -136,6 +136,6 @@ Una vez completado el pago y registrada la licencia en el sitio de soporte de Ne
 Para administrar licencias, puede agruparlas según el nombre del servicio.  Esto le permite ver todas las licencias relacionadas con un servicio específico.  Puede expandir una fila para ver información detallada sobre cada licencia relacionada con el servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.  Las licencias se agrupan automáticamente por nombre de servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.
 
 .Pasos
-. Desde el menú Consola, seleccione *Gobernanza* > *Cartera digital* y, a continuación, seleccione la pestaña *Licencias directas*.
+. Desde el menú Consola, seleccione *Administración* > * Licenses and subscriptions* y, a continuación, seleccione la pestaña *Licencias directas*.
 . Haga clic en una fila de nombre de servicio para expandirla.  Aquí se muestran todas las licencias relacionadas con ese servicio.  Cada fila expandida muestra información detallada sobre las licencias, incluido el ID de la licencia, el número de serie, la capacidad y la fecha de vencimiento.
 
