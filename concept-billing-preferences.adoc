@@ -14,7 +14,7 @@ summary: Aprenda cómo las licencias y las suscripciones definen la forma en que
 
 
 [role="lead"]
-Las preferencias de facturación determinan cómo se gestionan los pagos, las facturas y el comportamiento de renovación de las licencias y suscripciones activas de su organización.  Puede aplicar estas preferencias de forma global, de modo que afecten a todas las relaciones de facturación dentro de su organización, o a nivel de suscripción individual cuando un contrato específico requiera su propia configuración.
+Las preferencias de facturación le permiten determinar cómo gestionar los pagos y el comportamiento de renovación de sus licencias y suscripciones activas. Puede aplicar estas preferencias de forma global, de modo que afecten a todas las relaciones de facturación, o a nivel de suscripción individual cuando un contrato específico requiera su propia configuración.
 
 * Las *suscripciones a Marketplace* corresponden a contratos de marketplaces en la nube (AWS, Azure o Google Cloud) donde los cargos por uso se realizan a través de una cuenta de hiperescalador.
 * Las *licencias directas* representan licencias compradas directamente a NetApp, administradas en la NetApp Console a través de claves de licencia, destinatarios de facturas y opciones de renovación.
@@ -38,7 +38,12 @@ Por ejemplo, las preferencias de facturación globales pueden unificar su lista 
 
 Las preferencias de facturación se configuran en la sección * Licenses and subscriptions* de la NetApp Console.
 
-Desde ahí, puedes: - Establecer las preferencias de facturación para tu organización - Habilitar la configuración personalizada de CVO para una asignación avanzada - Editar o actualizar los detalles de la suscripción al marketplace
+Desde ahí, puedes:
+
+* Configure las preferencias de facturación para su organización.
+* Habilite la configuración personalizada de CVO para la asignación avanzada.
+* Edita o actualiza los detalles de tu suscripción al mercado.
+
 
 
 
