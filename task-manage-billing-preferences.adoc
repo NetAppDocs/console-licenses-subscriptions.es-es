@@ -37,8 +37,8 @@ Puede seleccionar cómo la consola aplica los cargos por uso a través de las di
 ** *Solo suscripciones a Marketplace* – Factura todo el uso directamente a través de las suscripciones a Marketplace.
 
 
-. En *Suscripciones de Marketplace*, seleccione la suscripción para cada hiperescalador (AWS, Azure y Google Cloud).
-. Si utiliza varias suscripciones bajo un único hiperescalador, habilite la *Configuración CVO personalizada*.
+. En *Marketplace subscriptions*, selecciona la suscripción para cada proveedor de nube (AWS, Azure y Google Cloud).
+. Si usas varias suscripciones con un solo proveedor de la nube, activa *Custom CVO configuration*.
 . (Opcional) Actualice los *Contactos de facturación* y los *Contactos de notificación*.
 . (Opcional) Introduzca una *etiqueta de centro de costos* para asociar la facturación con los códigos de contabilidad internos.
 . Seleccione *Guardar cambios*.
@@ -53,22 +53,22 @@ NOTE: Cambiar el modo de facturación redistribuye la forma en que se aplican lo
 
 
 
-== Habilitar configuración personalizada de CVO
+== Habilita la configuración personalizada de Cloud Volumes ONTAP
 
-La configuración personalizada de CVO le permite asignar varias suscripciones de marketplace bajo el mismo hiperescalador.  Utilice este modo si su organización mantiene diferentes cuentas de facturación para distintas unidades de negocio o entornos.
+Ahora puedes asignar suscripciones de marketplace específicas a instancias individuales de Cloud Volumes ONTAP bajo el mismo proveedor de cloud. Usa este modo si tu organización mantiene diferentes cuentas de facturación para distintas unidades de negocio o entornos.
 
 .Pasos
 . En la NetApp Console, seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Preferencias de facturación*.
-. En **Suscripciones de Marketplace**, habilite *Configuración personalizada de CVO*.
+. En **Marketplace subscriptions**, activa *Custom CVO configuration*.
 . Seleccione **Guardar cambios**.
 
 
 .Resultado
-Ahora puede asignar suscripciones específicas de Marketplace a instancias individuales de Cloud Volumes ONTAP bajo el mismo hiperescalador.
+Ahora puedes asignar suscripciones específicas del marketplace a instancias individuales de Cloud Volumes ONTAP bajo el mismo proveedor de cloud.
 
 
-WARNING: Una vez habilitada esta opción, la configuración personalizada de CVO no se puede revertir desde las **Preferencias de facturación**. Deshabilitar esta opción restablece toda la facturación de CVO a la configuración de facturación estándar para sus servicios de datos.
+WARNING: Una vez que esto está activado, la configuración personalizada de Cloud Volumes ONTAP no se puede revertir desde las **Billing preferences**. Desactivar esto restablece toda la facturación de Cloud Volumes ONTAP a la configuración de facturación estándar para tus servicios de datos.
 
 
 
@@ -114,4 +114,4 @@ Cada actualización de las preferencias de facturación requiere confirmación p
 
 
 .Resultado
-Las instancias de CVO vuelven al método de facturación estándar predeterminado utilizado para los demás servicios de datos.
+Las instancias de Cloud Volumes ONTAP vuelven al método de facturación estándar predeterminado usado para los otros servicios de datos.

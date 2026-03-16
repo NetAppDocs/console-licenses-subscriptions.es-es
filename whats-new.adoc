@@ -38,7 +38,7 @@ Para obtener más información, consulte lalink:https://docs.netapp.com/us-en/co
 
 La NetApp Console, construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los NetApp Data Services en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
 
-Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de la versión de la NetApp Console"] .
+Para más detalles sobre lo que ha cambiado, consulta la link:https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la NetApp Console"].
 
 
 
@@ -154,7 +154,7 @@ Las notificaciones por correo electrónico ahora son compatibles con la BlueXP d
 
 Si configura sus ajustes de notificación, puede recibir notificaciones por correo electrónico cuando sus licencias BYOL estén a punto de vencer (una notificación de "Advertencia") o si ya vencieron (una notificación de "Error").
 
-https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["Aprenda a configurar notificaciones por correo electrónico"^]
+https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["Aprenda a configurar notificaciones por correo electrónico"^]
 
 
 

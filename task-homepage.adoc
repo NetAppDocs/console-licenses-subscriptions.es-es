@@ -37,7 +37,7 @@ Por ejemplo, los administradores encargados de gestionar los recursos de Cloud V
 
 NOTE: Si bien puedes actualizar y eliminar licencias desde el panel de control, no puedes agregar una nueva licencia o suscripción.
 
-link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"^] . link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"^] .
+link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"]. link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"].
 
 .Pasos
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
@@ -55,7 +55,7 @@ Cada mosaico proporciona una descripción gráfica de la capacidad.  Puede ver l
 No puede agregar nuevas licencias o suscripciones desde la página *Descripción general* para un servicio específico.  Solo puedes agregar licencias o suscripciones desde la pestaña *Licencias directas* o la pestaña *Suscripciones del Marketplace*, respectivamente.
 
 +
-link:task-data-services-licenses.html["Obtenga más información sobre la gestión de licencias."] link:task-manage-subscriptions.html["Obtenga más información sobre cómo administrar suscripciones."]
+link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias."] link:task-manage-subscriptions.html["Obtenga más información sobre cómo administrar suscripciones."]
 
 
 
@@ -71,6 +71,6 @@ Puede ver los problemas de licencia y suscripción que deben resolverse.  Los pr
 . Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.
 . Utilice el menú de acciones para resolver el problema.
 +
-link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"^] . link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"^] .
+link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"]. link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"].
 
 

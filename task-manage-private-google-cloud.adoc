@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-google-cloud.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
-summary: Administre sus guías de aceptación y activación de procesos de oferta privada de extremo a extremo, generales y específicos de Hyperscaler, y de servicios inteligentes de NetApp para AWS, Azure y Google Cloud. 
+summary: Acepte una oferta privada de Marketplace para el listado de NetApp Console en la consola de Google Cloud.  Configurar las credenciales de Google Cloud en la consola. 
 ---
 = Acepte y configure una oferta privada de Google Cloud para la NetApp Console
 :hardbreaks:
@@ -10,6 +10,7 @@ summary: Administre sus guías de aceptación y activación de procesos de ofert
 :nofooter: 
 :icons: font
 :linkattrs: 
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -93,7 +94,7 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
 . Seleccione **Guardar cambios**.
-. Repita estos pasos según sea necesario, si existen varias suscripciones en varios hiperescaladores.
+. Repite estos pasos según sea necesario si hay varias suscripciones en varios proveedores de nube.
 
 
 Para obtener más información sobre las suscripciones al mercado y la facturación directa de licencias, consulte la link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentación de preferencias de facturación"].

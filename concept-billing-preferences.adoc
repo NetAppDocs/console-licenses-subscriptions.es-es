@@ -16,7 +16,7 @@ summary: Aprenda cómo las licencias y las suscripciones definen la forma en que
 [role="lead"]
 Las preferencias de facturación le permiten determinar cómo gestionar los pagos y el comportamiento de renovación de sus licencias y suscripciones activas. Puede aplicar estas preferencias de forma global, de modo que afecten a todas las relaciones de facturación, o a nivel de suscripción individual cuando un contrato específico requiera su propia configuración.
 
-* Las *suscripciones a Marketplace* corresponden a contratos de marketplaces en la nube (AWS, Azure o Google Cloud) donde los cargos por uso se realizan a través de una cuenta de hiperescalador.
+* *Las suscripciones a Marketplace* corresponden a contratos de marketplace en la nube (AWS, Azure o Google Cloud) donde los cargos por uso se hacen a través de una cuenta del proveedor de la nube
 * Las *licencias directas* representan licencias compradas directamente a NetApp, administradas en la NetApp Console a través de claves de licencia, destinatarios de facturas y opciones de renovación.
 
 
@@ -65,7 +65,7 @@ Las preferencias de facturación se configuran en la sección * Licenses and sub
 Desde ahí, puedes:
 
 * Configure las preferencias de facturación para su organización.
-* Habilite la configuración personalizada de CVO para la asignación avanzada.
+* Activar la asignación avanzada de instancias de Cloud Volumes ONTAP a suscripciones de marketplace
 * Edita o actualiza los detalles de tu suscripción al mercado.
 
 
@@ -119,7 +119,7 @@ Puedes elegir entre diferentes modalidades de facturación según la estrategia 
 * *PAYGO (Pago por uso)* — Se facturan únicamente los consumos reales.
 * *Contrato anual* — Establece un plazo de suscripción definido.
 * *Renovación automática* — Permite la continuación automática de las licencias o contratos del mercado cuando caducan.  Deshabilitar esta opción requiere una renovación manual para evitar la interrupción del servicio.
-* *Configuración CVO personalizada* — Permite asignar varias suscripciones de mercado a un único hiperescalador.  Esto podría resultar útil cuando diferentes unidades de negocio o proyectos requieran cuentas de facturación distintas dentro del mismo entorno de nube.
+* *Configuración personalizada de Cloud Volumes ONTAP* — permite asignar varias suscripciones de marketplace a un proveedor de nube. Esto puede ser útil cuando diferentes unidades de negocio o proyectos requieren cuentas de facturación distintas dentro del mismo entorno de nube.
 
 
 
@@ -143,6 +143,6 @@ Los siguientes ejemplos ilustran cómo las diferentes configuraciones de factura
 
 | Desea volver a una configuración de facturación simple de una sola fuente. | *Deshabilitar la configuración personalizada de CVO* 
 |===
-Por ejemplo, considere una organización que combina licencias directas de NetApp con suscripciones al marketplace.  Una configuración típica establecería *Licencias de NetApp primero* como modo de facturación predeterminado para utilizar la capacidad prepaga antes de la facturación del marketplace.  Luego, en *Configuración personalizada de CVO*, a cada hiperescalador (AWS, Azure, Google Cloud) se le asignaría su ID de suscripción correspondiente.
+Por ejemplo, considera una organización que combina tanto licencias directas de NetApp como suscripciones de marketplace. Una configuración típica establecería *NetApp licenses first* como el modo de facturación predeterminado para usar la capacidad prepagada antes de la facturación de marketplace. Luego, en *Custom CVO configuration*, a cada proveedor de cloud (AWS, Azure, Google Cloud) se le asignaría su ID de suscripción correspondiente.
 
 Después de guardar esta configuración, los administradores pueden revisar las asignaciones en * Licenses and subscriptions* para verificar que cada servicio apunte a la cuenta correcta.  Para una validación adicional, pueden comparar los datos de uso en la NetApp Console con los paneles de facturación en la nube y ajustar las etiquetas de los centros de costos o los contactos según sea necesario para mantener la coherencia de los informes.
