@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-aws.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
-summary: Acepte una oferta privada de Marketplace para la NetApp Console en la consola de AWS y configure las credenciales de AWS en la consola. 
+summary: Acepta una oferta privada de Marketplace para la NetApp Console en el AWS Marketplace Portal y configura las credenciales de AWS en la Console. 
 ---
 = Acepte y configure una oferta privada de AWS Marketplace para la NetApp Console
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Acepte una oferta privada de Marketplace para la NetApp Console en la c
 
 
 [role="lead"]
-Acepte una oferta privada de Marketplace para la NetApp Console en la consola de AWS y configure las credenciales de AWS en la consola.
+Acepta una oferta privada de Marketplace para la NetApp Console en el AWS Marketplace Portal y configura las credenciales de AWS en la Console.
 
 .Antes de empezar
 * Trabaje con el equipo de ventas de NetApp para crear una oferta privada y obtener el enlace de activación.
@@ -28,7 +28,7 @@ Acepte una oferta privada de Marketplace para la NetApp Console en la consola de
 
 
 
-== Acepte la oferta privada en la consola de AWS
+== Acepta la oferta privada en el portal de AWS Marketplace
 
 Es necesario completar la asignación de suscripción en la Consola para activar la compra y aplicar el precio con descuento.
 
@@ -93,12 +93,12 @@ Para ofertas de contrato, ingrese el número de unidades acordadas. Para Cloud V
 Si aceptó la oferta pero no completó el registro, regrese a la página del producto. Para ver listados de contratos, haga clic en *Ver opciones de compra* para mostrar la oferta, luego seleccione *Configurar su cuenta*.
 
 ====
-. Sign in en https://console.netapp.com[] con tu cuenta de consola.
+. Sign in en  https://console.netapp.com[].
 . Después de iniciar sesión, navegue a https://console.netapp.com/licenses/overview[] . Se le solicitará que:
 +
 .. Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.
-.. Seleccione la Consola *Cuentas* con acceso a la suscripción.
-.. [Opcional] Habilite *Reemplazar suscripción existente* para sobrescribir una suscripción existente para una cuenta.
+.. Selecciona la Console *Organization* con acceso a la suscripción.
+.. [Opcional] Activa *Reemplazar suscripción existente* para sobrescribir una suscripción existente para una organización.
 +
 [NOTE]
 ====

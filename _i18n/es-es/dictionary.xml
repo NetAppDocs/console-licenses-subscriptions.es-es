@@ -481,14 +481,12 @@
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">Aprenda a administrar clústeres descubiertos directamente</block>
   <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
   <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">Acepte y configure una oferta privada de AWS Marketplace para la NetApp Console</block>
-  <block id="ff13fa6d7bc903be5ecf4d041ce5aa5c" category="paragraph">Acepte una oferta privada de Marketplace para la NetApp Console en la consola de AWS y configure las credenciales de AWS en la consola.</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">Trabaje con el equipo de ventas de NetApp para crear una oferta privada y obtener el enlace de activación.</block>
   <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">Asegúrese de tener los permisos necesarios de AWS Marketplace:</block>
   <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">Visualización y suscripción a una oferta privada</block>
   <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
   <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">Validación de permisos del comprador</block>
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
-  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">Acepte la oferta privada en la consola de AWS</block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">Es necesario completar la asignación de suscripción en la Consola para activar la compra y aplicar el precio con descuento.</block>
   <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Debes completar todos los pasos para activar tu oferta privada. Omitir pasos puede generar errores de facturación. Aceptar y activar la oferta varias veces da como resultado un cobro doble.</block>
   <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">Haga clic en el enlace de activación de oferta privada de su equipo de ventas de NetApp . El enlace debería verse similar al siguiente:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
@@ -513,11 +511,8 @@
   <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">Después de la aceptación, un banner confirma la suscripción y proporciona instrucciones para el registro.</block>
   <block id="9a964a2e84212b282e85422fa8a70544" category="list-text">Haga clic en *Configurar su cuenta*. Esto redirecciona a la NetApp Console para configurar la suscripción.</block>
   <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">Si aceptó la oferta pero no completó el registro, regrese a la página del producto. Para ver listados de contratos, haga clic en *Ver opciones de compra* para mostrar la oferta, luego seleccione *Configurar su cuenta*.</block>
-  <block id="2e64edfe7c5204394d8441cd657b2892" category="list-text">Sign in en<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> con tu cuenta de consola.</block>
   <block id="5e1b8f033801f9e6066729a408b4da2f" category="list-text">Después de iniciar sesión, navegue a<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Se le solicitará que:</block>
   <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.</block>
-  <block id="2cd221344150a3626a43e90a5a658fe9" category="list-text">Seleccione la Consola *Cuentas* con acceso a la suscripción.</block>
-  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[Opcional] Habilite *Reemplazar suscripción existente* para sobrescribir una suscripción existente para una cuenta.</block>
   <block id="75593b03eb6aef440911b04a96cd04dc" category="list-text">El reemplazo se aplica solo a una cuenta de consola.</block>
   <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">Para asociar varias cuentas con la misma suscripción, configure cuentas adicionales manualmente.</block>
   <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">Si las credenciales nunca se asociaron a una suscripción, asócielas manualmente como se describe en la siguiente sección.</block>
@@ -555,8 +550,6 @@
   <block id="28aeb99ad7fa714f50ee0dba31b74247" category="list-text">Serás redirigido a<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> y se le solicitará que inicie sesión.</block>
   <block id="f0456057cee7cc1dd8dba0eea97afb99" category="list-text">Después de iniciar sesión, será redirigido a<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Se le solicitará que:</block>
   <block id="39adb4da3012b43be809229537dd4480" category="list-text">Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.</block>
-  <block id="08203a12c0659c3a962694a2bedabdd2" category="list-text">Seleccione las *Cuentas* de la consola que deberían tener acceso a esta suscripción.</block>
-  <block id="c971675f678da35b74e0d7fcf448705b" category="list-text">Opcionalmente, puede habilitar *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción de Marketplace existente en una cuenta de Consola.</block>
   <block id="bdd177ac7c3a61f270d7d1424cc6bf1f" category="list-text">Esta opción de reemplazo está limitada a una sola cuenta de consola.</block>
   <block id="d939375aaed073b9eac9e5beb4ba0a3b" category="list-text">Para asociar varias cuentas de consola con la misma suscripción de Marketplace, configure las cuentas adicionales manualmente.</block>
   <block id="c9ca68f69753eaca0ec0228921c617fa" category="doc">Acepte y configure una oferta privada de Google Cloud para la NetApp Console</block>
@@ -588,8 +581,6 @@
   <block id="e58b6bbe6eb23bea3dd1681ec6a9af11" category="list-text">Serás redirigido a<block ref="7c376aef5250afe71efcebf7a7a3f4b9" prefix=" " category="inline-code"></block> y se le solicitará que inicie sesión.</block>
   <block id="58fd0c4f67d67b5379d45ee8a3db553f" category="list-text">Después de iniciar sesión, será redirigido a<block ref="24d15e59be383cd22c6b17c55af710c1" prefix=" " category="inline-code"></block> . Se muestra una ventana emergente donde debes:</block>
   <block id="109deb83c524752969863db2154396e3" category="list-text">Ingrese un nombre para mostrar para la *Suscripción a SaaS Marketplace*.</block>
-  <block id="98a69ff93ac7f606e9ffc0f0ad3c2be6" category="list-text">Seleccione las **Cuentas** de la consola que deben tener acceso a la suscripción.</block>
-  <block id="f42189975a0067b88050cff9b07f38b3" category="list-text">Opcionalmente, puedes habilitar **Reemplazar suscripción existente** si deseas reemplazar automáticamente una suscripción de Marketplace existente en una cuenta de Consola.</block>
   <block id="35a234d8ec57d77057c7e83dd833a391" category="list-text">Si necesita asociar varias cuentas de consola con la misma suscripción de Marketplace, debe configurar las cuentas adicionales manualmente.</block>
   <block id="c38a5b5bc8ce7c5e70620128d5b70df7" category="summary">Suscríbase a los servicios de datos de NetApp (incluido Cloud Volumes ONTAP) desde el mercado de un proveedor de nube.</block>
   <block id="b01b1be092b95233172f870dc729234b" category="doc">Gestionar suscripciones y contratos de PAYGO</block>
@@ -974,4 +965,13 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">Este es un ID generado por el sistema que se asocia a tu correo electrónico. En la página *NSS Management*, puedes mostrar tu correo electrónico desde el menú <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">Si alguna vez necesitas actualizar tus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en el menú <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="3ac14e8b0ff8be035f2bf4d15b62a698" category="paragraph"><block ref="3ac14e8b0ff8be035f2bf4d15b62a698" category="inline-link-rx"></block></block>
+  <block id="b14c8f714ab9df1d8bf0b8e0b5be9075" category="summary">Acepta una oferta privada de Marketplace para la NetApp Console en el AWS Marketplace Portal y configura las credenciales de AWS en la Console.</block>
+  <block id="e3edb6d6eefa6e26fd7d233d36622506" category="section-title">Acepta la oferta privada en el portal de AWS Marketplace</block>
+  <block id="539df6295a1f72f1a6ce9c01b447ccfd" category="list-text">Sign in en <block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block>.</block>
+  <block id="2ef69aab27aad02b09bd9c1e01dfe293" category="list-text">Selecciona la Console *Organization* con acceso a la suscripción.</block>
+  <block id="aa9da6403204546dcd3c3b41bda594eb" category="list-text">[Opcional] Activa *Reemplazar suscripción existente* para sobrescribir una suscripción existente para una organización.</block>
+  <block id="7df82bbcc877cc7b0ae3f358c7acd1ee" category="list-text">Selecciona las *Organizations* de NetApp Console que deberían tener acceso a esta suscripción.</block>
+  <block id="6b19be00318068639bb55171c38824da" category="list-text">Opcionalmente, puedes activar *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción existente de Marketplace en una organización de Console.</block>
+  <block id="f6a3d6466a9b3dd0a42a2d2b4b3377a6" category="list-text">Selecciona las *Organizations* de la NetApp Console que deberían tener acceso a la suscripción.</block>
+  <block id="abd213f6c87bacca6bcd08de8ac36571" category="list-text">Opcionalmente, puedes activar **Reemplazar suscripción existente** si quieres reemplazar automáticamente una suscripción existente de Marketplace en una organización de Console.</block>
 </blocks>

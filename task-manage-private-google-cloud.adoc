@@ -76,8 +76,8 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 . Después de iniciar sesión, será redirigido a `https://console.netapp.com/licenses/overview` . Se muestra una ventana emergente donde debes:
 +
 .. Ingrese un nombre para mostrar para la *Suscripción a SaaS Marketplace*.
-.. Seleccione las **Cuentas** de la consola que deben tener acceso a la suscripción.
-.. Opcionalmente, puedes habilitar **Reemplazar suscripción existente** si deseas reemplazar automáticamente una suscripción de Marketplace existente en una cuenta de Consola.
+.. Selecciona las *Organizations* de la NetApp Console que deberían tener acceso a la suscripción.
+.. Opcionalmente, puedes activar **Reemplazar suscripción existente** si quieres reemplazar automáticamente una suscripción existente de Marketplace en una organización de Console.
 +
 [NOTE]
 ====
