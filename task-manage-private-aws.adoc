@@ -38,7 +38,7 @@ Debes completar todos los pasos para activar tu oferta privada. Omitir pasos pue
 
 ====
 .Pasos
-. Haga clic en el enlace de activación de oferta privada de su equipo de ventas de NetApp . El enlace debería verse similar al siguiente:
+. Selecciona el enlace de activación de la oferta privada de tu equipo de ventas de NetApp. El enlace debe verse similar al siguiente:
 `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
 +
  If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
@@ -81,16 +81,16 @@ Para ofertas de contrato, ingrese el número de unidades acordadas. Para Cloud V
 ====
 . Para aceptar la oferta privada, haga lo siguiente:
 +
-.. Para uso bajo demanda, haga clic en *Suscribirse*.
-.. Para ofertas de contrato, ingrese el número de unidades para cada servicio y haga clic en *Crear contrato*.
+.. Para un uso a la carta, selecciona *Suscribirse*.
+.. Para las ofertas de contrato, introduce el número de unidades de cada servicio y selecciona *Crear contrato*.
 
 
 . Después de la aceptación, un banner confirma la suscripción y proporciona instrucciones para el registro.
-. Haga clic en *Configurar su cuenta*. Esto redirecciona a la NetApp Console para configurar la suscripción.
+. Selecciona *Set up your account*. Esto te redirige a la NetApp Console para configurar la suscripción.
 +
 [NOTE]
 ====
-Si aceptó la oferta pero no completó el registro, regrese a la página del producto. Para ver listados de contratos, haga clic en *Ver opciones de compra* para mostrar la oferta, luego seleccione *Configurar su cuenta*.
+Si aceptaste la oferta pero no completaste el registro, vuelve a la página del producto. Para los listados de contratos, selecciona *Ver opciones de compra* para mostrar la oferta y luego selecciona *Configurar tu cuenta*.
 
 ====
 . Sign in en  https://console.netapp.com[].
@@ -110,8 +110,8 @@ Si aceptó la oferta pero no completó el registro, regrese a la página del pro
 ====
 
 
-. Haz clic en **Asociar**.
-. Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.
+. Selecciona **Associate**.
+. Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.
 . Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.

@@ -201,11 +201,7 @@
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Cerrar caso*: proporcione detalles sobre el motivo por el cual está cerrando el caso y seleccione *Cerrar caso*.</block>
   <block id="03b153bc2d764b77f2cac255c25a9c44" category="summary">Obtenga una descripción general de todas las suscripciones y licencias de su organización en el panel de descripción general en la Consola.</block>
   <block id="1422a70676b07393dc91f1692eb84c3a" category="doc">Utilice la descripción general del panel de control</block>
-  <block id="99047c89ee9039cb58ca11db90ee0f4c" category="paragraph">Utilice el panel de control *Descripción general* en la consola para supervisar el estado de sus licencias y suscripciones y asegurarse de poder administrar los costos y mantener el servicio a medida que las suscripciones alcanzan fechas de vencimiento o límites de capacidad.</block>
-  <block id="301dbc606c8f334574bafb1c7a450f13" category="paragraph">Puede ver información específica de licencia y suscripción sobre cada uno de sus servicios de datos (incluido Cloud Volumes ONTAP) y profundizar en los detalles de cada uno.</block>
-  <block id="08101f34e43d83aeb4f8cca226c41d9f" category="paragraph">También se le avisará sobre los próximos límites de capacidad o vencimientos y se le solicitará que tome medidas.</block>
   <block id="f32e0dc1a8e546cf508129c8548de21e" category="section-title">Ver detalles sobre un servicio de datos específico</block>
-  <block id="56fab234456fa527f3acd23a65d45fc3" category="paragraph">El panel de control *Descripción general* brinda la posibilidad de ver detalles sobre los siguientes servicios de datos:</block>
   <block id="9772870a1dc0150f2bcd33d79bbae28f" category="paragraph">Por ejemplo, los administradores encargados de gestionar los recursos de Cloud Volumes ONTAP pueden ver la capacidad actual de cada licencia o suscripción, lo que les brinda una visión enfocada de los recursos dentro de su ámbito de competencia.</block>
   <block id="592511f5f465bd0013130ee5b2d1cdec" category="admonition">Si bien puedes actualizar y eliminar licencias desde el panel de control, no puedes agregar una nueva licencia o suscripción.</block>
   <block id="5e61525870b8ecb7cda0015f4b7208db" category="inline-link-macro">Obtenga más información sobre la gestión de licencias</block>
@@ -222,8 +218,6 @@
   <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">Obtenga más información sobre la gestión de licencias.</block>
   <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">Obtenga más información sobre cómo administrar suscripciones.</block>
   <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">Resolver problemas de licencia o suscripción</block>
-  <block id="39cc53a4b658b6eadd0d5b6dba23db59" category="paragraph">Puede ver los problemas de licencia y suscripción que deben resolverse.  Los problemas incluyen licencias y suscripciones que están a punto de vencer o alcanzar su capacidad máxima.</block>
-  <block id="83b5f3a5fb05f69da2408855be2db387" category="list-text">Seleccione *Resolver* en el mosaico *Requiere acción* para ver los problemas que necesitan ajustarse.  Si no aparece *Resolver*, no hay problemas que requieran acción en este momento.</block>
   <block id="b082a603fd1e4f128d09f1041b260d65" category="list-text">Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.</block>
   <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">Utilice el menú de acciones para resolver el problema.</block>
   <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">Administre sus licencias basadas en capacidad desde la consola para garantizar que su cuenta de NetApp tenga suficiente capacidad para sus sistemas Cloud Volumes ONTAP .</block>
@@ -346,14 +340,11 @@
   <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">Vincular una suscripción</block>
   <block id="8afaab6946e4a914b70539d7502e26ac" category="paragraph">Una vez que NetApp autorice su cuenta, podrá vincular las suscripciones de Keystone para usarlas con Cloud Volumes ONTAP. Esta acción permite a los usuarios seleccionar la suscripción como método de cobro para los nuevos sistemas Cloud Volumes ONTAP .</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">Un icono que consta de tres puntos uno al lado del otro.</block>
-  <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">Para la suscripción que desea vincular, haga clic en<block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> y seleccione *Enlace*.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Resultado</block>
   <block id="9c2f6d6e4376237ad065b1baa0ad822d" category="paragraph">La suscripción ahora está vinculada a su organización o cuenta de consola y está disponible para seleccionar al crear un entorno de trabajo de Cloud Volumes ONTAP .</block>
   <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">Solicitar más o menos capacidad comprometida</block>
   <block id="10d2905ee5dfcb309d64e3633fb774c1" category="paragraph">Si desea cambiar la capacidad comprometida para los niveles de servicio de su suscripción, puede enviar una solicitud a NetApp directamente desde la consola.  Solicitar capacidad adicional para un nivel de servicio proporciona más almacenamiento para los sistemas Cloud Volumes ONTAP .</block>
-  <block id="e45b542fbde799582edd5059bc1991a9" category="list-text">Para la suscripción cuya capacidad desea ajustar, haga clic en<block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> y seleccione *Ver detalle y editar*.</block>
   <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">Ingrese la capacidad comprometida solicitada para una o más suscripciones.</block>
-  <block id="dbae9df22f08344d5508b91cb73c6d15" category="list-text">Desplácese hacia abajo, ingrese cualquier detalle adicional para la solicitud y luego haga clic en *Enviar*.</block>
   <block id="8f140d9c4d508c36e3d4c57102f117eb" category="paragraph">Su solicitud crea un ticket en el sistema de NetApp para su procesamiento.</block>
   <block id="ec6e0d1bd46f010ced65478c609b1636" category="section-title">Monitorizar el uso</block>
   <block id="a3a13a09504a7f25eb72dede89db4f24" category="paragraph">El panel de Digital Advisor le permite supervisar el uso de la suscripción de Keystone y generar informes.</block>
@@ -362,7 +353,6 @@
   <block id="0c0401d1e9169d6dd38462b1e0d04126" category="section-title">Desvincular una suscripción</block>
   <block id="e29343f0ee1c0051a367e02b49c1c5ff" category="paragraph">Si ya no desea utilizar una suscripción de Keystone con la consola, puede desvincular la suscripción. Tenga en cuenta que solo puede desvincular una suscripción que no esté asociada a una suscripción existente de Cloud Volumes ONTAP .</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Seleccione * Keystone*.</block>
-  <block id="a666a430e484ea214384aefaa30da852" category="list-text">Para la suscripción que desea desvincular, haga clic en<block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> y seleccione *Desvincular*.</block>
   <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">La suscripción se desvincula de su organización o cuenta de la consola y ya no está disponible para seleccionar al crear un entorno de trabajo de Cloud Volumes ONTAP .</block>
   <block id="84d46f62b819e413ba1572fee9e31acc" category="summary">Administre sus licencias basadas en nodos en la consola para garantizar que cada sistema Cloud Volumes ONTAP tenga una licencia válida con la capacidad requerida.</block>
   <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">Administrar licencias basadas en nodos</block>
@@ -489,7 +479,6 @@
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">Es necesario completar la asignación de suscripción en la Consola para activar la compra y aplicar el precio con descuento.</block>
   <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">Debes completar todos los pasos para activar tu oferta privada. Omitir pasos puede generar errores de facturación. Aceptar y activar la oferta varias veces da como resultado un cobro doble.</block>
-  <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">Haga clic en el enlace de activación de oferta privada de su equipo de ventas de NetApp . El enlace debería verse similar al siguiente:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
   <block id="3aa206f6a7574e314eb4973a2b96b331" category="list-text">Uso de políticas administradas de AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* o *AWSMarketplaceFullAccess*</block>
   <block id="bc5572c241330df8ef51ced4284b0bdf" category="list-text">Uso de políticas de IAM personalizadas:<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> y<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
   <block id="e0d6be37107f0e0cac8ae690935c3953" category="list-text">Se le redirige a AWS Marketplace para ver la oferta privada.</block>
@@ -506,11 +495,7 @@
   <block id="dde6c83692973edca761850557257be5" category="list-text">Precio total del contrato</block>
   <block id="b43c2b4893351e438e51acfa55e878f2" category="paragraph">Para ofertas de contrato, ingrese el número de unidades acordadas. Para Cloud Volumes ONTAP, asegúrese de seleccionar la licencia correcta antes de suscribirse.</block>
   <block id="260570d179a259556c7bafc6eb55af17" category="list-text">Para aceptar la oferta privada, haga lo siguiente:</block>
-  <block id="6e0d4ea20631710cd0475440fa61cba7" category="list-text">Para uso bajo demanda, haga clic en *Suscribirse*.</block>
-  <block id="2120ac26a0fb66eb1e68af4f82592f26" category="list-text">Para ofertas de contrato, ingrese el número de unidades para cada servicio y haga clic en *Crear contrato*.</block>
   <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">Después de la aceptación, un banner confirma la suscripción y proporciona instrucciones para el registro.</block>
-  <block id="9a964a2e84212b282e85422fa8a70544" category="list-text">Haga clic en *Configurar su cuenta*. Esto redirecciona a la NetApp Console para configurar la suscripción.</block>
-  <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">Si aceptó la oferta pero no completó el registro, regrese a la página del producto. Para ver listados de contratos, haga clic en *Ver opciones de compra* para mostrar la oferta, luego seleccione *Configurar su cuenta*.</block>
   <block id="5e1b8f033801f9e6066729a408b4da2f" category="list-text">Después de iniciar sesión, navegue a<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Se le solicitará que:</block>
   <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.</block>
   <block id="75593b03eb6aef440911b04a96cd04dc" category="list-text">El reemplazo se aplica solo a una cuenta de consola.</block>
@@ -530,23 +515,15 @@
   <block id="47f26de5d5f809041d484473468f9e1e" category="paragraph">Debes completar todos los pasos para aceptar y activar tu oferta privada. Saltarse algunos pasos puede ocasionar problemas de activación o carga doble.</block>
   <block id="5b91f544615def8157e9739a509448c2" category="paragraph">Si nota discrepancias en los términos, precios o detalles de la oferta, o si no está seguro de qué oferta aceptar, no la acepte. Comuníquese con su equipo de ventas de NetApp .</block>
   <block id="8894c60d409fc720e1cb540f53b239d5" category="paragraph">Aceptar y activar la oferta varias veces da como resultado un cobro doble.</block>
-  <block id="80fe6f318fd4a7ea6ad9a4a59226a8d4" category="list-text">Haga clic en el vínculo de oferta privada proporcionado por su equipo de ventas de NetApp e inicie sesión. Si no hay ningún vínculo disponible, inicie sesión directamente en el portal de Azure.</block>
   <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">Busque o seleccione *Marketplace* de los servicios de Azure.</block>
-  <block id="01d52254404cff7607242f7525a5d9b5" category="list-text">En la página de Marketplace, haga clic en *Gestión de ofertas privadas* en la sección *Gestión*.</block>
-  <block id="0a0f4af873ce479f6cd264bdbc69c46a" category="list-text">Haga clic en *Ver + aceptar* para revisar los detalles de la oferta privada.</block>
   <block id="d6d5f4c87a78b99fabcaa4703996f9f1" category="list-text">Valide que los *detalles del plan*, el *plazo* y los *precios* sean correctos.</block>
   <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">Si los datos son incorrectos, no se suscriba. Comuníquese con su equipo de ventas de NetApp para corregir la oferta.</block>
-  <block id="75d15cf3a199a24423c04db8c6229fa7" category="list-text">Confirme y haga clic en *Aceptar oferta privada*.</block>
-  <block id="f6c5449120372658cd480801157add92" category="list-text">Haga clic en *Comprar* para completar el proceso de compra.</block>
   <block id="c835e219d7545abd5344ea09fe7ba5b9" category="paragraph">Si el botón *Comprar* no está disponible, confirma que tienes los permisos de compra necesarios. Si no lo hace, copie y comparta el enlace de la ventana de compra con alguien de su organización que esté autorizado.</block>
   <block id="f5e55f8f93d46fa2e348730347e0114b" category="list-text">En el flujo de trabajo de compras:</block>
   <block id="91a14b2790c4789bde6375a6c412e970" category="list-text">Seleccione la *suscripción de Azure* que desea utilizar.</block>
   <block id="aa41804b7f278699a1900d8c288a14a3" category="list-text">Seleccione el *Grupo de recursos* donde se creará la suscripción.</block>
   <block id="8eca803eab6a65681b87d1ee4e176522" category="list-text">Introduzca un *Nombre* para la nueva suscripción.</block>
   <block id="3460a7ac34077d5cddfc99b0f205478c" category="list-text">Opcionalmente, configure *Etiquetas* (para producto, ubicación del sitio, definición de carga de trabajo o convención de nomenclatura).</block>
-  <block id="1a3a645cf42eafbdd06b4843afc9596f" category="list-text">Haga clic en *Revisar y suscribirse*, valide los detalles y luego haga clic en *Suscribirse*.</block>
-  <block id="66e4d81fac45c89822d86dd90ffec210" category="list-text">Cuando la suscripción se haya creado correctamente, haga clic en *Configurar cuenta ahora*. Esto lo redireccionará a la NetApp Console para completar la configuración.</block>
-  <block id="9a563c483cf139d09ed5790b6644bd40" category="paragraph">La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos en completarse. Si la página se cerró antes de hacer clic en *Configurar cuenta ahora*, regrese al servicio en el portal de Azure. La suscripción se muestra como *Configuración pendiente*. Selecciónelo para continuar con la configuración.</block>
   <block id="28aeb99ad7fa714f50ee0dba31b74247" category="list-text">Serás redirigido a<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> y se le solicitará que inicie sesión.</block>
   <block id="f0456057cee7cc1dd8dba0eea97afb99" category="list-text">Después de iniciar sesión, será redirigido a<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . Se le solicitará que:</block>
   <block id="39adb4da3012b43be809229537dd4480" category="list-text">Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.</block>
@@ -564,20 +541,16 @@
   <block id="54ea7f5728b4fe3047e1bed3564400bf" category="paragraph">Debes completar todos los pasos para activar tu oferta privada. Saltarse pasos puede causar problemas como carga doble.</block>
   <block id="0f42a5bd113a6793bdfb54ff1c208d97" category="paragraph">Si nota discrepancias en los términos, precios o detalles de la oferta, o si no está seguro de qué oferta aceptar, no la acepte. Comuníquese con su equipo de cuentas de NetApp para obtener una aclaración.</block>
   <block id="9348292a72d4f417166e1fd8b106c7c8" category="paragraph">Si ya tienes una suscripción PAYGO activa o una oferta privada modificada, solo necesitas realizar los pasos de aceptación. En estos casos, el Marketplace actualiza el plan dentro del mismo listado y conserva el mismo ID de suscripción, por lo que la asociación de suscripción en la Consola permanece intacta.</block>
-  <block id="290bbb83a89ab08e84b67b872e1882b9" category="list-text">Haga clic en el enlace de activación de oferta privada proporcionado por su equipo de ventas de NetApp . El enlace debería verse similar al siguiente:<block ref="7d9578c0f61bb46b3c15bbcf093caa47" prefix=" " category="inline-code"></block></block>
   <block id="c06f390cc77930ad800760399f795901" category="list-text">Serás redirigido a Google Cloud Marketplace donde podrás revisar los detalles de la oferta:</block>
   <block id="6c3d8751216e46ce88977f0a36da3bcd" category="list-text">**Cuenta de facturación**</block>
   <block id="6c3a16e063e7de47eb80c62e71151c2e" category="list-text">**Producto**: NetApp Console</block>
   <block id="a370fb40448c1a9cfd60035cbf486153" category="list-text">**Detalles de la oferta**</block>
   <block id="d187556677277eb1fac2454e9173b115" category="list-text">**Precios**</block>
   <block id="dbafd25ecc4a1bd157a51b6df56ad0c4" category="paragraph">Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es incorrecto, no acepte la oferta. Comuníquese con su equipo de cuentas de NetApp para solicitar una modificación.</block>
-  <block id="c5cd3c98a99c425040223e4b93fa3292" category="list-text">Confirme que la información sea precisa, acepte los términos y haga clic en **Aceptar**.</block>
   <block id="85d9763d3791c88a822fb6f9a7689d51" category="list-text">Aparece un icono de carga mientras se crea la suscripción.</block>
   <block id="bd57a36b79c39cc2107f5d54656ea4e2" category="list-text">Cuando la suscripción se crea correctamente, aparece una ventana emergente: *Su solicitud de pedido se ha enviado a NetApp, Inc.*</block>
-  <block id="fedfe1dd578adf183aa0564e9868eb0a" category="list-text">Haga clic en **REGISTRARSE CON NETAPP, Inc.**. Serás redirigido a la NetApp Console para terminar de configurar tu suscripción. Si la oferta privada fue aceptada por otra persona de su organización:</block>
   <block id="4eb83948e70f96f003401374e672121a" category="list-text">En Google Cloud Marketplace, vaya a **Pedidos**.</block>
   <block id="988a06cb0560fd8ac30cad8db115da85" category="list-text">Localiza la oferta con estado **Pendiente**.</block>
-  <block id="0418114406a14ea85606e27fbe1ee330" category="list-text">Haga clic en el menú de tres puntos y seleccione **Registrarse con NetApp, Inc.**</block>
   <block id="e58b6bbe6eb23bea3dd1681ec6a9af11" category="list-text">Serás redirigido a<block ref="7c376aef5250afe71efcebf7a7a3f4b9" prefix=" " category="inline-code"></block> y se le solicitará que inicie sesión.</block>
   <block id="58fd0c4f67d67b5379d45ee8a3db553f" category="list-text">Después de iniciar sesión, será redirigido a<block ref="24d15e59be383cd22c6b17c55af710c1" prefix=" " category="inline-code"></block> . Se muestra una ventana emergente donde debes:</block>
   <block id="109deb83c524752969863db2154396e3" category="list-text">Ingrese un nombre para mostrar para la *Suscripción a SaaS Marketplace*.</block>
@@ -631,7 +604,6 @@
   <block id="ca35b157a89bbc8ba6a6d0d4692fe2fb" category="paragraph">Puede limitar el uso de la suscripción a una organización específica o compartir la suscripción entre varias organizaciones.</block>
   <block id="bda5c6e4132d7f1bfcaa387aa9bcb6ec" category="paragraph">Debe tener el rol de administrador de la organización para asociar una suscripción con una organización.</block>
   <block id="c53adc94271638b800aab67861b845fc" category="admonition">La consola admite la gestión de identidad y acceso (IAM) en modo estándar, que utiliza organizaciones para administrar usuarios y recursos.  Si usa la consola en modo privado o restringido, utilice una _cuenta_ de consola para administrar usuarios y recursos, incluidas las suscripciones.</block>
-  <block id="b3170678c3c61ffc94af47ef973eeb35" category="list-text">En la fila de la suscripción que desea asociar, abra el menú de acciones y seleccione *Asociar*.</block>
   <block id="7d3a30fe2668092a63decc90304c25c5" category="list-text">En el cuadro de diálogo *Asociar la suscripción*, seleccione una o más organizaciones para asociarlas con la suscripción.</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">Seleccione *Asociado*.</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">Ver las credenciales asociadas a una suscripción</block>
@@ -640,7 +612,6 @@
   <block id="54a532ed5b57b0751dc3bc4333f738c5" category="list-text">En la fila que contiene la suscripción cuyas credenciales desea ver, seleccione Ver.  Si hay varias credenciales asociadas a una suscripción, es posible que no se muestre ninguna y se le solicitará que seleccione un agente diferente.</block>
   <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">Desconfigurar una suscripción</block>
   <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">Antes de poder eliminar una suscripción, debes desconfigurarla.  Esto borra todos los datos y configuraciones asociados.</block>
-  <block id="8f401d09de150d1b370bd812c149ef02" category="list-text">En la fila de la suscripción que desea desconfigurar, haga clic en el menú de acciones y seleccione *Desconfigurar*.</block>
   <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">Siga las instrucciones para eliminar o restablecer cualquier configuración o dato asociado.</block>
   <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">Espere a que el estado se actualice a *Sin configurar*.</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">Eliminar una suscripción</block>
@@ -719,7 +690,6 @@
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un icono de tres puntos horizontales</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Al utilizar esta opción se le solicitará que inicie sesión nuevamente. Tenga en cuenta que el token de estas cuentas caduca después de 90 días. Se publicará una notificación para avisarle de esto.</block>
   <block id="80f48cc4cb64860e960ab9e9145cc67e" category="paragraph">Para administrar licencias, puede agruparlas según el nombre del servicio.  Esto le permite ver todas las licencias relacionadas con un servicio específico.  Puede expandir una fila para ver información detallada sobre cada licencia relacionada con el servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.  Las licencias se agrupan automáticamente por nombre de servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.</block>
-  <block id="f82297c58511adf82f03f07c94881e8b" category="list-text">Haga clic en una fila de nombre de servicio para expandirla.  Aquí se muestran todas las licencias relacionadas con ese servicio.  Cada fila expandida muestra información detallada sobre las licencias, incluido el ID de la licencia, el número de serie, la capacidad y la fecha de vencimiento.</block>
   <block id="bb7f3fec4d3c3aaa10956abf2960654c" category="summary">Descubra las novedades sobre las licencias y suscripciones de NetApp Console .</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">Qué hay de nuevo</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 de octubre de 2025</block>
@@ -753,9 +723,6 @@
   <block id="8c8503ff8c21813561363b608190163e" category="paragraph"><block ref="24cab88ee4e7cc87558a54f6745deabe" category="inline-link-rx"></block> .</block>
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">3 de julio de 2022</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">Capacidad consumida</block>
-  <block id="290fbe7a9d91cd4191566b8d26837eb2" category="paragraph">Ahora le muestra la capacidad total consumida en su cuenta y la capacidad consumida por paquete de licencia. Esto puede ayudarle a comprender cómo se le está cobrando y si necesita comprar capacidad adicional.</block>
-  <block id="61589f40a840f6f60d0d36160690dc0e" category="inline-image-macro">Una captura de pantalla que muestra la página de licencias basadas en capacidad. La página proporciona una descripción general de la capacidad consumida en su cuenta y luego desglosa la capacidad consumida por paquete de licencias.</block>
-  <block id="4b661d618c68b40651187ff1169d6947" category="paragraph"><block ref="4b661d618c68b40651187ff1169d6947" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">27 de febrero de 2022</block>
   <block id="ad542dc76a1c13d716648648c7052561" category="section-title">Licencias para clústeres ONTAP locales</block>
   <block id="cc6992a66b9fc6bd5f23a20beff49e2a" category="paragraph">Ahora puede ver un inventario de sus clústeres ONTAP locales junto con sus fechas de vencimiento de contratos de hardware y servicio. También están disponibles detalles adicionales sobre los clústeres.</block>
@@ -810,12 +777,10 @@
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">Permisos</block>
   <block id="0429b17ec8c6088185487126a1732401" category="section-title">Preferencias de facturación</block>
   <block id="16595df5a4605390cff6c818f3223d5e" category="paragraph">Las preferencias de facturación garantizan que los cargos por uso y las renovaciones se apliquen correctamente.  Una configuración adecuada reduce las disputas de facturación y facilita la gestión de modelos de licencias híbridos que combinan la capacidad propiedad de NetApp con la capacidad adquirida en el marketplace.</block>
-  <block id="6da4e5f2a97800c29881b3e6f807c9f9" category="paragraph">Por ejemplo, las preferencias de facturación globales pueden unificar su lista de contactos de facturación para que todos los servicios compartan un único administrador de facturación.  También puede utilizar etiquetas de centro de costos para alinear el uso entre departamentos o regiones y habilitar la renovación automática para evitar interrupciones del servicio.  Las nuevas implementaciones de Cloud Volumes ONTAP (CVO) heredan automáticamente el modo de facturación que defina aquí, lo que mantiene la coherencia del modelo de facturación de su organización a medida que se agregan nuevos sistemas.</block>
   <block id="6b5482849442a1db8a7dc9641fdb0267" category="paragraph">Las preferencias de facturación se configuran en la sección * Licenses and subscriptions* de la NetApp Console.</block>
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="section-title">Campos</block>
   <block id="e662217eb22f6b7b966f1ed07411a3dd" category="paragraph">Los campos de facturación almacenan metadatos sobre cómo se factura cada licencia o suscripción.  Describen a quién se le factura, cómo se realizan las renovaciones y a qué cuenta o centro de costos pertenece cada servicio.</block>
   <block id="5ea0317322a30367980e8c9bc0ba1526" category="section-title">Campos del mercado</block>
-  <block id="79f2a7eababe1137125b178922330c89" category="paragraph">Los campos del Marketplace describen contratos que se originan en un proveedor de servicios en la nube como AWS, Azure o Google Cloud.  Estos campos definen cómo NetApp Console conecta sus suscripciones con la información de facturación almacenada en el mercado del proveedor.  También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.</block>
   <block id="1ec20092f022395f6a3fb48cc89d2712" category="list-text">*Proveedor de marketplace* — Identifica la plataforma en la nube donde se gestiona la facturación.  El proveedor determina las características admitidas, los tipos de contrato y las reglas de renovación.  Por ejemplo, las suscripciones a AWS Marketplace utilizan la facturación basada en cuentas, mientras que Azure puede admitir modelos basados tanto en cuentas como en inquilinos.</block>
   <block id="76a83c6a538f170af8f3199778ab5d20" category="list-text">*ID de cuenta de facturación o suscripción* — Especifica el identificador único de la cuenta utilizada para procesar los cargos.  Esto garantiza que los datos de uso se facturen al perfil de facturación en la nube correcto.</block>
   <block id="40edb4d9db39c885c8f287955a205dd9" category="list-text">*Plazo del contrato* — Define la duración de la suscripción y las opciones de renovación.</block>
@@ -828,7 +793,6 @@
   <block id="bd27825e29cf2d98c578e77afb94b1c6" category="section-title">Opciones y definiciones de facturación</block>
   <block id="03555ffe5812a75b2af9616945efb4ae" category="paragraph">Las opciones de facturación definen cómo NetApp Console prioriza y aplica los cargos por uso cuando se conectan varias fuentes de facturación.  Controlan qué cuenta se carga primero y cómo cambia la facturación entre las licencias de NetApp y las suscripciones del marketplace cuando se alcanzan los límites de capacidad.</block>
   <block id="b3d89ece83562f88030a191c249bad73" category="section-title">Términos y opciones</block>
-  <block id="a55395ffeda03423a6b2bd6f7b56af60" category="paragraph">Puedes elegir entre diferentes modalidades de facturación según la estrategia de compras de tu organización:</block>
   <block id="86c40f4a9268aebb03561947473b2a13" category="list-text">*Primero las licencias de NetApp * — Prioriza la facturación a través de las licencias activas de NetApp .  Cuando se agota la capacidad de estas licencias, el uso se transfiere automáticamente a la suscripción del mercado vinculado.</block>
   <block id="abe0bf658f8b3cf77c51090513672096" category="list-text">*Solo suscripciones a Marketplace* — Toda la facturación se realiza a través de contratos de Marketplace, sin utilizar las licencias de NetApp .  Esto es común en organizaciones que estandarizan las adquisiciones mediante la facturación de proveedores de servicios en la nube.</block>
   <block id="52d0542426a76b37f65cfbdf0619b429" category="list-text">*PAYGO (Pago por uso)* — Se facturan únicamente los consumos reales.</block>
@@ -860,7 +824,6 @@
   <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">Seleccione *Guardar cambios*.</block>
   <block id="108c7e8f13bbc93814f67368581b2ce0" category="list-text">Cuando se le solicite, revise el cuadro de diálogo de confirmación y seleccione *Confirmar*.</block>
   <block id="17741aaf0ce5304ce281496e14f3c373" category="paragraph">La NetApp Console actualiza las asignaciones de facturación.  Los cargos por servicio y las renovaciones futuras ahora utilizan la configuración seleccionada.</block>
-  <block id="bd46b5654a0a24c4b8c111c40e5f21a9" category="admonition">Cambiar el modo de facturación redistribuye la forma en que se aplican los cargos por servicio.  Las nuevas instancias de Cloud Volumes ONTAP (CVO) heredan automáticamente la configuración seleccionada.</block>
   <block id="77e323811c3d488cfff7cab6c2087d26" category="list-text">Seleccione **Guardar cambios**.</block>
   <block id="c81a2ae0cc1277c522901ce2c6a4e502" category="section-title">Editar configuración del mercado</block>
   <block id="69476e8919a2f56846d34ab0189304c4" category="paragraph">Puedes editar los detalles de configuración del marketplace para asociar suscripciones con proyectos en la nube o para actualizar la información del contrato.</block>
@@ -879,8 +842,6 @@
   <block id="fb76b0a0d9556954b60d57166a9a58ff" category="list-text">Abra *Preferencias de facturación*.</block>
   <block id="f8947715618c321a3794e787f7aecd94" category="list-text">Deshabilitar *Configuración CVO personalizada*.</block>
   <block id="f44a159781425e53cf2e7e568e18930f" category="list-text">Cuando se le solicite, confirme que desea volver a la configuración estándar.</block>
-  <block id="a56efbb0b90cd4068ca8a8992f33400e" category="list-text">Haz clic en **Asociar**.</block>
-  <block id="cd674dd3286e68276bf76f6117b9d5be" category="list-text">Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.</block>
   <block id="07b5c65992e18ea1f96d4431ed697e21" category="list-text">Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.</block>
   <block id="c405cb4ee0a4475b96f30fb0962daa3e" category="list-text">Revisa las opciones de suscripción del mercado.</block>
   <block id="c0ab08cc5546a8c99ef8010e4cb766a0" category="list-text">Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.</block>
@@ -888,7 +849,6 @@
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">Obtenga información sobre las preferencias de facturación.</block>
   <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">Desde el menú de la NetApp Console , seleccione *Administración &gt; Licenses and subscriptions* y, a continuación, seleccione la pestaña *Licencias directas*.</block>
   <block id="9ef810f213faea9695f8494f68387049" category="list-text">Desde el menú de la NetApp Console , seleccione *Administración &gt; Licenses and subscriptions*.</block>
-  <block id="bb6a3f5790fd10ced1f6845ea4d3ba04" category="paragraph">En la NetApp Console puede configurar y administrar las preferencias de facturación para controlar cómo se aplican el uso de la capacidad, las renovaciones y las facturas a las cuentas de su organización. Las preferencias de facturación determinan si los cargos por uso provienen de licencias de NetApp , contratos del mercado en la nube o acuerdos de Keystone .</block>
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">En la NetApp Console, seleccione *Administración &gt; Licenses and subscriptions*.</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*Proyecto en la nube*</block>
   <block id="7122970c90188deca8583df3506aa39c" category="list-text">Desde el menú Consola, seleccione *Administración* &gt; * Licenses and subscriptions* y, a continuación, seleccione la pestaña *Licencias directas*.</block>
@@ -971,7 +931,46 @@
   <block id="2ef69aab27aad02b09bd9c1e01dfe293" category="list-text">Selecciona la Console *Organization* con acceso a la suscripción.</block>
   <block id="aa9da6403204546dcd3c3b41bda594eb" category="list-text">[Opcional] Activa *Reemplazar suscripción existente* para sobrescribir una suscripción existente para una organización.</block>
   <block id="7df82bbcc877cc7b0ae3f358c7acd1ee" category="list-text">Selecciona las *Organizations* de NetApp Console que deberían tener acceso a esta suscripción.</block>
-  <block id="6b19be00318068639bb55171c38824da" category="list-text">Opcionalmente, puedes activar *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción existente de Marketplace en una organización de Console.</block>
   <block id="f6a3d6466a9b3dd0a42a2d2b4b3377a6" category="list-text">Selecciona las *Organizations* de la NetApp Console que deberían tener acceso a la suscripción.</block>
   <block id="abd213f6c87bacca6bcd08de8ac36571" category="list-text">Opcionalmente, puedes activar **Reemplazar suscripción existente** si quieres reemplazar automáticamente una suscripción existente de Marketplace en una organización de Console.</block>
+  <block id="3a58b32f40b5e8e497874075ce80ead0" category="list-text">Selecciona una fila de nombre de servicio para expandirla. Esto muestra todas las licencias relacionadas con ese servicio. Cada fila expandida muestra información detallada sobre las licencias, incluido el ID de licencia, el número de serie, la capacidad y la fecha de caducidad.</block>
+  <block id="933ff4ba5601cbcc7feb8a2d4fb2a9bf" category="paragraph">Por ejemplo, las preferencias de facturación global pueden unificar la lista de contactos de facturación para que todos los servicios compartan un único administrador de facturación. También puedes usar etiquetas de centros de coste para alinear el uso entre departamentos o regiones, y activar la renovación automática para evitar interrupciones del servicio. Las nuevas implementaciones de Cloud Volumes ONTAP heredan automáticamente el modo de facturación que defines aquí, lo que mantiene coherente el modelo de pago por uso de tu organización a medida que se añaden nuevos sistemas.</block>
+  <block id="54fcef087d6b48c92dbbb8ac72f593c0" category="paragraph">Los campos de marketplace describen los contratos que se originan en un proveedor de nube como AWS, Azure o Google Cloud. Estos campos definen cómo NetApp Console conecta tus suscripciones con la información de facturación almacenada en el marketplace del proveedor. También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.</block>
+  <block id="e5081b7905ad864689ed6d79eec0b12c" category="paragraph">Puedes elegir entre distintos modos de facturación según la estrategia de aprovisionamiento de tu organización:</block>
+  <block id="595cce1a707876efb5af81547b8c45f7" category="paragraph">El panel de control *Overview* de la consola te ayuda a supervisar los estados de tus licencias y suscripciones para asegurarte de que puedes gestionar los costes y mantener el servicio a medida que las suscripciones alcanzan las fechas de caducidad o los límites de capacidad.</block>
+  <block id="f219c0a9bbd89956963c78f2767baad1" category="paragraph">Puedes ver información específica sobre licencias y suscripciones de cada uno de tus servicios de datos (incluido Cloud Volumes ONTAP).</block>
+  <block id="48b78d4263fb260e1302eea43ab97297" category="paragraph">El panel de Licenses and subscriptions te avisa de los próximos límites de capacidad o vencimientos, para que tomes las medidas necesarias.</block>
+  <block id="ebd121972998fd8daff69f97ab69a917" category="paragraph">El panel *Overview* ofrece información detallada sobre los siguientes servicios:</block>
+  <block id="a7e0e99a39679ee01eacfb0af416d21b" category="paragraph">En el panel de información general, puedes ver los problemas de licencias y suscripciones que deben resolverse. Los problemas incluyen licencias y suscripciones que están por caducar o que están llegando al límite de su capacidad.</block>
+  <block id="b47325596a22c5a8ba674a9a5e213d83" category="list-text">En el mosaico *Requiere acción*, selecciona *Resolver* para ver los problemas que deben ajustarse. Si no aparece *Resolver*, no hay problemas que requieran acción.</block>
+  <block id="56ed7edfc768b93b25480e9f92ff2bcc" category="paragraph">Puedes configurar y gestionar las preferencias de facturación en la NetApp Console para controlar cómo se aplican el uso de la capacidad, las renovaciones y las facturas a las cuentas de tu organización. Las preferencias de facturación determinan si los cargos por uso provienen de licencias de NetApp, contratos de cloud marketplace o acuerdos Keystone.</block>
+  <block id="c59e51e49c60bf63e80dd12445ef4455" category="admonition">Cambiar el modo de facturación redistribuye cómo se aplican los cargos por servicio. Las nuevas instancias de Cloud Volumes ONTAP heredan automáticamente la configuración seleccionada.</block>
+  <block id="1da8061e8298048c27ede43db8d41efb" category="paragraph">Directiva sin resolver en &lt;stdin&gt; - include::task-view-license-status.adoc[]</block>
+  <block id="b3590df4b69c4ddf7017e6977baebe49" category="list-text">Para la suscripción que quieres vincular, selecciona <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> y selecciona *Enlazar*.</block>
+  <block id="665103db45058514d7e3b032c990783d" category="list-text">Para la suscripción cuya capacidad quieras ajustar, selecciona <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> y selecciona *Ver detalles y editar*.</block>
+  <block id="f638b98047aa1e2c9642d2de1bcdd0d0" category="list-text">Desplázate hacia abajo, introduce cualquier detalle adicional para la solicitud y luego selecciona *Enviar*.</block>
+  <block id="dc96e19fba7ac18b79e69398a4792825" category="list-text">Para la suscripción que quieres desvincular, selecciona <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> y selecciona *Desvincular*.</block>
+  <block id="1d64231f78e22c21d456a692b4cbdb65" category="list-text">Selecciona el enlace de activación de la oferta privada de tu equipo de ventas de NetApp. El enlace debe verse similar al siguiente:<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="31308c520ca0fc42a2dcafc9666c6d32" category="list-text">Para un uso a la carta, selecciona *Suscribirse*.</block>
+  <block id="5b365cd4a0e598c771835c8d4ec04551" category="list-text">Para las ofertas de contrato, introduce el número de unidades de cada servicio y selecciona *Crear contrato*.</block>
+  <block id="0629896d92c6d3e12b70728fbefe3efb" category="list-text">Selecciona *Set up your account*. Esto te redirige a la NetApp Console para configurar la suscripción.</block>
+  <block id="b380edc84bea666269c08bcc4a351c7d" category="paragraph">Si aceptaste la oferta pero no completaste el registro, vuelve a la página del producto. Para los listados de contratos, selecciona *Ver opciones de compra* para mostrar la oferta y luego selecciona *Configurar tu cuenta*.</block>
+  <block id="3967757dd609c21e5b5af4c86d89eba0" category="list-text">Selecciona **Associate**.</block>
+  <block id="88f9388f64655d682b2ca203d6b2fbf8" category="list-text">Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.</block>
+  <block id="57a5b95a928d1cab2237c175d10f6956" category="list-text">Selecciona el enlace de oferta privada proporcionado por tu equipo de ventas de NetApp e inicia sesión. Si no hay ningún enlace disponible, inicia sesión directamente en el portal de Azure.</block>
+  <block id="98f321296ec46020f8fe9ef16ad05d4e" category="list-text">En la página del Marketplace, selecciona *Private offer management* en la sección *Management*.</block>
+  <block id="c27b5ee75a5f3053ff8a65dd3791b819" category="list-text">Selecciona *Ver + aceptar* para revisar los detalles de la oferta privada.</block>
+  <block id="1c8cfd3c11db35ba4bfe456209eac625" category="list-text">Confirma y selecciona *Aceptar oferta privada*.</block>
+  <block id="415cb2360253f051ce28d238ffd1eb68" category="list-text">Selecciona *Comprar* para completar el proceso de compra.</block>
+  <block id="7f21a2d7bbbdc3094e10a61799bebff0" category="list-text">Selecciona *Revisar y suscribirse*, valida los datos y luego selecciona *Suscribirse*.</block>
+  <block id="d888cd5163da2c273f4a95d84658984b" category="list-text">Cuando la suscripción se haya creado correctamente, selecciona *Configurar cuenta ahora*. Esto te redirige a la NetApp Console para completar la configuración.</block>
+  <block id="c2929519adb0b5f1b18e0470ac78acc5" category="paragraph">La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos en completarse. Si la página se cerró antes de seleccionar *Configurar cuenta ahora*, vuelve al servicio en el portal de Azure. La suscripción se muestra como *Pendiente de configuración*. Selecciona la suscripción para continuar con la configuración.</block>
+  <block id="067af64ef1d7e8c2d2af7527ff1df098" category="list-text">Opcionalmente, activa *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción existente de Marketplace en una organización de NetApp Console.</block>
+  <block id="f244952a56e1859171f682708761e65e" category="list-text">Selecciona el enlace de activación de la oferta privada proporcionado por tu equipo de ventas de NetApp. El enlace debe tener un aspecto similar al siguiente:<block ref="7d9578c0f61bb46b3c15bbcf093caa47" prefix=" " category="inline-code"></block></block>
+  <block id="342fd2a33edaa785e8da73c7f68eb98a" category="list-text">Confirma que la información es correcta, acepta las condiciones y selecciona **Aceptar**.</block>
+  <block id="57f1a9c697c3336df2c3c56d7ed47d29" category="list-text">Selecciona **REGISTER WITH NETAPP, Inc.**. Te redirigen a la NetApp Console para terminar de configurar tu suscripción. Si la oferta privada fue aceptada por otra persona de tu organización:</block>
+  <block id="ff7bbf6dcffb4b3f08c291a764f18dfe" category="list-text">Selecciona el menú de tres puntos y elige **Registrarse con NetApp, Inc.**</block>
+  <block id="69c9db700e88e13fa6be2001b38dfd08" category="list-text">En la fila de la suscripción que quieres asociar, abre el menú de acciones y selecciona *Asociar*.</block>
+  <block id="b3cdc96c2b7de37edaa1cdfe112925ae" category="list-text">En la fila de la suscripción que quieres desconfigurar, selecciona el menú de acciones y luego *Desconfigurar*.</block>
+  <block id="b36ceccfff88f5d9c684c4fec0f54c19" category="paragraph">Digital Wallet ahora te muestra la capacidad total consumida en tu cuenta y la capacidad consumida por paquete de licencias. Esto puede ayudarte a entender cómo te están cobrando y si necesitas comprar capacidad adicional.</block>
 </blocks>

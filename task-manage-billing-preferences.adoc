@@ -14,7 +14,7 @@ summary: Configure las preferencias de facturación en la NetApp Console para co
 
 
 [role="lead"]
-En la NetApp Console puede configurar y administrar las preferencias de facturación para controlar cómo se aplican el uso de la capacidad, las renovaciones y las facturas a las cuentas de su organización. Las preferencias de facturación determinan si los cargos por uso provienen de licencias de NetApp , contratos del mercado en la nube o acuerdos de Keystone .
+Puedes configurar y gestionar las preferencias de facturación en la NetApp Console para controlar cómo se aplican el uso de la capacidad, las renovaciones y las facturas a las cuentas de tu organización. Las preferencias de facturación determinan si los cargos por uso provienen de licencias de NetApp, contratos de cloud marketplace o acuerdos Keystone.
 
 .Antes de empezar
 * Usted tiene acceso al rol de *Administrador*.
@@ -49,7 +49,7 @@ Puede seleccionar cómo la consola aplica los cargos por uso a través de las di
 La NetApp Console actualiza las asignaciones de facturación.  Los cargos por servicio y las renovaciones futuras ahora utilizan la configuración seleccionada.
 
 
-NOTE: Cambiar el modo de facturación redistribuye la forma en que se aplican los cargos por servicio.  Las nuevas instancias de Cloud Volumes ONTAP (CVO) heredan automáticamente la configuración seleccionada.
+NOTE: Cambiar el modo de facturación redistribuye cómo se aplican los cargos por servicio. Las nuevas instancias de Cloud Volumes ONTAP heredan automáticamente la configuración seleccionada.
 
 
 

@@ -13,17 +13,17 @@ summary: Obtenga una descripción general de todas las suscripciones y licencias
 == Utilice la descripción general del panel de control
 
 [role="lead"]
-Utilice el panel de control *Descripción general* en la consola para supervisar el estado de sus licencias y suscripciones y asegurarse de poder administrar los costos y mantener el servicio a medida que las suscripciones alcanzan fechas de vencimiento o límites de capacidad.
+El panel de control *Overview* de la consola te ayuda a supervisar los estados de tus licencias y suscripciones para asegurarte de que puedes gestionar los costes y mantener el servicio a medida que las suscripciones alcanzan las fechas de caducidad o los límites de capacidad.
 
-Puede ver información específica de licencia y suscripción sobre cada uno de sus servicios de datos (incluido Cloud Volumes ONTAP) y profundizar en los detalles de cada uno.
+Puedes ver información específica sobre licencias y suscripciones de cada uno de tus servicios de datos (incluido Cloud Volumes ONTAP).
 
-También se le avisará sobre los próximos límites de capacidad o vencimientos y se le solicitará que tome medidas.
+El panel de Licenses and subscriptions te avisa de los próximos límites de capacidad o vencimientos, para que tomes las medidas necesarias.
 
 
 
 === Ver detalles sobre un servicio de datos específico
 
-El panel de control *Descripción general* brinda la posibilidad de ver detalles sobre los siguientes servicios de datos:
+El panel *Overview* ofrece información detallada sobre los siguientes servicios:
 
 * Cloud Volumes ONTAP
 * Recuperación ante desastres
@@ -63,11 +63,11 @@ link:task-manage-data-services-licenses.html["Obtenga más información sobre la
 
 === Resolver problemas de licencia o suscripción
 
-Puede ver los problemas de licencia y suscripción que deben resolverse.  Los problemas incluyen licencias y suscripciones que están a punto de vencer o alcanzar su capacidad máxima.
+En el panel de información general, puedes ver los problemas de licencias y suscripciones que deben resolverse. Los problemas incluyen licencias y suscripciones que están por caducar o que están llegando al límite de su capacidad.
 
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Descripción general*.
-. Seleccione *Resolver* en el mosaico *Requiere acción* para ver los problemas que necesitan ajustarse.  Si no aparece *Resolver*, no hay problemas que requieran acción en este momento.
+. En el mosaico *Requiere acción*, selecciona *Resolver* para ver los problemas que deben ajustarse. Si no aparece *Resolver*, no hay problemas que requieran acción.
 . Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.
 . Utilice el menú de acciones para resolver el problema.
 +

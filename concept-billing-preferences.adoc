@@ -58,7 +58,7 @@ Los usuarios con este rol tienen acceso de solo lectura. Los usuarios del visor 
 
 Las preferencias de facturación garantizan que los cargos por uso y las renovaciones se apliquen correctamente.  Una configuración adecuada reduce las disputas de facturación y facilita la gestión de modelos de licencias híbridos que combinan la capacidad propiedad de NetApp con la capacidad adquirida en el marketplace.
 
-Por ejemplo, las preferencias de facturación globales pueden unificar su lista de contactos de facturación para que todos los servicios compartan un único administrador de facturación.  También puede utilizar etiquetas de centro de costos para alinear el uso entre departamentos o regiones y habilitar la renovación automática para evitar interrupciones del servicio.  Las nuevas implementaciones de Cloud Volumes ONTAP (CVO) heredan automáticamente el modo de facturación que defina aquí, lo que mantiene la coherencia del modelo de facturación de su organización a medida que se agregan nuevos sistemas.
+Por ejemplo, las preferencias de facturación global pueden unificar la lista de contactos de facturación para que todos los servicios compartan un único administrador de facturación. También puedes usar etiquetas de centros de coste para alinear el uso entre departamentos o regiones, y activar la renovación automática para evitar interrupciones del servicio. Las nuevas implementaciones de Cloud Volumes ONTAP heredan automáticamente el modo de facturación que defines aquí, lo que mantiene coherente el modelo de pago por uso de tu organización a medida que se añaden nuevos sistemas.
 
 Las preferencias de facturación se configuran en la sección * Licenses and subscriptions* de la NetApp Console.
 
@@ -79,7 +79,7 @@ Los campos de facturación almacenan metadatos sobre cómo se factura cada licen
 
 === Campos del mercado
 
-Los campos del Marketplace describen contratos que se originan en un proveedor de servicios en la nube como AWS, Azure o Google Cloud.  Estos campos definen cómo NetApp Console conecta sus suscripciones con la información de facturación almacenada en el mercado del proveedor.  También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.
+Los campos de marketplace describen los contratos que se originan en un proveedor de nube como AWS, Azure o Google Cloud. Estos campos definen cómo NetApp Console conecta tus suscripciones con la información de facturación almacenada en el marketplace del proveedor. También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.
 
 * *Proveedor de marketplace* — Identifica la plataforma en la nube donde se gestiona la facturación.  El proveedor determina las características admitidas, los tipos de contrato y las reglas de renovación.  Por ejemplo, las suscripciones a AWS Marketplace utilizan la facturación basada en cuentas, mientras que Azure puede admitir modelos basados tanto en cuentas como en inquilinos.
 * *ID de cuenta de facturación o suscripción* — Especifica el identificador único de la cuenta utilizada para procesar los cargos.  Esto garantiza que los datos de uso se facturen al perfil de facturación en la nube correcto.
@@ -112,7 +112,7 @@ Las opciones de facturación definen cómo NetApp Console prioriza y aplica los 
 
 === Términos y opciones
 
-Puedes elegir entre diferentes modalidades de facturación según la estrategia de compras de tu organización:
+Puedes elegir entre distintos modos de facturación según la estrategia de aprovisionamiento de tu organización:
 
 * *Primero las licencias de NetApp * — Prioriza la facturación a través de las licencias activas de NetApp .  Cuando se agota la capacidad de estas licencias, el uso se transfiere automáticamente a la suscripción del mercado vinculado.
 * *Solo suscripciones a Marketplace* — Toda la facturación se realiza a través de contratos de Marketplace, sin utilizar las licencias de NetApp .  Esto es común en organizaciones que estandarizan las adquisiciones mediante la facturación de proveedores de servicios en la nube.

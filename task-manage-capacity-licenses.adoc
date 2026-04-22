@@ -10,7 +10,7 @@ summary: Administre sus licencias basadas en capacidad desde la consola para gar
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
 
 
 [role="lead lead"]

@@ -46,7 +46,7 @@ Si ya tienes una suscripción PAYGO activa o una oferta privada modificada, solo
 
 ====
 .Pasos
-. Haga clic en el enlace de activación de oferta privada proporcionado por su equipo de ventas de NetApp . El enlace debería verse similar al siguiente:
+. Selecciona el enlace de activación de la oferta privada proporcionado por tu equipo de ventas de NetApp. El enlace debe tener un aspecto similar al siguiente:
 `https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
 . Serás redirigido a Google Cloud Marketplace donde podrás revisar los detalles de la oferta:
 +
@@ -62,14 +62,14 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 ====
 
 
-. Confirme que la información sea precisa, acepte los términos y haga clic en **Aceptar**.
+. Confirma que la información es correcta, acepta las condiciones y selecciona **Aceptar**.
 . Aparece un icono de carga mientras se crea la suscripción.
 . Cuando la suscripción se crea correctamente, aparece una ventana emergente: *Su solicitud de pedido se ha enviado a NetApp, Inc.*
-. Haga clic en **REGISTRARSE CON NETAPP, Inc.**. Serás redirigido a la NetApp Console para terminar de configurar tu suscripción. Si la oferta privada fue aceptada por otra persona de su organización:
+. Selecciona **REGISTER WITH NETAPP, Inc.**. Te redirigen a la NetApp Console para terminar de configurar tu suscripción. Si la oferta privada fue aceptada por otra persona de tu organización:
 +
 .. En Google Cloud Marketplace, vaya a **Pedidos**.
 .. Localiza la oferta con estado **Pendiente**.
-.. Haga clic en el menú de tres puntos y seleccione **Registrarse con NetApp, Inc.**
+.. Selecciona el menú de tres puntos y elige **Registrarse con NetApp, Inc.**
 
 
 . Serás redirigido a `https://console.netapp.com` y se le solicitará que inicie sesión.
@@ -88,8 +88,8 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 ====
 
 
-. Haz clic en **Asociar**.
-. Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.
+. Selecciona **Associate**.
+. Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.
 . Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.

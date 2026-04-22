@@ -132,7 +132,7 @@ NOTE: La consola admite la gestión de identidad y acceso (IAM) en modo estánda
 .Pasos
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
-. En la fila de la suscripción que desea asociar, abra el menú de acciones y seleccione *Asociar*.
+. En la fila de la suscripción que quieres asociar, abre el menú de acciones y selecciona *Asociar*.
 . En el cuadro de diálogo *Asociar la suscripción*, seleccione una o más organizaciones para asociarlas con la suscripción.
 . Seleccione *Asociado*.
 
@@ -161,7 +161,7 @@ Antes de poder eliminar una suscripción, debes desconfigurarla.  Esto borra tod
 .Pasos
 . En el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
-. En la fila de la suscripción que desea desconfigurar, haga clic en el menú de acciones y seleccione *Desconfigurar*.
+. En la fila de la suscripción que quieres desconfigurar, selecciona el menú de acciones y luego *Desconfigurar*.
 . Siga las instrucciones para eliminar o restablecer cualquier configuración o dato asociado.
 . Espere a que el estado se actualice a *Sin configurar*.
 

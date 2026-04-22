@@ -48,17 +48,17 @@ Aceptar y activar la oferta varias veces da como resultado un cobro doble.
 
 ====
 .Pasos
-. Haga clic en el vínculo de oferta privada proporcionado por su equipo de ventas de NetApp e inicie sesión. Si no hay ningún vínculo disponible, inicie sesión directamente en el portal de Azure.
+. Selecciona el enlace de oferta privada proporcionado por tu equipo de ventas de NetApp e inicia sesión. Si no hay ningún enlace disponible, inicia sesión directamente en el portal de Azure.
 . Busque o seleccione *Marketplace* de los servicios de Azure.
-. En la página de Marketplace, haga clic en *Gestión de ofertas privadas* en la sección *Gestión*.
-. Haga clic en *Ver + aceptar* para revisar los detalles de la oferta privada.
+. En la página del Marketplace, selecciona *Private offer management* en la sección *Management*.
+. Selecciona *Ver + aceptar* para revisar los detalles de la oferta privada.
 +
 .. Valide que los *detalles del plan*, el *plazo* y los *precios* sean correctos.
 .. Si los datos son incorrectos, no se suscriba. Comuníquese con su equipo de ventas de NetApp para corregir la oferta.
 
 
-. Confirme y haga clic en *Aceptar oferta privada*.
-. Haga clic en *Comprar* para completar el proceso de compra.
+. Confirma y selecciona *Aceptar oferta privada*.
+. Selecciona *Comprar* para completar el proceso de compra.
 +
 [NOTE]
 ====
@@ -73,12 +73,12 @@ Si el botón *Comprar* no está disponible, confirma que tienes los permisos de 
 
 
 . Opcionalmente, configure *Etiquetas* (para producto, ubicación del sitio, definición de carga de trabajo o convención de nomenclatura).
-. Haga clic en *Revisar y suscribirse*, valide los detalles y luego haga clic en *Suscribirse*.
-. Cuando la suscripción se haya creado correctamente, haga clic en *Configurar cuenta ahora*. Esto lo redireccionará a la NetApp Console para completar la configuración.
+. Selecciona *Revisar y suscribirse*, valida los datos y luego selecciona *Suscribirse*.
+. Cuando la suscripción se haya creado correctamente, selecciona *Configurar cuenta ahora*. Esto te redirige a la NetApp Console para completar la configuración.
 +
 [NOTE]
 ====
-La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos en completarse. Si la página se cerró antes de hacer clic en *Configurar cuenta ahora*, regrese al servicio en el portal de Azure. La suscripción se muestra como *Configuración pendiente*. Selecciónelo para continuar con la configuración.
+La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos en completarse. Si la página se cerró antes de seleccionar *Configurar cuenta ahora*, vuelve al servicio en el portal de Azure. La suscripción se muestra como *Pendiente de configuración*. Selecciona la suscripción para continuar con la configuración.
 
 ====
 . Serás redirigido a https://console.netapp.com[] y se le solicitará que inicie sesión.
@@ -86,7 +86,7 @@ La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos 
 +
 .. Introduzca un *Nombre para mostrar* para la suscripción de Marketplace.
 .. Selecciona las *Organizations* de NetApp Console que deberían tener acceso a esta suscripción.
-.. Opcionalmente, puedes activar *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción existente de Marketplace en una organización de Console.
+.. Opcionalmente, activa *Reemplazar suscripción existente* para reemplazar automáticamente una suscripción existente de Marketplace en una organización de NetApp Console.
 +
 [NOTE]
 ====
@@ -97,8 +97,8 @@ La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos 
 ====
 
 
-. Haz clic en **Asociar**.
-. Complete el formulario para asociar la suscripción con su organización de Console.  Luego, haga clic en **Asociar**.
+. Selecciona **Associate**.
+. Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.
 . Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.

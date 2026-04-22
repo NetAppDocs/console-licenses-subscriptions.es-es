@@ -6,5 +6,5 @@ Para administrar licencias, puede agruparlas según el nombre del servicio.  Est
 
 .Pasos
 . Desde el menú Consola, seleccione *Administración* > * Licenses and subscriptions* y, a continuación, seleccione la pestaña *Licencias directas*.
-. Haga clic en una fila de nombre de servicio para expandirla.  Aquí se muestran todas las licencias relacionadas con ese servicio.  Cada fila expandida muestra información detallada sobre las licencias, incluido el ID de la licencia, el número de serie, la capacidad y la fecha de vencimiento.
+. Selecciona una fila de nombre de servicio para expandirla. Esto muestra todas las licencias relacionadas con ese servicio. Cada fila expandida muestra información detallada sobre las licencias, incluido el ID de licencia, el número de serie, la capacidad y la fecha de caducidad.
 
