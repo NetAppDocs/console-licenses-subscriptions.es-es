@@ -133,7 +133,7 @@ NOTE: La consola admite la gestión de identidad y acceso (IAM) en modo estánda
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila de la suscripción que quieres asociar, abre el menú de acciones y selecciona *Asociar*.
-. En el cuadro de diálogo *Asociar la suscripción*, seleccione una o más organizaciones para asociarlas con la suscripción.
+. En el cuadro de diálogo *Asociar la suscripción*, selecciona las organizaciones de Console que deseas asociar a la suscripción.
 . Seleccione *Asociado*.
 
 
@@ -149,7 +149,7 @@ NOTE: Utilice el menú desplegable Agente en la barra de navegación superior pa
 .Pasos
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
-. En la fila que contiene la suscripción cuyas credenciales desea ver, seleccione Ver.  Si hay varias credenciales asociadas a una suscripción, es posible que no se muestre ninguna y se le solicitará que seleccione un agente diferente.
+. En la fila que contiene la suscripción cuyas credenciales quieres ver, selecciona *Ver*. Si hay varias credenciales asociadas a una suscripción, es posible que no se muestre ninguna credencial y se te indique que selecciones un agente diferente.
 
 
 
@@ -170,23 +170,18 @@ Antes de poder eliminar una suscripción, debes desconfigurarla.  Esto borra tod
 
 === Eliminar una suscripción
 
-Cuando cancelas la suscripción de tu proveedor de nube (AWS, Google Cloud o Azure), la consola muestra el estado de la suscripción como *Cancelado*.
+Cuando te das de baja de una suscripción en tu proveedor de nube (AWS, Google Cloud o Azure), la consola muestra el estado de la suscripción como *Unsubscribed*. Cuando te has dado de baja de una suscripción, también puedes eliminarla de Licenses and subscriptions.
 
-Puedes eliminar las suscripciones *Canceladas* de la Consola para que ya no aparezcan.
+.Antes de empezar
+* Sólo puedes eliminar suscripciones con el estado *No suscrito*. Todos los ajustes, datos y configuración relacionados deben borrarse o restablecerse antes de la eliminación.
++
+Si la suscripción aún está configurada, la opción *Eliminar* no está disponible.
 
-[NOTE]
-====
-Solo puedes eliminar suscripciones que estén *Canceladas* y *No configuradas*.  Todos los ajustes, datos y configuraciones relacionados deben borrarse o restablecerse antes de la eliminación.
 
-Si la suscripción aún está configurada, la opción *Eliminar* no se muestra.  Para que la opción esté disponible, desconfigure la suscripción borrando todas las configuraciones, servicios o datos asociados.
 
-====
 .Pasos
 . En el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila de la suscripción que desea eliminar, abra el menú de acciones y seleccione *Eliminar*.
-+
-Solo puedes eliminar suscripciones con estado *Cancelado* y *Sin configurar*.
-
-. En el cuadro de diálogo *Eliminar suscripción*, confirme que desea eliminar la suscripción.
+. En el cuadro de diálogo *Eliminar suscripción*, selecciona *Eliminar* para confirmar que quieres eliminar la suscripción.
 

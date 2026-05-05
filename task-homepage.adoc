@@ -13,7 +13,7 @@ summary: Obtenga una descripción general de todas las suscripciones y licencias
 == Utilice la descripción general del panel de control
 
 [role="lead"]
-El panel de control *Overview* de la consola te ayuda a supervisar los estados de tus licencias y suscripciones para asegurarte de que puedes gestionar los costes y mantener el servicio a medida que las suscripciones alcanzan las fechas de caducidad o los límites de capacidad.
+El panel de control *Overview* en la NetApp Console te ayuda a supervisar los estados de tus licencias y suscripciones para que puedas gestionar los costos y mantener el servicio cuando las suscripciones lleguen a las fechas de vencimiento o a los límites de capacidad.
 
 Puedes ver información específica sobre licencias y suscripciones de cada uno de tus servicios de datos (incluido Cloud Volumes ONTAP).
 
@@ -25,11 +25,11 @@ El panel de Licenses and subscriptions te avisa de los próximos límites de cap
 
 El panel *Overview* ofrece información detallada sobre los siguientes servicios:
 
+* Copia de seguridad y recuperación
+* Nivelación de la nube
 * Cloud Volumes ONTAP
 * Recuperación ante desastres
 * Resiliencia frente al ransomware
-* Copia de seguridad y recuperación
-* Nivelación de la nube
 
 
 Por ejemplo, los administradores encargados de gestionar los recursos de Cloud Volumes ONTAP pueden ver la capacidad actual de cada licencia o suscripción, lo que les brinda una visión enfocada de los recursos dentro de su ámbito de competencia.
@@ -52,7 +52,7 @@ Cada mosaico proporciona una descripción gráfica de la capacidad.  Puede ver l
 . Expanda cualquier fila para ver detalles de lo que incluye la suscripción o licencia, la capacidad adquirida y los términos.
 . Utilice el menú de acciones para administrar una licencia o suscripción específica, como actualizar una licencia o asociar una suscripción con una organización diferente.
 +
-No puede agregar nuevas licencias o suscripciones desde la página *Descripción general* para un servicio específico.  Solo puedes agregar licencias o suscripciones desde la pestaña *Licencias directas* o la pestaña *Suscripciones del Marketplace*, respectivamente.
+No puedes añadir nuevas licencias o suscripciones desde la página *Vista general* de un servicio específico. Solo puedes añadir licencias desde la pestaña *Licencias directas* o suscripciones desde la pestaña *Suscripciones a Marketplace*.
 
 +
 link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias."] link:task-manage-subscriptions.html["Obtenga más información sobre cómo administrar suscripciones."]

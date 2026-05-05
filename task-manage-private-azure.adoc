@@ -44,7 +44,7 @@ Debes completar todos los pasos para aceptar y activar tu oferta privada. Saltar
 
 Si nota discrepancias en los términos, precios o detalles de la oferta, o si no está seguro de qué oferta aceptar, no la acepte. Comuníquese con su equipo de ventas de NetApp .
 
-Aceptar y activar la oferta varias veces da como resultado un cobro doble.
+Aceptar y activar la oferta varias veces puede dar lugar a un doble cobro.
 
 ====
 .Pasos
@@ -99,11 +99,11 @@ La automatización del lado de Azure puede tardar entre 30 segundos y 5 minutos 
 
 . Selecciona **Associate**.
 . Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.
-. Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
+. Después de asociar la suscripción, selecciona la pestaña **Preferencias de facturación**.
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
 . Seleccione **Guardar cambios**.
 . Repite estos pasos según sea necesario si hay varias suscripciones en varios proveedores de nube.
 
 
-Para obtener más información sobre las suscripciones al mercado y la facturación directa de licencias, consulte la link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentación de preferencias de facturación"].
+Para obtener más información sobre las suscripciones al marketplace y la facturación directa de licencias, consulta link:concept-billing-preferences.html["Obtenga información sobre las preferencias de facturación para licencias y suscripciones."].

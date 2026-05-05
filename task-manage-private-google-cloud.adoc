@@ -90,7 +90,7 @@ Revise cuidadosamente los detalles del plan, el plazo y los precios. Si algo es 
 
 . Selecciona **Associate**.
 . Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.
-. Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
+. Después de asociar la suscripción, selecciona la pestaña **Preferencias de facturación**.
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
 . Seleccione **Guardar cambios**.

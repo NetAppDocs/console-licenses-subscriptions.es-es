@@ -9,7 +9,7 @@ Cuando compra una licencia de un representante de ventas de NetApp , recibe un c
 .Pasos
 . Encuentra el ID de tu cuenta de consola:
 +
-.. En la parte superior derecha de la consola, seleccioneimage:icon-settings-option.png["El icono de configuración que se muestra en la parte superior derecha de la consola web."] > *Gestión de identidad y acceso*.
+.. En el menú de navegación de la Consola, selecciona *Administración* > *Identidad y acceso*.
 .. En la página Organización, busque el ID de su cuenta y cópielo.
 +
 Si no aparece ningún ID de cuenta y solo tiene un ID de organización, copie los primeros ocho caracteres del ID de organización y añádalos a *cuenta-*

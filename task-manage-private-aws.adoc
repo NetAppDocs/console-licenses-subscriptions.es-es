@@ -32,16 +32,17 @@ Acepta una oferta privada de Marketplace para la NetApp Console en el AWS Market
 
 Es necesario completar la asignación de suscripción en la Consola para activar la compra y aplicar el precio con descuento.
 
-[NOTE]
-====
-Debes completar todos los pasos para activar tu oferta privada. Omitir pasos puede generar errores de facturación. Aceptar y activar la oferta varias veces da como resultado un cobro doble.
 
-====
+NOTE: Debes completar todos los pasos para activar tu oferta privada. Omitir pasos puede causar errores de facturación. Aceptar y activar la oferta varias veces puede resultar en un doble cobro.
+
 .Pasos
-. Selecciona el enlace de activación de la oferta privada de tu equipo de ventas de NetApp. El enlace debe verse similar al siguiente:
-`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+. Selecciona el enlace de activación de la oferta privada de tu equipo de ventas de NetApp.
 +
- If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
+El enlace debe tener un aspecto similar al siguiente: `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
+
++
+Si no recibiste el enlace, consulta las ofertas privadas en la consola de AWS Marketplace. Se requieren los siguientes permisos:
+
 +
 ** Uso de políticas administradas de AWS: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* o *AWSMarketplaceFullAccess*
 ** Uso de políticas de IAM personalizadas: `aws-marketplace:ListPrivateListings` y `aws-marketplace:ViewSubscriptions`
@@ -49,11 +50,9 @@ Debes completar todos los pasos para activar tu oferta privada. Omitir pasos pue
 
 . Se le redirige a AWS Marketplace para ver la oferta privada.
 +
-[NOTE]
-====
-Las ofertas privadas se crean sobre listados públicos. Utilice el menú desplegable *Selección de oferta* para alternar entre ofertas públicas y privadas.
 
-====
+NOTE: Las ofertas privadas se crean sobre listados públicos. Utilice el menú desplegable *Selección de oferta* para alternar entre ofertas públicas y privadas.
+
 . Revise los detalles de la oferta privada y confirme que coincidan con su acuerdo. Si son incorrectos no los acepte. Comuníquese con su equipo de cuentas de NetApp .
 +
 [NOTE]
@@ -112,7 +111,7 @@ Si aceptaste la oferta pero no completaste el registro, vuelve a la página del 
 
 . Selecciona **Associate**.
 . Rellena el formulario para asociar la suscripción con tu organización de NetApp Console. Selecciona **Associate**.
-. Tras asociar la suscripción, navegue y seleccione la pestaña **Preferencias de facturación**.
+. Después de asociar la suscripción, selecciona la pestaña **Preferencias de facturación**.
 . Revisa las opciones de suscripción del mercado.
 . Seleccione la suscripción al mercado que desea facturar.  Esto solo se aplica cuando hay más de una opción.
 . Seleccione **Guardar cambios**.

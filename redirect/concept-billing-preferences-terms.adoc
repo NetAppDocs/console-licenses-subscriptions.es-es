@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-billing-preferences-terms.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: Las licencias y suscripciones le permiten administrar y monitorear las licencias de NetApp Console , las suscripciones de NetApp Marketplace y NetApp Keystone. 
+summary: Licenses and subscriptions te permite gestionar y supervisar las licencias de NetApp Console, las suscripciones del marketplace de NetApp y NetApp Keystone. 
 ---
 = Términos y definiciones
 :hardbreaks:
@@ -20,7 +20,7 @@ Las preferencias de facturación controlan cómo NetApp Console gestiona los pag
 * *Por suscripción* — se aplica únicamente a un mercado específico o a un contrato de licencia directa.
 
 
-La fuente de facturación puede ser la siguiente:
+Las fuentes de facturación pueden ser:
 
 * *Suscripciones de Marketplace* — La facturación se realiza a través de AWS Marketplace, Azure Marketplace o Google Cloud Marketplace.  Puedes elegir la cuenta de facturación, la región y las opciones de renovación que ofrece el mercado en la nube.
 * *Licencias directas* — La facturación se realiza a través de NetApp.  En la NetApp Console se gestionan las claves de licencia, los contactos de facturación y la renovación automática.
@@ -75,4 +75,18 @@ Las preferencias de facturación le permiten: - imponer una única lista de cont
 
 == Rutas de configuración típicas
 
-| Escenario | Opción de facturación recomendada | |-----------|-----------------------------| | Usando capacidad adquirida de NetApp | Licencias de NetApp primero | | Usando solo contratos de marketplace | Solo suscripciones de marketplace | | Facturando múltiples proyectos bajo un proveedor de nube | Habilitar configuración personalizada de CVO | | Volver a la facturación predeterminada | Deshabilitar configuración personalizada de CVO |
+|===
+| Guión | Opción de facturación recomendada |  
+
+
+| Uso de la capacidad adquirida de NetApp | NetApp licencias primero |  
+
+
+| Usar solo contratos de marketplace | Solo suscripciones de Marketplace |  
+
+
+| Facturación de varios proyectos bajo un mismo proveedor de nube | Activar la configuración CVO personalizada |  
+
+
+| Volver a la facturación por defecto | Desactivar la configuración CVO personalizada |  
+|===

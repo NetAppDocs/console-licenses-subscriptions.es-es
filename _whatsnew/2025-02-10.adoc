@@ -24,6 +24,6 @@ Ahora puedes actualizar la organización a la que está asociada una suscripció
 
 
 
-=== Administración de licencias de Cloud Volume ONTAP
+=== Gestión de licencias Cloud Volumes ONTAP
 
-Ahora puede administrar las licencias de Cloud Volumes ONTAP a través de la página de inicio o la pestaña *Licencias directas*.  Utilice la pestaña *Suscripciones del Marketplace* para ver la información de su suscripción.
+Ahora gestionas las licencias de Cloud Volumes ONTAP desde la página de inicio o la pestaña *Direct licenses*. Usa la pestaña *Marketplace subscriptions* para ver tu información de suscripción.
