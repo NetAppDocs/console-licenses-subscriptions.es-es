@@ -71,6 +71,8 @@ En el panel de información general, puedes ver los problemas de licencias y sus
 . Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.
 . Utilice el menú de acciones para resolver el problema.
 +
-link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"]. link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"].
+** link:task-manage-data-services-licenses.html["Obtenga más información sobre la gestión de licencias"].
+** link:task-manage-subscriptions.html["Obtenga más información sobre la gestión de suscripciones"].
+
 
 

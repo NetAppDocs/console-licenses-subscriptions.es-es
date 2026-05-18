@@ -37,11 +37,17 @@ Necesitas el rol *Account Admin* o *Billing Admin* para cambiar las preferencias
 
 == Configurar preferencias de facturación
 
-Las preferencias de facturación le permiten: - imponer una única lista de contactos de facturación para todos los servicios, - alinear el uso con los centros de costos, - administrar las notificaciones de renovación automática y vencimiento, - garantizar que los nuevos sistemas Cloud Volumes ONTAP (CVO) hereden la cuenta de facturación correcta.
+Las preferencias de facturación te permiten:
+
+* aplicar una única lista de contactos de facturación en todos los servicios,
+* alinear el uso con los centros de coste,
+* gestionar las notificaciones de renovación automática y caducidad,
+* asegúrate de que los nuevos sistemas Cloud Volumes ONTAP (CVO) hereden la cuenta de facturación correcta.
 
 
 
-= Campos de facturación
+
+== Campos de facturación
 
 
 
@@ -54,7 +60,7 @@ Las preferencias de facturación le permiten: - imponer una única lista de cont
 
 
 
-= Opciones y definiciones de facturación
+== Opciones y definiciones de facturación
 
 
 
@@ -76,17 +82,17 @@ Las preferencias de facturación le permiten: - imponer una única lista de cont
 == Rutas de configuración típicas
 
 |===
-| Guión | Opción de facturación recomendada |  
+| Guión | Opción de facturación recomendada 
 
 
-| Uso de la capacidad adquirida de NetApp | NetApp licencias primero |  
+| Uso de la capacidad adquirida de NetApp | NetApp licencias primero 
 
 
-| Usar solo contratos de marketplace | Solo suscripciones de Marketplace |  
+| Usar solo contratos de marketplace | Solo suscripciones de Marketplace 
 
 
-| Facturación de varios proyectos bajo un mismo proveedor de nube | Activar la configuración CVO personalizada |  
+| Facturación de varios proyectos bajo un mismo proveedor de nube | Activar la configuración CVO personalizada 
 
 
-| Volver a la facturación por defecto | Desactivar la configuración CVO personalizada |  
+| Volver a la facturación por defecto | Desactivar la configuración CVO personalizada 
 |===

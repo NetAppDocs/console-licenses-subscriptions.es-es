@@ -23,6 +23,8 @@ Cuando se suscribe a los servicios de datos de NetApp (incluido Cloud Volumes ON
 
 NOTE: La página *Suscripciones del Marketplace* enumera todas las licencias.  Para obtener detalles de la licencia para un servicio de datos específico, utilice los mosaicos de servicios de datos en el panel de control *Descripción general*. link:task-homepage.html#overview-page["Obtenga más información sobre el panel de descripción general"] .
 
+*Función requerida de la consola* Para realizar esta tarea, necesitas la función de administrador de Licenses and subscriptions.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Conoce los roles de Licenses and subscriptions para NetApp Console"^].
+
 
 
 == Agregar una nueva suscripción al mercado
@@ -150,20 +152,6 @@ NOTE: Utilice el menú desplegable Agente en la barra de navegación superior pa
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
 . En la fila que contiene la suscripción cuyas credenciales quieres ver, selecciona *Ver*. Si hay varias credenciales asociadas a una suscripción, es posible que no se muestre ninguna credencial y se te indique que selecciones un agente diferente.
-
-
-
-
-=== Desconfigurar una suscripción
-
-Antes de poder eliminar una suscripción, debes desconfigurarla.  Esto borra todos los datos y configuraciones asociados.
-
-.Pasos
-. En el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
-. Seleccione *Suscripciones al Marketplace*.
-. En la fila de la suscripción que quieres desconfigurar, selecciona el menú de acciones y luego *Desconfigurar*.
-. Siga las instrucciones para eliminar o restablecer cualquier configuración o dato asociado.
-. Espere a que el estado se actualice a *Sin configurar*.
 
 
 

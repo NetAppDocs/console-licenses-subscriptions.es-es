@@ -17,10 +17,11 @@ summary: Configure las preferencias de facturación en la NetApp Console para co
 Puedes configurar y gestionar las preferencias de facturación en la NetApp Console para controlar cómo se aplican el uso de la capacidad, las renovaciones y las facturas a las cuentas de tu organización. Las preferencias de facturación determinan si los cargos por uso provienen de licencias de NetApp, contratos de cloud marketplace o acuerdos Keystone.
 
 .Antes de empezar
-* Usted tiene acceso al rol de *Administrador*.
 * Todas las suscripciones relevantes al mercado están vinculadas a su organización.
 * Revisaste la configuración existente de *licencias y suscripciones*.
 
+
+*Función requerida de la consola* Para realizar esta tarea, necesitas la función de administrador de Licenses and subscriptions.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Conoce los roles de Licenses and subscriptions para NetApp Console"^].
 
 
 
@@ -39,10 +40,10 @@ Puede seleccionar cómo la consola aplica los cargos por uso a través de las di
 
 . En *Marketplace subscriptions*, selecciona la suscripción para cada proveedor de nube (AWS, Azure y Google Cloud).
 . Si usas varias suscripciones con un solo proveedor de la nube, activa *Custom CVO configuration*.
-. (Opcional) Actualice los *Contactos de facturación* y los *Contactos de notificación*.
-. (Opcional) Introduzca una *etiqueta de centro de costos* para asociar la facturación con los códigos de contabilidad internos.
+. Opcionalmente, actualiza *Contactos de factura* y *Contactos de notificación*.
+. Opcionalmente, introduce una *etiqueta de centro de coste* para asociar la facturación con los códigos contables internos.
 . Seleccione *Guardar cambios*.
-. Cuando se le solicite, revise el cuadro de diálogo de confirmación y seleccione *Confirmar*.
+. Cuando se te solicite, revisa el cuadro de diálogo de confirmación y selecciona *Confirmar*.
 
 
 .Resultado
