@@ -34,6 +34,7 @@ Acepte y suscríbase a una oferta privada de Marketplace para la NetApp Console 
 
 
 
+[[accept-and-subscribe-to-the-private-offer-in-the-azure-portal]]
 == Acepte y suscríbase a la oferta privada en el portal de Azure
 
 Una suscripción de Azure solo se puede asociar con una suscripción de Marketplace. Si desea utilizar dos suscripciones de Marketplace diferentes para cargas de trabajo en la misma suscripción de Azure, debe crear dos cuentas de consola independientes, una para cada suscripción.  Si tiene varias instancias de Cloud Volumes ONTAP y desea dividir la facturación entre diferentes suscripciones, cree cuentas de consola independientes para cada suscripción.

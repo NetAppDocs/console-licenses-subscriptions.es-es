@@ -29,6 +29,7 @@ Acepte una oferta privada de Marketplace para el listado de NetApp Console en la
 
 
 
+[[accept-the-private-offer-in-google-cloud]]
 == Aceptar la oferta privada en Google Cloud
 
 Un proyecto de Google Cloud solo se puede asociar a una suscripción de Marketplace. Si desea utilizar dos suscripciones diferentes para cargas de trabajo en el mismo proyecto de Google Cloud, debe crear dos cuentas de consola independientes, una para cada suscripción.

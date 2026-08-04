@@ -18,6 +18,7 @@ Puede administrar y monitorear las licencias adquiridas de NetApp (BYOL), las su
 
 
 
+[[how-licenses-and-subscriptions-display-in-the-console]]
 == Cómo se muestran las licencias y suscripciones en la consola
 
 La información de licencia y suscripción se muestra automáticamente en la consola cuando su cuenta de consola también está asociada con una cuenta del sitio de soporte de NetApp (NSS).  Si su cuenta de consola no está asociada con una cuenta NSS, deberá agregar licencias manualmente.  Cuando las licencias se agregan manualmente, el uso, la capacidad y otros detalles no se actualizarán automáticamente.
@@ -27,12 +28,14 @@ NOTE: Necesita un agente de consola implementado para ver la información de sus
 
 
 
+[[automatic-license-discovery]]
 === Descubrimiento automático de licencias
 
 La consola consulta automáticamente al servicio de licencias de NetApp para obtener los detalles de la licencia asociados con su cuenta del sitio de soporte de NetApp .  Cuando la consulta es exitosa, la consola agrega las licencias automáticamente.
 
 
 
+[[manual-license-addition]]
 === Adición manual de licencias
 
 Si la consola no puede agregar licencias automáticamente, deberá agregarlas manualmente.  Esto ocurre cuando su cuenta de consola no está asociada con su cuenta del sitio de soporte de NetApp .
@@ -43,6 +46,7 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 
 
+[[supported-services]]
 == Servicios soportados
 
 Puede administrar licencias y suscripciones para los siguientes servicios en la Consola:

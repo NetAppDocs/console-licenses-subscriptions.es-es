@@ -214,13 +214,11 @@
   <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">Resolver problemas de licencia o suscripción</block>
   <block id="b082a603fd1e4f128d09f1041b260d65" category="list-text">Desde la página *Requiere acción*, seleccione la pestaña *Licencias* o la pestaña *Suscripciones*.</block>
   <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">Utilice el menú de acciones para resolver el problema.</block>
-  <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">Administre sus licencias basadas en capacidad desde la consola para garantizar que su cuenta de NetApp tenga suficiente capacidad para sus sistemas Cloud Volumes ONTAP .</block>
   <block id="2eb14dc3edd9fb392b8095df85f2f222" category="paragraph">Administre sus licencias basadas en capacidad desde la NetApp Console para garantizar que su cuenta de NetApp tenga suficiente capacidad para sus sistemas Cloud Volumes ONTAP .</block>
   <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">Las _licencias basadas en capacidad_ le permiten pagar Cloud Volumes ONTAP por TiB de capacidad.</block>
   <block id="96a603641f48a14047d20b26a1cfeefa" category="paragraph">Puede administrar licencias de Cloud Volumes ONTAP basadas en capacidad desde la NetApp Console.</block>
   <block id="d3c2fb9e07de60e097ad32d8e9ad56eb" category="admonition">Si bien el uso real y la medición de los productos y servicios administrados en la Consola siempre se calculan en GiB y TiB, los términos GB/GiB y TB/TiB se usan indistintamente. Esto se refleja en los listados de Cloud Marketplace, cotizaciones de precios, descripciones de listados y en otra documentación de respaldo.</block>
   <block id="8caaaa4afae93c31b741be21eed669cc" category="inline-link">Obtenga más información sobre las licencias de Cloud Volumes ONTAP</block>
-  <block id="25e7b507c919c21847b291c84a88ba36" category="paragraph"><block ref="73e1a6a2075a5d292111b694a644abf3" category="inline-link-rx"></block> .</block>
   <block id="a5e948b3ddd458b93125330e6dde9f94" category="section-title">Cómo se agregan licencias a la NetApp Console</block>
   <block id="792eeb7f686f2ad37b664f6478d40bed" category="paragraph">Después de comprar una licencia a su representante de ventas de NetApp , NetApp le enviará un correo electrónico con el número de serie y detalles adicionales de la licencia.</block>
   <block id="8948f0f0bc878d55b118339a79ece349" category="paragraph">Mientras tanto, la consola consulta automáticamente el servicio de licencias de NetApp para obtener detalles sobre las licencias asociadas a su cuenta del sitio de soporte de NetApp . Si no hay errores agrega las licencias.</block>
@@ -238,7 +236,6 @@
   <block id="d02d58b5b8770f720f9d912913a80f1a" category="list-text">Seleccione *Ver* para ver la capacidad consumida para cada uno de sus paquetes de licencias.</block>
   <block id="a4f95858d82d890dcc9a5123e1f315e6" category="list-text">Seleccione la pestaña *Licencias* para ver los detalles de cada licencia de paquete que haya comprado.</block>
   <block id="d30bc4bd5cee7ac23a1df54311d1f4b3" category="inline-link">Obtenga información sobre el cobro del paquete Essentials</block>
-  <block id="b2678f2b003e23f7f5f3a7cd8451a26b" category="paragraph">Para comprender mejor las capacidades que se muestran para el paquete Essentials, debe familiarizarse con cómo funciona la carga.<block ref="8d04d0643798fbb69d5260f477ea213c" category="inline-link-rx"></block> .</block>
   <block id="452cf2122664eef3e8c620ec413c8d43" category="list-text">Seleccione la pestaña *Suscripciones* para ver la capacidad consumida por modelo de consumo de licencia. Esta pestaña incluye tanto licencias de pago por uso como licencias de contrato anuales.</block>
   <block id="a6fd7fff8d44ac917f29be623cc64da2" category="paragraph">Solo verás las suscripciones asociadas a la organización que estás viendo actualmente.</block>
   <block id="24456dcfa7781b6f3a972b5f11ed0d88" category="list-text">A medida que visualiza la información sobre sus suscripciones, puede interactuar con los detalles en la tabla. Expande una fila para ver más detalles.</block>
@@ -274,15 +271,12 @@
   <block id="fe1db4ddb29c070770259869ba7aa5bb" category="inline-image-macro">La captura de pantalla muestra la página de licencias basadas en capacidad de Cloud Volumes ONTAP y resalta el botón de informe de uso.</block>
   <block id="61b0c512c4663de969f8c21e23e50f0e" category="paragraph"><block ref="61b0c512c4663de969f8c21e23e50f0e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d11dcbec58d47bd13de1dcccfbd640ff" category="paragraph">Los siguientes informes están disponibles para descargar. Los valores de capacidad mostrados están en TiB.</block>
-  <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">*Uso de alto nivel*: Este informe incluye la siguiente información:</block>
   <block id="c596c9291f76a11af1aefc235c262de6" category="list-text">Capacidad total consumida</block>
   <block id="8dd7541d6c4e83402d88448119068a02" category="list-text">Capacidad total precomprometida</block>
   <block id="b01a146aed01aa8af61e034befc116ce" category="list-text">Capacidad total de BYOL</block>
   <block id="109323142d354af9ccc7eb636b1dcbce" category="list-text">Capacidad total de contratos del Marketplace</block>
   <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">Capacidad total de PAYGO</block>
-  <block id="219fa750a13ad456df1d25524d9f6ad9" category="list-text">*Uso de paquetes de Cloud Volumes ONTAP *: este informe incluye la siguiente información para cada paquete:</block>
   <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">*Uso de máquinas virtuales de almacenamiento*: este informe muestra cómo se desglosa la capacidad cargada entre los sistemas Cloud Volumes ONTAP y las máquinas virtuales de almacenamiento (SVM). Esta información sólo está disponible en el informe. Contiene la siguiente información:</block>
-  <block id="16f96639acdb5e88fcbe97e6d8720ba6" category="list-text">ID y nombre del sistema (aparece como UUID)</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">Nube</block>
   <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">ID de cuenta de NetApp</block>
   <block id="3c4e32d95f12c00d16a76057a7af18f6" category="list-text">Configuración del sistema</block>
@@ -295,7 +289,6 @@
   <block id="fe6ac599d13d94a0ee0800482bec7e41" category="list-text">Cobro de ID de suscripción de SaaS Marketplace</block>
   <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">Tipo de carga de trabajo</block>
   <block id="2d0394437aca88cac134fb1bce72e08f" category="list-text">*Uso de volúmenes*: este informe muestra cómo se desglosa la capacidad cargada por volúmenes en un sistema Cloud Volumes ONTAP . Esta información no está disponible en ninguna pantalla de la Consola. Incluye la siguiente información:</block>
-  <block id="3edb9123c69629ec86469d96d3feb0aa" category="list-text">Nombre SVN</block>
   <block id="cccc95b62282240886ee975a3f122adb" category="list-text">ID de volumen</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="list-text">Tipo de volumen</block>
   <block id="3756f66a273f440893f16ee968ce3450" category="list-text">Capacidad aprovisionada por volumen</block>
@@ -345,8 +338,6 @@
   <block id="e29343f0ee1c0051a367e02b49c1c5ff" category="paragraph">Si ya no desea utilizar una suscripción de Keystone con la consola, puede desvincular la suscripción. Tenga en cuenta que solo puede desvincular una suscripción que no esté asociada a una suscripción existente de Cloud Volumes ONTAP .</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Seleccione * Keystone*.</block>
   <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">La suscripción se desvincula de su organización o cuenta de la consola y ya no está disponible para seleccionar al crear un entorno de trabajo de Cloud Volumes ONTAP .</block>
-  <block id="84d46f62b819e413ba1572fee9e31acc" category="summary">Administre sus licencias basadas en nodos en la consola para garantizar que cada sistema Cloud Volumes ONTAP tenga una licencia válida con la capacidad requerida.</block>
-  <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">Administrar licencias basadas en nodos</block>
   <block id="63e5ea33dc9b9a10458ac73abae91075" category="paragraph">Administre licencias basadas en nodos en la NetApp Console para garantizar que cada sistema Cloud Volumes ONTAP tenga una licencia válida con la capacidad requerida.</block>
   <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">Las _licencias basadas en nodos_ son el modelo de licencia de la generación anterior (y no están disponibles para nuevos clientes):</block>
   <block id="0d4e36aae457a1001b3373de2fd510f1" category="list-text">Traiga su propia licencia (BYOL) licencias adquiridas en NetApp</block>
@@ -424,7 +415,6 @@
   <block id="882d5f98206dd8157654127073c920f2" category="paragraph"><block ref="882d5f98206dd8157654127073c920f2" category="inline-link-rx"></block></block>
   <block id="ebf88a96d90d43fcac8c0ab5a9fda0dd" category="list-text">Termine el sistema Cloud Volumes ONTAP que ya no necesita eliminando el sistema original.</block>
   <block id="f979ec1d84a4416797fae20cc61f839b" category="inline-link">Aprenda a eliminar un sistema Cloud Volumes ONTAP</block>
-  <block id="0d0947c9b1ebe3ee650df057f8192855" category="paragraph"><block ref="87175a08736eca79154ad91c69792fcd" category="inline-link-rx"></block> .</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">Enlaces relacionados</block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">Fin de la disponibilidad de las licencias basadas en nodos</block>
   <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">Convertir licencias basadas en nodos a licencias basadas en capacidad</block>
@@ -953,7 +943,6 @@
   <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">En la NetApp Console, puedes descubrir un clúster ONTAP y ver los detalles del contrato de cada clúster ONTAP local que hayas descubierto.</block>
   <block id="c874b53d36cb039f81fc4117963fe03f" category="paragraph">El panel de control *Overview* en la NetApp Console te ayuda a supervisar los estados de tus licencias y suscripciones para que puedas gestionar los costos y mantener el servicio cuando las suscripciones lleguen a las fechas de vencimiento o a los límites de capacidad.</block>
   <block id="bda8ae7ab8a8500998773e4eb67456f7" category="paragraph">No puedes añadir nuevas licencias o suscripciones desde la página *Vista general* de un servicio específico. Solo puedes añadir licencias desde la pestaña *Licencias directas* o suscripciones desde la pestaña *Suscripciones a Marketplace*.</block>
-  <block id="cd8b0613e16e6b474b0e97a2db9c08ee" category="doc">Administra licencias Cloud Volumes ONTAP basadas en capacidad</block>
   <block id="7a65ea1273f42ee6be596842e800d703" category="summary">Administra las licencias que compraste directamente de NetApp (BYOL) para usarlas con los servicios de datos de NetApp. Puedes ver la capacidad de licencia utilizada, el uso de la capacidad y las próximas expiraciones.</block>
   <block id="bdcdbfa9e9107af10507b1ac43ba121f" category="paragraph">Puedes gestionar las licencias que compraste directamente de NetApp (BYOL) para usarlas con los servicios de datos de NetApp, incluido Cloud Volumes ONTAP. Puedes ver la capacidad de licencia utilizada, el uso de la capacidad y los próximos vencimientos.</block>
   <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
@@ -983,4 +972,41 @@
   <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">Opcionalmente, actualiza *Contactos de factura* y *Contactos de notificación*.</block>
   <block id="c574b540cd92e579d0adb2549eb5e6ad" category="list-text">Opcionalmente, introduce una *etiqueta de centro de coste* para asociar la facturación con los códigos contables internos.</block>
   <block id="d1aa6173b8b0f269bcc23f11e54d8e9f" category="list-text">Cuando se te solicite, revisa el cuadro de diálogo de confirmación y selecciona *Confirmar*.</block>
+  <block id="05fef605ad17853dff22052e9ab0016f" category="doc">Gestiona las licencias basadas en la capacidad para Cloud Volumes ONTAP</block>
+  <block id="5a4b99b6fc841017a0f50698712eacbd" category="paragraph"><block ref="13c3a734f25ff867542070e2d18cd1d4" category="inline-link-rx"></block>.</block>
+  <block id="cab4333b3833fa9cdc6796a75eee578b" category="paragraph">Para comprender mejor las capacidades que se muestran para el paquete Essentials, deberías familiarizarte con cómo funciona el cobro.<block ref="02565e6913727744dad1b0044ad87804" category="inline-link-rx"></block>.</block>
+  <block id="821a4394ac44729da9f70ce04118fc86" category="list-text">*A grandes rasgos*: Este informe resume la capacidad total consumida en toda tu cuenta y la desglosa por método de facturación (licencias comprometidas previamente frente a pago por uso). Incluye la siguiente información:</block>
+  <block id="1976d7f704de389d9fe064e08ea35b2d" category="cell">Columna</block>
+  <block id="51163c1c09d1460ef27f5dd97ed9ea7f" category="cell">La capacidad total asignada en todos los sistemas Cloud Volumes ONTAP de tu cuenta.</block>
+  <block id="f70b0a4d5f326e83950dad59aec6fa68" category="cell">La capacidad total con licencia que has adquirido de NetApp, incluyendo tanto las licencias BYOL como los contratos de Marketplace. Este valor es la suma de la capacidad total de BYOL y la capacidad total de los contratos de Marketplace.</block>
+  <block id="461f8f7091d5494362a76c93edc9a423" category="cell">La parte de la capacidad preasignada cubierta por las licencias bring your own license (BYOL) que has adquirido directamente de NetApp.</block>
+  <block id="78848eca2f87ad4a3c7b9b07889aae3a" category="cell">La parte de la capacidad preasignada cubierta por contratos anuales del marketplace u ofertas privadas adquiridas a través del marketplace de tu proveedor de servicios en la nube.</block>
+  <block id="f343ac0562a9bcbf4a1f16afb4d9c944" category="cell">La parte de la capacidad consumida que no está cubierta por ninguna licencia contratada previamente y que se factura en régimen de pago por uso (PAYGO) según las tarifas por hora del marketplace.</block>
+  <block id="de061f005aa315f137edfbea4185d9cf" category="list-text">*Uso de los paquetes de Cloud Volumes ONTAP*: Este informe ofrece el mismo desglose de capacidad que el informe de uso a grandes rasgos, pero organizado por paquete de licencia. Incluye la siguiente información:</block>
+  <block id="0f8a95f201dfe022d77e0b59d46d4c77" category="cell">La capacidad total asignada para este paquete en todos los sistemas Cloud Volumes ONTAP de tu cuenta.</block>
+  <block id="ba7a4b5109f3d946e68653e9dca24924" category="cell">La capacidad total con licencia de este paquete que has adquirido de NetApp, incluyendo tanto las licencias BYOL como los contratos de Marketplace. Este valor es la suma de la capacidad total de BYOL y la capacidad total de los contratos de Marketplace.</block>
+  <block id="da684f1b634af2847a1baa8db1db2ac7" category="cell">La parte de la capacidad preasignada para este paquete cubierta por las licencias bring your own license (BYOL) que has adquirido directamente de NetApp.</block>
+  <block id="fa6bbae52be77ec691f2ed981782a8c3" category="cell">La parte de la capacidad preasignada para este paquete que está cubierta por contratos anuales del marketplace u ofertas privadas adquiridas a través del marketplace de tu proveedor de servicios en la nube.</block>
+  <block id="7978965a49086eecb3f75ef44abb3cbe" category="cell">La parte de la capacidad consumida de este paquete que no está cubierta por ninguna licencia preasignada y que se factura según las tarifas por hora del mercado en régimen de pago por uso (PAYGO).</block>
+  <block id="40052c32370d83faceb0cb6dc62c2d53" category="cell">Identificador y nombre del sistema</block>
+  <block id="d618d6f2db44ccd4eb860a4f494fc02b" category="cell">El identificador único (UUID) y el nombre de visualización del sistema Cloud Volumes ONTAP.</block>
+  <block id="f36be790a1c0b2db000cad5e1f143392" category="cell">El proveedor de servicios en la nube en el que está implementado el sistema (por ejemplo, AWS, Azure o Google Cloud).</block>
+  <block id="63af7f48ddc938f8833d32b0716868d6" category="cell">El identificador de la cuenta de NetApp asociada al sistema.</block>
+  <block id="ad5c67cce7e6fab8ce505f2ae3c2df11" category="cell">La configuración de implementación del sistema (por ejemplo, un solo nodo o un par de alta disponibilidad).</block>
+  <block id="3355bd383b4614928e6109a99305d004" category="cell">El nombre de la máquina virtual de almacenamiento (SVM) dentro del sistema Cloud Volumes ONTAP.</block>
+  <block id="c5f488f842043ae15f7cfa0e8b69385b" category="cell">La capacidad total asignada en el SVM.</block>
+  <block id="f8ae5e430a4359a104373b4d18d6f868" category="cell">La capacidad realmente facturada para el SVM. Cada SVM tiene una capacidad mínima facturable (4 TiB por defecto, aunque esto puede variar según la cuenta). Si la capacidad aprovisionada del SVM es igual o inferior a ese mínimo, este valor se redondea al alza hasta el mínimo; en caso contrario, es igual a la capacidad aprovisionada.</block>
+  <block id="4226ed0668452ac09bb7af302a7c9242" category="cell">El periodo de facturación de la suscripción al marketplace asociada (por ejemplo, por horas o anual).</block>
+  <block id="ab31194e65fa04061f03e7c38298214e" category="cell">El paquete de licencia o la función (por ejemplo, Essentials o Professional) asociada al SVM.</block>
+  <block id="aab205b2459de7a7ecd46aff12fc336e" category="cell">El nombre de la suscripción del marketplace que se utiliza para la facturación.</block>
+  <block id="2c13015a3d1386955dffbbcbd1c49ce2" category="cell">El identificador único de la suscripción del marketplace que se utiliza para la facturación.</block>
+  <block id="e16dc33bf75ec44279b2f544d4b7a250" category="cell">Indica si los volúmenes de SVM son *Primarios* (lectura/escritura), utilizados activamente para datos de producción, o *Secundarios* (DP), volúmenes de destino para la protección de datos, como las réplicas de SnapMirror usadas para backup y replicación.</block>
+  <block id="de39b41004ed04a88578e2985a04fc6c" category="cell">El identificador único (UUID) y el nombre de visualización del sistema Cloud Volumes ONTAP que contiene el volumen.</block>
+  <block id="0d8e21203d5a81d1fa5620283cbeb8d9" category="cell">El nombre de la máquina virtual de almacenamiento (SVM) que contiene el volumen.</block>
+  <block id="e7a38d895cb4f8d8f3a338217e14a339" category="cell">El identificador único del volumen.</block>
+  <block id="7860112ba253041aab5726c5a5f6777c" category="cell">El tipo de volumen (por ejemplo, lectura/escritura o protección de datos).</block>
+  <block id="b41f9ba0b51c7f3d54a31c655a83017f" category="cell">La capacidad total asignada al volumen.</block>
+  <block id="6e1a9790b199742bec95dea2070e2f3f" category="summary">Gestiona tus licencias por nodo en la NetApp Console para asegurarte de que cada sistema Cloud Volumes ONTAP tenga una licencia válida con la capacidad necesaria.</block>
+  <block id="160221c1e99e53b72af8a65c2440852b" category="doc">Gestiona las licencias por nodo de Cloud Volumes ONTAP</block>
+  <block id="ffc60ab0361bc3c2ef3b3728cce5a231" category="paragraph"><block ref="ac0e83bff3dad475c8103a64904a607a" category="inline-link-rx"></block>.</block>
 </blocks>

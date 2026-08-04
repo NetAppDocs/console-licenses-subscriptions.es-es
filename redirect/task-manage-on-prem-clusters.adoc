@@ -25,6 +25,7 @@ La consola muestra detalles sobre los clústeres ONTAP locales que descubrió co
 
 
 
+[[view-cluster-information-and-contract-details]]
 == Ver información del clúster y detalles del contrato
 
 Vea el estado de los contratos de hardware y software de sus clústeres ONTAP locales para poder renovarlos antes de que expiren.
@@ -44,6 +45,7 @@ Si se le solicita que ingrese primero las credenciales de su cuenta del sitio de
 
 
 
+[[discover-clusters]]
 == Descubrir clústeres
 
 Si no ha descubierto un clúster ONTAP local como sistema, puede hacerlo desde la consola.  Una vez descubierto, un clúster está disponible como sistema para que puedas administrarlo.

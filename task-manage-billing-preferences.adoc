@@ -25,6 +25,7 @@ Puedes configurar y gestionar las preferencias de facturación en la NetApp Cons
 
 
 
+[[set-billing-preferences]]
 == Configurar preferencias de facturación
 
 Puede seleccionar cómo la consola aplica los cargos por uso a través de las diferentes fuentes de facturación.  Esto determina a qué cuentas se les cobra primero y cómo se gestionan las renovaciones.
@@ -54,6 +55,7 @@ NOTE: Cambiar el modo de facturación redistribuye cómo se aplican los cargos p
 
 
 
+[[enable-custom-cloud-volumes-ontap-configuration]]
 == Habilita la configuración personalizada de Cloud Volumes ONTAP
 
 Ahora puedes asignar suscripciones de marketplace específicas a instancias individuales de Cloud Volumes ONTAP bajo el mismo proveedor de cloud. Usa este modo si tu organización mantiene diferentes cuentas de facturación para distintas unidades de negocio o entornos.
@@ -73,6 +75,7 @@ WARNING: Una vez que esto está activado, la configuración personalizada de Clo
 
 
 
+[[edit-marketplace-configuration]]
 == Editar configuración del mercado
 
 Puedes editar los detalles de configuración del marketplace para asociar suscripciones con proyectos en la nube o para actualizar la información del contrato.
@@ -98,6 +101,7 @@ TIP: Para asignar una suscripción a varios proyectos en la nube, asegúrese pri
 
 
 
+[[confirm-or-revert-billing-changes]]
 == Confirma o revierte los cambios de facturación
 
 Cada actualización de las preferencias de facturación requiere confirmación para evitar cambios accidentales.

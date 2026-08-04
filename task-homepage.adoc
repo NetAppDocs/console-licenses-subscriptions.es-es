@@ -10,6 +10,8 @@ summary: Obtenga una descripción general de todas las suscripciones y licencias
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == Utilice la descripción general del panel de control
 
 [role="lead"]
@@ -21,6 +23,7 @@ El panel de Licenses and subscriptions te avisa de los próximos límites de cap
 
 
 
+[[view-details-about-a-specific-data-service]]
 === Ver detalles sobre un servicio de datos específico
 
 El panel *Overview* ofrece información detallada sobre los siguientes servicios:
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["Obtenga más información sobre la
 
 
 
+[[resolve-license-or-subscription-issues]]
 === Resolver problemas de licencia o suscripción
 
 En el panel de información general, puedes ver los problemas de licencias y suscripciones que deben resolverse. Los problemas incluyen licencias y suscripciones que están por caducar o que están llegando al límite de su capacidad.

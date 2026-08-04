@@ -32,6 +32,7 @@ Las instrucciones de esta página proporcionan información que se aplica a cada
 
 
 
+[[obtain-a-license-file]]
 == Obtener un archivo de licencia
 
 Debe obtener un archivo de licencia de NetApp para cargar si la consola no tiene acceso a Internet (instalaciones en modo privado).
@@ -68,6 +69,7 @@ cuenta-ea10e1c6
 
 
 
+[[add-a-license]]
 == Agregar una licencia
 
 La información de la licencia aparece automáticamente en la sección **Licenses and subscriptions** si la cuenta de NetApp Console asociada con la licencia también es una cuenta de NetApp Support Site y tiene acceso a internet. Si usaste una cuenta de Console que no está asociada con tu cuenta NSS, necesitas añadir una licencia manualmente.
@@ -99,6 +101,7 @@ Si su cuenta del sitio de soporte de NetApp no ​​está disponible en la list
 
 
 
+[[update-a-license]]
 == Actualizar una licencia
 
 La consola le notifica cuando su período de licencia está próximo a vencer o cuando su capacidad de licencia se acerca al límite.  Actualice su licencia antes de que caduque para evitar interrupciones en sus servicios de datos de NetApp o Cloud Volumes ONTAP.
@@ -134,6 +137,7 @@ Una vez completado el pago y registrada la licencia en el sitio de soporte de Ne
 
 
 
+[[view-license-status]]
 == Ver el estado de la licencia
 
 Para administrar licencias, puede agruparlas según el nombre del servicio.  Esto le permite ver todas las licencias relacionadas con un servicio específico.  Puede expandir una fila para ver información detallada sobre cada licencia relacionada con el servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.  Las licencias se agrupan automáticamente por nombre de servicio.  La fila raíz de cada servicio muestra el nombre del servicio y la capacidad utilizada para ese servicio.

@@ -24,6 +24,7 @@ Puedes configurar cómo tu organización asigna y paga los servicios según tu m
 
 
 
+[[permissions]]
 == Permisos
 
 La gestión de licencias y suscripciones dentro de la NetApp Console se controla mediante roles de usuario. Estos roles proporcionan distintos niveles de acceso, habilitando o restringiendo acciones específicas que los usuarios pueden realizar para esta función.
@@ -54,6 +55,7 @@ Los usuarios con este rol tienen acceso de solo lectura. Los usuarios del visor 
 |===
 
 
+[[billing-preferences]]
 == Preferencias de facturación
 
 Las preferencias de facturación garantizan que los cargos por uso y las renovaciones se apliquen correctamente.  Una configuración adecuada reduce las disputas de facturación y facilita la gestión de modelos de licencias híbridos que combinan la capacidad propiedad de NetApp con la capacidad adquirida en el marketplace.
@@ -71,12 +73,14 @@ Desde ahí, puedes:
 
 
 
+[[fields]]
 == Campos
 
 Los campos de facturación almacenan metadatos sobre cómo se factura cada licencia o suscripción.  Describen a quién se le factura, cómo se realizan las renovaciones y a qué cuenta o centro de costos pertenece cada servicio.
 
 
 
+[[marketplace-fields]]
 === Campos del mercado
 
 Los campos de marketplace describen los contratos que se originan en un proveedor de nube como AWS, Azure o Google Cloud. Estos campos definen cómo NetApp Console conecta tus suscripciones con la información de facturación almacenada en el marketplace del proveedor. También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.
@@ -88,12 +92,14 @@ Los campos de marketplace describen los contratos que se originan en un proveedo
 
 
 
+[[direct-license-fields]]
 === Campos de licencia directa
 
 Los campos de licencia directa se aplican a los contratos gestionados por NetApp adquiridos directamente, en lugar de a través de un mercado en la nube.  Definen cómo NetApp le factura, a dónde se envían los cargos y qué entidad legal aparece en la factura.  Estos campos son fundamentales para las organizaciones que utilizan órdenes de compra o facturación corporativa centralizada.
 
 
 
+[[keystone-fields]]
 === Campos Keystone
 
 Los campos de Keystone se aplican al uso que se encuentra dentro de un acuerdo de suscripción de NetApp Keystone .  Te permiten conectar el uso del servicio medido a tu perfil de facturación de Keystone , alineando los datos de suscripción con otros modelos de licencia basados ​​en capacidad.
@@ -104,12 +110,14 @@ Los campos de Keystone se aplican al uso que se encuentra dentro de un acuerdo d
 
 
 
+[[billing-options-and-definitions]]
 == Opciones y definiciones de facturación
 
 Las opciones de facturación definen cómo NetApp Console prioriza y aplica los cargos por uso cuando se conectan varias fuentes de facturación.  Controlan qué cuenta se carga primero y cómo cambia la facturación entre las licencias de NetApp y las suscripciones del marketplace cuando se alcanzan los límites de capacidad.
 
 
 
+[[terms-and-options]]
 === Términos y opciones
 
 Puedes elegir entre distintos modos de facturación según la estrategia de aprovisionamiento de tu organización:
@@ -124,6 +132,7 @@ Puedes elegir entre distintos modos de facturación según la estrategia de apro
 
 
 
+[[typical-configuration-paths]]
 === Rutas de configuración típicas
 
 Los siguientes ejemplos ilustran cómo las diferentes configuraciones de facturación se adaptan a los casos comunes:

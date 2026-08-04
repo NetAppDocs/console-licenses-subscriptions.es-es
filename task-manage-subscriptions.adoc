@@ -27,6 +27,7 @@ NOTE: La página *Suscripciones del Marketplace* enumera todas las licencias.  P
 
 
 
+[[add-a-new-marketplace-subscription]]
 == Agregar una nueva suscripción al mercado
 
 Puedes suscribirte a una suscripción del marketplace directamente desde la consola.
@@ -46,6 +47,7 @@ Puedes suscribirte a una suscripción del marketplace directamente desde la cons
 
 
 
+[[view-your-subscriptions]]
 == Ver tus suscripciones
 
 Puede ver detalles sobre cada suscripción PAYGO y contrato anual asociado con su organización o cuenta de Console.
@@ -91,6 +93,7 @@ Contratos::
 
 
 
+[[rename-a-subscription]]
 == Cambiar el nombre de una suscripción
 
 Puede cambiar el nombre de una suscripción para identificar mejor cómo la utiliza su organización.
@@ -103,6 +106,7 @@ Puede cambiar el nombre de una suscripción para identificar mejor cómo la util
 
 
 
+[[configure-a-subscription-with-a-provider-credential]]
 == Configurar una suscripción con una credencial de proveedor
 
 Las suscripciones normalmente se configuran con las credenciales del proveedor que usted creó cuando se suscribió.  En algunos casos, es posible que necesites reconfigurar una suscripción para usar una credencial diferente para cambiar la forma en que se cobra.  La credencial que asocia con una suscripción también debe estar asociada con un agente.
@@ -120,6 +124,7 @@ La opción Configurar aparece inactiva si has cancelado una suscripción.
 
 
 
+[[associate-a-subscription-with-a-console-organization]]
 == Asociar una suscripción con una organización de la consola
 
 Asociar una suscripción a una organización garantiza que los miembros de esa organización puedan usar esa suscripción para cobrar.
@@ -141,6 +146,7 @@ NOTE: La consola admite la gestión de identidad y acceso (IAM) en modo estánda
 
 
 
+[[view-credentials-associated-with-a-subscription]]
 == Ver las credenciales asociadas a una suscripción
 
 Puede ver las credenciales para una suscripción específica desde la página *Suscripciones del Marketplace*.  Esto le permite verificar cómo se factura la suscripción.  Dado que las credenciales están vinculadas al agente que estás utilizando, debes seleccionar el agente asociado con la suscripción que deseas ver.
@@ -156,6 +162,7 @@ NOTE: Utilice el menú desplegable Agente en la barra de navegación superior pa
 
 
 
+[[remove-a-subscription]]
 === Eliminar una suscripción
 
 Cuando te das de baja de una suscripción en tu proveedor de nube (AWS, Google Cloud o Azure), la consola muestra el estado de la suscripción como *Unsubscribed*. Cuando te has dado de baja de una suscripción, también puedes eliminarla de Licenses and subscriptions.

@@ -6,24 +6,28 @@ La BlueXP digital wallet ha sido rediseñada para facilitar su uso y ahora ofrec
 
 
 
+[[new-overview-dashboard]]
 === Nuevo panel de descripción general
 
 La página de inicio de la billetera digital tiene un panel actualizado de sus licencias de NetApp y suscripciones de Marketplace, con la capacidad de desglosar servicios específicos, tipos de licencias y acciones requeridas.
 
 
 
+[[configuring-subscriptions-to-credentials]]
 === Configuración de suscripciones a credenciales
 
 La BlueXP digital wallet ahora le permite configurar sus suscripciones con credenciales de proveedor.  Normalmente esto se hace cuando se suscribe por primera vez a una suscripción de Marketplace o a un contrato anual.  Anteriormente, cambiar las credenciales de la suscripción solo se podía hacer en la página Credenciales.
 
 
 
+[[associating-subscriptions-with-organizations]]
 === Asociar suscripciones con organizaciones
 
 Ahora puedes actualizar la organización a la que está asociada una suscripción directamente desde la billetera digital.
 
 
 
+[[managing-cloud-volumes-ontap-licenses]]
 === Gestión de licencias Cloud Volumes ONTAP
 
 Ahora gestionas las licencias de Cloud Volumes ONTAP desde la página de inicio o la pestaña *Direct licenses*. Usa la pestaña *Marketplace subscriptions* para ver tu información de suscripción.

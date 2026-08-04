@@ -4,6 +4,7 @@
 
 
 
+[[bluexp-disaster-recovery]]
 === BlueXP disaster recovery
 
 La BlueXP digital wallet ahora le permite administrar licencias para la BlueXP disaster recovery.  Puede agregar licencias, actualizar licencias y ver detalles sobre la capacidad autorizada.

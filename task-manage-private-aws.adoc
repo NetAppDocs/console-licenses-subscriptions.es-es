@@ -28,6 +28,7 @@ Acepta una oferta privada de Marketplace para la NetApp Console en el AWS Market
 
 
 
+[[accept-the-private-offer-in-the-aws-marketplace-portal]]
 == Acepta la oferta privada en el portal de AWS Marketplace
 
 Es necesario completar la asignación de suscripción en la Consola para activar la compra y aplicar el precio con descuento.
