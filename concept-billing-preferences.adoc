@@ -73,6 +73,34 @@ Desde ahí, puedes:
 
 
 
+[[flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws]]
+== Facturación flexible para Cloud Volumes ONTAP y servicios de datos en AWS
+
+En AWS, la capacidad de Cloud Volumes ONTAP y los servicios de datos de NetApp pueden facturarse a través de diferentes suscripciones de AWS Marketplace. Para obtener detalles sobre los cambios y recomendaciones del AWS Enterprise Discount Program (EDP), consulta el link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Notas de la versión de Cloud Volumes ONTAP"].
+
+Si en tu cuenta de AWS dispones tanto de una suscripción independiente a Cloud Volumes ONTAP como de una suscripción a NetApp Intelligent Services (NIS), puedes usar *Billing preferences* para elegir qué suscripción se usa para la facturación de la capacidad de Cloud Volumes ONTAP.
+
+
+NOTE: El comportamiento de la facturación depende de si ya tienes sistemas Cloud Volumes ONTAP en funcionamiento y facturados a través de NIS, o si estás implementando nuevos sistemas después de añadir la suscripción independiente de Cloud Volumes ONTAP. Para los sistemas existentes, añadir la suscripción independiente no cambia la facturación a menos que actualices las *Billing preferences*. Para las nuevas implementaciones creadas después de que la suscripción independiente esté disponible, la suscripción independiente se usa por defecto para la facturación de la capacidad de Cloud Volumes ONTAP (Essentials/Freemium), a menos que lo cambies en las *Billing preferences*.
+
+* Suscripción independiente a Cloud Volumes ONTAP (recomendada): capacidad de Cloud Volumes ONTAP (Essentials/Freemium)
+* NetApp Intelligent Services (NIS) subscription: servicios de datos de NetApp (y Cloud Volumes ONTAP Professional)
+
+
+La suscripción independiente a Cloud Volumes ONTAP solo admite los paquetes Essentials y Freemium basados en capacidad. El paquete Professional no es compatible y se sigue facturando a través de NIS. Si solo tienes asociada la suscripción independiente, puedes implementar Cloud Volumes ONTAP usando Essentials, pero configurar Backup and Recovery requiere una suscripción diferente.
+
+
+
+[[where-to-configure-it]]
+=== Dónde configurarlo
+
+Asocias las suscripciones de AWS marketplace en *Administración > Licenses and subscriptions > Marketplace subscriptions*, y eliges la suscripción de marketplace que se usará para la facturación de capacidad de Cloud Volumes ONTAP en *Administración > Licenses and subscriptions > Billing preferences*. Puedes comprobar los detalles de facturación usando los informes de uso de Cloud Volumes ONTAP.
+
+
+NOTE: No se duplica la medición cuando usas varios tipos de suscripción o migras entre listados.
+
+
+
 [[fields]]
 == Campos
 
@@ -85,7 +113,7 @@ Los campos de facturación almacenan metadatos sobre cómo se factura cada licen
 
 Los campos de marketplace describen los contratos que se originan en un proveedor de nube como AWS, Azure o Google Cloud. Estos campos definen cómo NetApp Console conecta tus suscripciones con la información de facturación almacenada en el marketplace del proveedor. También controlan cómo se gestionan las renovaciones, las asignaciones regionales y las cuentas de facturación.
 
-* *Proveedor de marketplace* — Identifica la plataforma en la nube donde se gestiona la facturación.  El proveedor determina las características admitidas, los tipos de contrato y las reglas de renovación.  Por ejemplo, las suscripciones a AWS Marketplace utilizan la facturación basada en cuentas, mientras que Azure puede admitir modelos basados tanto en cuentas como en inquilinos.
+* *Marketplace provider* — identifica la plataforma en la nube donde se gestiona la facturación. El proveedor determina las funciones compatibles, los tipos de contrato y las normas de renovación. Por ejemplo, las suscripciones de AWS Marketplace utilizan la facturación basada en la cuenta, mientras que Azure puede admitir tanto el modelo basado en la cuenta como el basado en el inquilino.
 * *ID de cuenta de facturación o suscripción* — Especifica el identificador único de la cuenta utilizada para procesar los cargos.  Esto garantiza que los datos de uso se facturen al perfil de facturación en la nube correcto.
 * *Plazo del contrato* — Define la duración de la suscripción y las opciones de renovación.
 

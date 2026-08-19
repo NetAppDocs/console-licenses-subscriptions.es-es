@@ -32,6 +32,9 @@ NOTE: La página *Suscripciones del Marketplace* enumera todas las licencias.  P
 
 Puedes suscribirte a una suscripción del marketplace directamente desde la consola.
 
+
+NOTE: En el caso de AWS, tu cuenta puede tener más de una suscripción de NetApp marketplace disponible. Si solo asocias la suscripción independiente de Cloud Volumes ONTAP, puedes implementar Cloud Volumes ONTAP usando Essentials, pero configurar Backup and Recovery requiere una suscripción diferente. Para elegir qué suscripción se usa para la facturación de capacidad de Cloud Volumes ONTAP (incluido cambiar la facturación para sistemas existentes), ve a *Administration > Licenses and subscriptions > Billing preferences*.
+
 .Pasos
 . Desde el menú de la NetApp Console , seleccione *Administración > Licenses and subscriptions*.
 . Seleccione *Suscripciones al Marketplace*.
