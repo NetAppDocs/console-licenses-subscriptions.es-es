@@ -2,7 +2,102 @@
 permalink: concept-billing-preferences-terms.html 
 redirect: concept-billing-preferences.html 
 ---
-= 
+= Términos y definiciones
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
+[role="lead"]
+Las preferencias de facturación controlan cómo NetApp Console gestiona los pagos, las facturas y el comportamiento de renovación de sus licencias y suscripciones.  Puedes configurar tus preferencias en uno de dos niveles:
+
+* *Global* — se aplica a licencias directas, suscripciones al mercado y suscripciones a Keystone .
+* *Por suscripción* — se aplica únicamente a un mercado específico o a un contrato de licencia directa.
+
+
+Las fuentes de facturación pueden ser:
+
+* *Suscripciones de Marketplace* — La facturación se realiza a través de AWS Marketplace, Azure Marketplace o Google Cloud Marketplace.  Puedes elegir la cuenta de facturación, la región y las opciones de renovación que ofrece el mercado en la nube.
+* *Licencias directas* — La facturación se realiza a través de NetApp.  En la NetApp Console se gestionan las claves de licencia, los contactos de facturación y la renovación automática.
+* * Suscripciones a Keystone * — La facturación se realiza a través de su contrato con Keystone .  En la NetApp Console se gestionan los destinatarios de las facturas y las etiquetas de los centros de coste.
+
+
+
+
+[[permissions]]
+== Permisos
+
+Necesitas el rol *Account Admin* o *Billing Admin* para cambiar las preferencias de facturación. Los operadores pueden ver las preferencias pero no pueden modificarlas.
+
+
+
+[[set-billing-preferences]]
+== Configurar preferencias de facturación
+
+Las preferencias de facturación te permiten:
+
+* aplicar una única lista de contactos de facturación en todos los servicios,
+* alinear el uso con los centros de coste,
+* gestionar las notificaciones de renovación automática y caducidad,
+* asegúrate de que los nuevos sistemas Cloud Volumes ONTAP (CVO) hereden la cuenta de facturación correcta.
+
+
+
+
+[[billing-fields]]
+== Campos de facturación
+
+
+
+[[marketplace-fields]]
+== Campos del mercado
+
+* *Proveedor de Marketplace* — AWS, Azure o Google Cloud.
+* *Cuenta de facturación / ID de suscripción* — La cuenta de facturación en la nube a la que se va a cobrar.
+* *Duración del contrato* — Duración y comportamiento de renovación.
+
+
+
+
+[[billing-options-and-definitions]]
+== Opciones y definiciones de facturación
+
+
+
+[[terms-and-options]]
+== Términos y opciones
+
+* **NetApp licenses first** — Facturación contra licencias activas de NetApp. El uso adicional pasa al marketplace.
+* **Sólo suscripciones de marketplace** — Todo el uso se factura a través de contratos de marketplace.
+* **PAYGO (Pay-As-You-Go)** — Suscripción flexible facturada por uso real.
+* **Contrato anual** — Suscripción al marketplace por un período fijo.
+* **Renovación automática** — Renueva el contrato automáticamente al vencimiento.
+* **Configuración personalizada de CVO** — modo avanzado para asignar varias suscripciones por proveedor de nube.
+* **Licencia directa** — licencia gestionada por NetApp utilizada antes de la capacidad del marketplace.
+* **Hyperscaler** — proveedor de AWS, Azure o Google Cloud.
+* **Diálogo Confirm changes** — Aparece antes de aplicar actualizaciones para evitar cambios accidentales en la facturación.
+
+
+
+
+[[typical-configuration-paths]]
+== Rutas de configuración típicas
+
+|===
+| Guión | Opción de facturación recomendada 
+
+
+| Uso de la capacidad adquirida de NetApp | NetApp licencias primero 
+
+
+| Usar solo contratos de marketplace | Solo suscripciones de Marketplace 
+
+
+| Facturación de varios proyectos bajo un mismo proveedor de nube | Activar la configuración CVO personalizada 
+
+
+| Volver a la facturación por defecto | Desactivar la configuración CVO personalizada 
+|===
