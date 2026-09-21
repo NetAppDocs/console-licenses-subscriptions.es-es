@@ -24,7 +24,7 @@ Puede administrar y monitorear las licencias adquiridas de NetApp (BYOL), las su
 La información de licencia y suscripción se muestra automáticamente en la consola cuando su cuenta de consola también está asociada con una cuenta del sitio de soporte de NetApp (NSS).  Si su cuenta de consola no está asociada con una cuenta NSS, deberá agregar licencias manualmente.  Cuando las licencias se agregan manualmente, el uso, la capacidad y otros detalles no se actualizarán automáticamente.
 
 
-NOTE: Necesita un agente de consola implementado para ver la información de suscripción.  También se requiere un agente para ver las licencias de nodo para Cloud Volumes ONTAP.
+NOTE: Necesitas tener un agente de Console desplegado para ver la información de la suscripción. También se requiere un agente para ver las licencias BYOL de Cloud Volumes ONTAP.
 
 
 
