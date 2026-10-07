@@ -1,0 +1,154 @@
+---
+sidebar: sidebar 
+permalink: faq-licenses-subscriptions.html 
+keywords: faq, frequently asked questions, frequently asked questions about licenses and subscriptions, direct licenses, byol, marketplace subscriptions, private offer, keystone, billing preferences, cloud volumes ontap, paygo, nss, capacity-based licensing, node-based licensing 
+summary: Preguntas frecuentes sobre licencias y suscripciones en NetApp Console. 
+---
+= Preguntas frecuentes sobre licencias y suscripciones
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Esta página ofrece respuestas a las preguntas más frecuentes sobre licencias y suscripciones en NetApp Console. Se centra en conceptos, decisiones y restricciones que resultan útiles al gestionar licencias directas, suscripciones de Marketplace, ofertas privadas, suscripciones de Keystone y preferencias de facturación.
+
+
+
+[[overview-and-access]]
+== Descripción general y acceso
+
+.¿Cuál es la diferencia entre una licencia directa, una suscripción a Marketplace y una suscripción a Keystone en NetApp Console?
+* Una *licencia directa* se compra a NetApp y por lo general se gestiona mediante un archivo de licencia, un número de serie o un derecho de capacidad. Se conoce comúnmente como «trae tu propia licencia» (BYOL).
+* Una *suscripción a Marketplace* se adquiere o se activa a través de AWS Marketplace, Azure Marketplace o Google Cloud Marketplace. Los cargos se facturan a través del proveedor de servicios en la nube.
+* Una *suscripción de Keystone* es un acuerdo de consumo de NetApp. Después de que NetApp autorice tu cuenta de Console, las implementaciones de Cloud Volumes ONTAP aptas pueden usar Keystone como método de facturación.
+
+
+.¿Por qué no aparecen automáticamente mis licencias y suscripciones en NetApp Console?
+La información sobre licencias y suscripciones solo se muestra automáticamente cuando tu cuenta de la Console también está asociada a una cuenta del NetApp Support Site (NSS). Si tu cuenta de la Console no está asociada a una cuenta de NSS, tendrás que añadir las licencias manualmente. Los datos de uso, capacidad y otros detalles tampoco se actualizarán automáticamente. https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["Aprenda a agregar su cuenta del sitio de soporte de NetApp a las credenciales de la consola"^].
+
+.¿Necesito un agente de Console para ver mis licenses and subscriptions?
+Necesitas tener un agente de Console implementado para ver la información de la suscripción. También necesitas un agente para ver las licencias directas de Cloud Volumes ONTAP.
+
+.¿Qué servicios puedo gestionar de Licenses and subscriptions en NetApp Console?
+Puedes gestionar las licencias y suscripciones de Backup and Recovery, Cloud Tiering, Cloud Volumes ONTAP, Disaster Recovery (solo BYOL) y Ransomware Resilience.
+
+.¿Qué roles pueden gestionar las licencias y las suscripciones en NetApp Console?
+Los usuarios con el rol de administrador de Licenses and subscriptions pueden añadir, editar y eliminar licencias directas, así como asociar o desvincular suscripciones de Marketplace y Keystone.
+
+Los usuarios con el permiso de «lector» correspondiente pueden ver las licencias y las suscripciones, pero no pueden hacer cambios.
+
+.¿Por qué no puedo añadir una nueva licencia o suscripción desde el panel de control Overview?
+El panel de control «Visión general» está pensado para revisar y resolver problemas relacionados con las licencias existentes. Para añadir una licencia directa, ve a *Licencias directas*. Para añadir o asociar una suscripción de Marketplace, ve a *Suscripciones de Marketplace*.
+
+.¿Cómo puedo saber si hay que prestar atención a una licencia o una suscripción?
+El mosaico *Requires action* del panel Overview te avisa de las licencias y suscripciones que están a punto de caducar o de alcanzar sus límites de capacidad. Si no aparece *Resolve*, significa que no hay ningún problema que requiera acción. Al seleccionar *Resolve*, se abre una página en la que puedes ver y resolver los problemas desde las pestañas *Licenses* o *Subscriptions*.
+
+
+
+[[direct-licenses-byol]]
+== Licencias directas (BYOL)
+
+.¿Cuál es la diferencia entre vincular una cuenta NSS y cargar manualmente un archivo de licencia?
+Al vincular tu cuenta de Console con una cuenta de NSS, Console puede detectar y actualizar automáticamente tus licencias. También es necesario cuando introduces un número de serie para añadir o actualizar una licencia.
+
+Debes obtener y cargar manualmente un archivo de licencia de NetApp cuando la Console no tenga acceso a internet o cuando tu cuenta de Console no esté asociada a una cuenta de NSS. En estos casos, la Console no puede consultar ni actualizar automáticamente tus licencias.
+
+.¿Cuál es la diferencia entre las licencias BYOL basadas en capacidad y las basadas en nodos para Cloud Volumes ONTAP?
+* En el caso de las *licencias BYOL basadas en la capacidad*, la licencia está asociada a tu cuenta de Console y no a un único sistema; cada sistema tiene su propio número de serie, pero varios sistemas de una misma cuenta comparten un fondo común de capacidad.
+* En el caso de las *licencias BYOL basadas en nodos*, la agrupación no se aplica: cada sistema Cloud Volumes ONTAP requiere su propia licencia de sistema dedicada, aunque puedes transferir una licencia a un sistema nuevo si eliminas el original.
+
+
+Las licencias por nodo son el modelo de la generación anterior. NetApp recomienda usar licencias por capacidad para todas las implementaciones nuevas, y hay que convertir las licencias por nodo existentes. https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html["Descubre cómo convertir una licencia basada en nodos en una licencia basada en capacidad"^].
+
+.¿Qué ocurre si cambias una licencia de Cloud Volumes ONTAP no asignada por otro servicio?
+Al canjear una licencia no asignada de Cloud Volumes ONTAP, se revoca esa licencia y se crea una licencia equivalente en dólares para el nuevo servicio (NetApp Backup and Recovery, Data Classification o Cloud Tiering).
+
+* La licencia para un par de HA se convierte en una licencia directa de 51 TiB.
+* La licencia para un único nodo se convierte en una licencia directa de 32 TiB.
+
+
+La licencia convertida mantiene la misma fecha de caducidad que la licencia original de Cloud Volumes ONTAP.
+
+.¿Cómo puedo saber si se me cobra en virtud de una licencia BYOL o de una suscripción PAYGO del Marketplace?
+La Console primero intenta imputar el uso a una licencia disponible de NetApp. Si no hay suficiente capacidad de licencia disponible, imputa el uso a una suscripción PAYGO de Marketplace vinculada.
+
+Cambiar el paquete de licencias basado en la capacidad no cambia si el uso se factura a través de una licencia adquirida en NetApp (BYOL) o de una suscripción PAYGO de Marketplace. No necesitas convertir una licencia BYOL en una suscripción de Marketplace, ni viceversa.
+
+.¿Qué ocurre si eliges un método de cobro que no está incluido en tu contrato de Marketplace?
+Si seleccionas un método de facturación que no esté incluido en tu oferta privada o contrato de Marketplace, no podrás usar ese paquete de Marketplace. El uso se cobra con una licencia de NetApp, si está disponible, o mediante PAYGO.
+
+
+
+[[marketplace-subscriptions-and-private-offers]]
+== Suscripciones al Marketplace y ofertas privadas
+
+.¿Cuántas suscripciones de Marketplace puedo asociar a una misma suscripción de Azure o a un mismo proyecto de Google Cloud?
+Una suscripción de Azure o un proyecto de Google Cloud solo se puede asociar a una única suscripción de Marketplace. Si quieres usar dos suscripciones de Marketplace diferentes para cargas de trabajo en la misma suscripción de Azure o el mismo proyecto de Google Cloud, debes crear dos cuentas de Console independientes, una para cada suscripción.
+
+.¿Cuándo puedo eliminar una suscripción de Marketplace de Licenses and subscriptions?
+Solo puedes eliminar las suscripciones cuyo estado sea *Dado de baja*, y debes borrar o restablecer todos los ajustes, datos y configuraciones relacionados antes de eliminarlas. Si la suscripción sigue configurada, la opción *Eliminar* no está disponible. link:task-manage-subscriptions.html#remove-a-subscription["Descubre cómo darte de baja de una suscripción"^].
+
+.¿Qué riesgo conlleva aceptar o activar una oferta privada más de una vez?
+Aceptar y activar una oferta privada varias veces puede dar lugar a un doble cobro. Saltarse los pasos obligatorios del proceso de aceptación también puede provocar errores de facturación o problemas de activación.
+
+.¿Qué debes hacer si las condiciones, el precio o los detalles de la oferta privada parecen incorrectos?
+Si detectas discrepancias en las condiciones, los precios o los detalles de la oferta, o si no estás seguro de qué oferta aceptar, no aceptes la oferta. Ponte en contacto con el equipo de ventas o de cuentas de NetApp para pedir aclaraciones antes de continuar.
+
+.¿Qué ocurre si acepto una oferta privada modificada de Google Cloud o si ya tengo una suscripción PAYGO activa?
+Si ya dispones de una suscripción PAYGO activa o de una oferta privada modificada, solo tienes que seguir los pasos para aceptarla. En estos casos, Google Cloud Marketplace actualiza el plan dentro de la misma ficha y conserva el mismo ID de suscripción, por lo que la asociación de la suscripción en la Console permanece intacta.
+
+.¿Puedo aceptar una oferta privada de Google Cloud utilizando una cuenta de facturación de prueba gratuita?
+No. Tu cuenta de facturación de Google Cloud no debe estar en un periodo de prueba gratuito, ya que las cuentas de prueba gratuitas no pueden aceptar ofertas privadas. Si intentas usar una cuenta de facturación de prueba, se producirá un error que requerirá ayuda del equipo de cloud de NetApp.
+
+.¿Te cobrarán el doble si usas varios tipos de suscripción de AWS o migras entre listados?
+No se duplica la medición cuando usas varios tipos de suscripción o migras entre listados.
+
+
+
+[[keystone-subscriptions]]
+== Suscripciones de Keystone
+
+.¿Por qué debe NetApp autorizar mi cuenta de Console antes de que pueda usar las suscripciones de Keystone?
+NetApp debe autorizar tu cuenta de Console para tus suscripciones de Keystone antes de que puedas usarlas o gestionarlas. Esta autorización pone a disposición las suscripciones de Keystone aptas en NetApp Console. Si aparece la página *Welcome to NetApp Keystone*, sigue las instrucciones de contacto de esa página para solicitar la autorización. link:task-manage-keystone.html#authorize-your-account["Más información sobre cómo autorizar tu cuenta para las suscripciones a Keystone"^].
+
+.¿Para qué sirve vincular una suscripción a Keystone?
+Al vincular una suscripción a Keystone, esta se asocia a tu organización o cuenta de Console y queda disponible como método de facturación cuando creas un nuevo entorno de trabajo de Cloud Volumes ONTAP.
+
+.¿Cuándo puedo desvincular una suscripción a Keystone?
+Solo puedes desvincular una suscripción de Keystone cuando no esté vinculada a una suscripción existente de Cloud Volumes ONTAP.
+
+.¿Cómo puedo solicitar un cambio en la capacidad comprometida de una suscripción a Keystone?
+Puedes enviar una solicitud a NetApp directamente desde Console indicando la capacidad comprometida solicitada para una o varias suscripciones y proporcionando información adicional. Esto crea un ticket en el sistema de NetApp para tramitarla.
+
+
+
+[[billing-preferences]]
+== Preferencias de facturación
+
+.¿Cuál es la diferencia entre los modos de facturación «primero las licencias de NetApp» y «solo suscripciones de Marketplace»?
+«NetApp licenses first» da prioridad a la facturación a través de tus licencias activas de NetApp y, una vez agotada esa capacidad, el uso pasa a la suscripción vinculada de Marketplace. «Marketplace subscriptions only» dirige toda la facturación a través de contratos de Marketplace, omitiendo por completo las licencias de NetApp; esto es habitual en organizaciones que estandarizan las adquisiciones mediante la facturación del proveedor de nube.
+
+.¿Cuándo deberías activar la configuración personalizada de CVO en las preferencias de facturación?
+Activa la configuración personalizada de CVO si tu organización necesita:
+
+* Asigna varias suscripciones de Marketplace a instancias individuales de Cloud Volumes ONTAP del mismo proveedor de nube, ya que distintas unidades de negocio o entornos mantienen cuentas de facturación diferentes.
+* Asignar una suscripción a varios proyectos en la nube.
+
+
+Por ejemplo, si la unidad de negocio A factura a una suscripción de Azure y la unidad de negocio B factura a otra, la configuración personalizada de CVO te permite asignar las instancias de Cloud Volumes ONTAP de cada unidad de negocio a su propia suscripción.
+
+.¿Qué ocurre si desactivo la configuración personalizada de CVO después de haberla activado?
+Al desactivar la configuración personalizada de CVO, toda la facturación de Cloud Volumes ONTAP se restablece al modo de facturación global (primero las licencias de NetApp o solo las suscripciones de Marketplace) que se usa para tus otros servicios de datos, en lugar de las asignaciones de suscripción por instancia que permitía la configuración personalizada de CVO.
+
+.¿Cómo facturo la capacidad de Cloud Volumes ONTAP si tengo tanto una suscripción independiente a AWS como una suscripción a NetApp Intelligent Services (NIS)?
+Si ambas suscripciones están disponibles para tu cuenta de AWS, puedes usar Billing preferences para seleccionar qué suscripción se usa para la facturación de capacidad de Cloud Volumes ONTAP. Para los sistemas existentes de Cloud Volumes ONTAP que ya se facturan a través de NIS, añadir la suscripción independiente no cambia la facturación a menos que actualices Billing preferences. Para las nuevas implementaciones creadas después de que la suscripción independiente esté disponible, la suscripción independiente se usa de forma predeterminada para la facturación de capacidad (Essentials/Freemium), a menos que la sobrescribas. https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["Más información sobre los paquetes de licencias de Cloud Volumes ONTAP"^].
+
+.¿Puedo utilizar la suscripción independiente a Cloud Volumes ONTAP en AWS para facturar el paquete Professional o Backup and Recovery?
+No. La suscripción independiente de Cloud Volumes ONTAP solo admite los paquetes Essentials y Freemium basados en capacidad; el paquete Professional no es compatible y se sigue facturando a través de la suscripción NIS. Si solo tienes asociada la suscripción independiente, puedes implementar Cloud Volumes ONTAP con Essentials, pero para configurar Backup and Recovery se requiere una suscripción diferente. https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["Más información sobre los paquetes de licencias de Cloud Volumes ONTAP"^].
+
+.¿Para qué se usan los campos Keystone en las preferencias de facturación?
+Los campos de Keystone vinculan el uso medido del servicio con tu perfil de facturación de Keystone. El *Agreement ID* es un identificador único que vincula el registro de facturación en NetApp Console con tu acuerdo de Keystone y permite la sincronización de los informes de uso. *Service scope* enumera los servicios o grupos de capacidad cubiertos por el acuerdo de Keystone, aclarando qué cargas de trabajo o implementaciones están incluidas y garantizando que solo se facturen a través de Keystone los recursos aptos.
